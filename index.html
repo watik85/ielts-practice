@@ -7,7 +7,7 @@
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
   <title>IELTS on Computer - Official IDP Reading Practice Platform</title>
-  <link rel="stylesheet" href="./static/css/style.css?v=20261108_v2" />
+  <link rel="stylesheet" href="./static/css/style.css?v=20261108_v3" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>">
   
   <style>
@@ -162,10 +162,6 @@
       transform: translateY(-1px) !important;
     }
 
-    .login-btn-primary:active {
-      transform: translateY(0) !important;
-    }
-
     .login-footer-info {
       margin-top: 24px !important;
       padding-top: 18px !important;
@@ -174,23 +170,254 @@
       font-size: 0.8rem !important;
       color: #94a3b8 !important;
     }
+
+    /* ==========================================================================
+       3. OFFICIAL IDP TEXT HIGHLIGHT & NOTES POPUP
+       ========================================================================== */
+    mark.idp-hl {
+      background-color: #ffeb3b !important;
+      color: #0f172a !important;
+      padding: 1px 3px;
+      border-radius: 3px;
+      cursor: pointer;
+      position: relative;
+      transition: background-color 0.15s ease;
+      user-select: text;
+    }
+
+    mark.idp-hl:hover {
+      background-color: #ffd600 !important;
+    }
+
+    mark.idp-hl.has-note {
+      border-bottom: 2px dashed #b45309 !important;
+    }
+
+    mark.idp-hl .idp-note-indicator {
+      display: inline-block;
+      font-size: 0.72rem;
+      margin-left: 3px;
+      vertical-align: super;
+      cursor: pointer;
+    }
+
+    /* Floating Selection Toolbar */
+    .idp-floating-toolbar {
+      position: fixed;
+      z-index: 99999;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: #1e293b;
+      color: #ffffff;
+      padding: 5px 9px;
+      border-radius: 8px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(255, 255, 255, 0.1);
+      transform: translate(-50%, -100%);
+      margin-top: -8px;
+      font-family: inherit;
+      font-size: 0.84rem;
+      pointer-events: auto;
+      animation: idpFadeIn 0.15s ease-out;
+    }
+
+    .idp-floating-toolbar::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -6px;
+      border-width: 6px;
+      border-style: solid;
+      border-color: #1e293b transparent transparent transparent;
+    }
+
+    .idp-tool-btn {
+      background: rgba(255, 255, 255, 0.12);
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 5px 11px;
+      border-radius: 5px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+    }
+
+    .idp-tool-btn:hover {
+      background: #ffffff;
+      color: #0f172a;
+    }
+
+    .idp-tool-btn.btn-clear {
+      background: rgba(239, 68, 68, 0.2);
+      border-color: rgba(239, 68, 68, 0.4);
+      color: #fca5a5;
+    }
+
+    .idp-tool-btn.btn-clear:hover {
+      background: #ef4444;
+      color: #ffffff;
+    }
+
+    /* Floating Note Modal / Notepad */
+    .idp-note-modal {
+      position: fixed;
+      z-index: 100000;
+      width: 300px;
+      background: #ffffff;
+      color: #0f172a;
+      border-radius: 12px;
+      box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.08);
+      padding: 16px;
+      transform: translate(-50%, -100%);
+      margin-top: -12px;
+      animation: idpFadeIn 0.15s ease-out;
+      box-sizing: border-box;
+    }
+
+    .idp-note-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      font-weight: 800;
+      font-size: 0.9rem;
+      color: #0f172a;
+    }
+
+    .idp-note-header .note-close-btn {
+      background: transparent;
+      border: none;
+      font-size: 1.1rem;
+      cursor: pointer;
+      color: #64748b;
+      line-height: 1;
+      padding: 2px 4px;
+    }
+
+    .idp-note-header .note-close-btn:hover {
+      color: #0f172a;
+    }
+
+    .idp-note-textarea {
+      width: 100%;
+      height: 95px;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 7px;
+      padding: 8px 10px;
+      font-size: 0.88rem;
+      resize: vertical;
+      box-sizing: border-box;
+      font-family: inherit;
+      color: #0f172a;
+      outline: none;
+    }
+
+    .idp-note-textarea:focus {
+      border-color: #d91424;
+      box-shadow: 0 0 0 3px rgba(217, 20, 36, 0.12);
+    }
+
+    .idp-note-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .idp-note-btn {
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      border: none;
+      transition: all 0.15s ease;
+    }
+
+    .idp-note-btn.btn-save {
+      background: #d91424;
+      color: #ffffff;
+    }
+
+    .idp-note-btn.btn-save:hover {
+      background: #b9101e;
+    }
+
+    .idp-note-btn.btn-delete {
+      background: #fee2e2;
+      color: #b91c1c;
+    }
+
+    .idp-note-btn.btn-delete:hover {
+      background: #ef4444;
+      color: #ffffff;
+    }
+
+    /* Question Flag Button inside Question Card */
+    .q-num-row {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+
+    .q-flag-toggle-btn {
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      color: #64748b;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 5px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.15s ease;
+      user-select: none;
+    }
+
+    .q-flag-toggle-btn:hover {
+      background: #e2e8f0;
+      color: #0f172a;
+    }
+
+    .q-flag-toggle-btn.is-flagged {
+      background: #fef3c7 !important;
+      border-color: #f59e0b !important;
+      color: #b45309 !important;
+      font-weight: 800 !important;
+    }
+
+    .q-flag-toggle-btn.is-flagged .flag-icon {
+      color: #d97706 !important;
+    }
+
+    @keyframes idpFadeIn {
+      from { opacity: 0; transform: translate(-50%, -90%); }
+      to { opacity: 1; transform: translate(-50%, -100%); }
+    }
   </style>
 </head>
 <body class="contrast-standard font-normal">
   <div id="app"></div>
 
-  <script src="./static/js/config.js?v=20261108_v2"></script>
-  <script src="./static/js/app.js?v=20261108_v2"></script>
+  <script src="./static/js/config.js?v=20261108_v3"></script>
+  <script src="./static/js/app.js?v=20261108_v3"></script>
 
   <script>
     // ==========================================================================
-    // OVERRIDE CLIENT-SIDE: TAMPILAN LOGIN BERSIH & ELEGAN (TANPA CONTOH/CHIP)
+    // 1. OVERRIDE LOGIN PORTAL: CLEAN, MODERN, TANPA CHIP / CONTOH DEFITTA
     // ==========================================================================
     (function() {
       function applyCleanLoginOverride() {
         if (!window.app) return;
 
-        // Override renderLoginHTML agar bersih dan elegan tanpa quick-credentials-box
         window.app.renderLoginHTML = function() {
           return `
             <div class="login-view-wrapper">
@@ -227,20 +454,17 @@
           `;
         };
 
-        // Bersihkan fallback error message jika ada
         const originalAttemptLogin = window.app.attemptLogin;
         if (originalAttemptLogin) {
           window.app.attemptLogin = async function(username, password) {
             try {
               return await originalAttemptLogin.call(this, username, password);
             } catch (err) {
-              // Bersihkan pesan error agar profesional tanpa bocoran akun
               throw new Error("Username atau password salah! Silakan periksa kembali.");
             }
           };
         }
 
-        // Jika tampilan saat ini adalah login, langsung render ulang versi bersih
         if (window.app.currentView === "login") {
           const appContainer = document.getElementById("app");
           if (appContainer) {
@@ -250,11 +474,393 @@
         }
       }
 
-      // Jalankan override segera dan setelah DOM siap
       if (document.readyState === "loading") {
         document.addEventListener("DOMContentLoaded", applyCleanLoginOverride);
       } else {
         applyCleanLoginOverride();
+      }
+    })();
+
+    // ==========================================================================
+    // 2. OFFICIAL IDP HIGHLIGHT & NOTES ENGINE + QUESTION FLAGGING
+    // ==========================================================================
+    (function() {
+      let activeHighlightEl = null;
+      let activeSelectionRange = null;
+
+      function setupHighlightDOM() {
+        if (document.getElementById("idp-floating-toolbar")) return;
+
+        // Selection floating toolbar (Highlight / Notes)
+        const selToolbar = document.createElement("div");
+        selToolbar.id = "idp-floating-toolbar";
+        selToolbar.className = "idp-floating-toolbar";
+        selToolbar.style.display = "none";
+        selToolbar.innerHTML = `
+          <button type="button" class="idp-tool-btn" id="btn-do-highlight">🟡 Highlight</button>
+          <button type="button" class="idp-tool-btn" id="btn-do-note">📝 Notes</button>
+        `;
+        document.body.appendChild(selToolbar);
+
+        // Highlight clicked action toolbar (Clear / Edit Note / Delete Note)
+        const actToolbar = document.createElement("div");
+        actToolbar.id = "idp-hl-action-toolbar";
+        actToolbar.className = "idp-floating-toolbar";
+        actToolbar.style.display = "none";
+        actToolbar.innerHTML = `
+          <button type="button" class="idp-tool-btn btn-clear" id="btn-clear-hl">❌ Clear</button>
+          <button type="button" class="idp-tool-btn" id="btn-edit-note">📝 Note</button>
+          <button type="button" class="idp-tool-btn btn-clear" id="btn-delete-note" style="display:none;">🗑️ Delete Note</button>
+        `;
+        document.body.appendChild(actToolbar);
+
+        // Floating Note Notepad / Modal
+        const noteModal = document.createElement("div");
+        noteModal.id = "idp-note-modal";
+        noteModal.className = "idp-note-modal";
+        noteModal.style.display = "none";
+        noteModal.innerHTML = `
+          <div class="idp-note-header">
+            <span>📝 Candidate Note</span>
+            <button type="button" class="note-close-btn" id="btn-close-note">&times;</button>
+          </div>
+          <textarea class="idp-note-textarea" id="idp-note-text" placeholder="Type your note here..."></textarea>
+          <div class="idp-note-actions">
+            <button type="button" class="idp-note-btn btn-delete" id="btn-modal-del-note" style="display:none;">Delete Note</button>
+            <button type="button" class="idp-note-btn btn-save" id="btn-save-note">Save Note</button>
+          </div>
+        `;
+        document.body.appendChild(noteModal);
+
+        // Bind toolbar events
+        document.getElementById("btn-do-highlight").addEventListener("mousedown", (e) => {
+          e.preventDefault();
+          executeHighlight(false);
+        });
+
+        document.getElementById("btn-do-note").addEventListener("mousedown", (e) => {
+          e.preventDefault();
+          executeHighlight(true);
+        });
+
+        document.getElementById("btn-clear-hl").addEventListener("click", () => {
+          if (activeHighlightEl) {
+            clearHighlightElement(activeHighlightEl);
+          }
+          hideAllToolbars();
+        });
+
+        document.getElementById("btn-edit-note").addEventListener("click", () => {
+          if (activeHighlightEl) {
+            openNoteModal(activeHighlightEl);
+          }
+          document.getElementById("idp-hl-action-toolbar").style.display = "none";
+        });
+
+        document.getElementById("btn-delete-note").addEventListener("click", () => {
+          if (activeHighlightEl) {
+            deleteNoteFromElement(activeHighlightEl);
+          }
+          hideAllToolbars();
+        });
+
+        document.getElementById("btn-close-note").addEventListener("click", () => {
+          document.getElementById("idp-note-modal").style.display = "none";
+        });
+
+        document.getElementById("btn-save-note").addEventListener("click", () => {
+          if (activeHighlightEl) {
+            const text = document.getElementById("idp-note-text").value.trim();
+            saveNoteToElement(activeHighlightEl, text);
+          }
+          document.getElementById("idp-note-modal").style.display = "none";
+        });
+
+        document.getElementById("btn-modal-del-note").addEventListener("click", () => {
+          if (activeHighlightEl) {
+            deleteNoteFromElement(activeHighlightEl);
+          }
+          document.getElementById("idp-note-modal").style.display = "none";
+        });
+      }
+
+      function hideAllToolbars() {
+        const t1 = document.getElementById("idp-floating-toolbar");
+        const t2 = document.getElementById("idp-hl-action-toolbar");
+        if (t1) t1.style.display = "none";
+        if (t2) t2.style.display = "none";
+      }
+
+      function handlePassageMouseUp(e) {
+        if (e.target.closest("#idp-floating-toolbar") || e.target.closest("#idp-hl-action-toolbar") || e.target.closest("#idp-note-modal")) {
+          return;
+        }
+
+        const clickedMark = e.target.closest("mark.idp-hl");
+        if (clickedMark) {
+          activeHighlightEl = clickedMark;
+          showActionToolbar(clickedMark);
+          return;
+        }
+
+        const sel = window.getSelection();
+        if (!sel || sel.isCollapsed) {
+          hideAllToolbars();
+          return;
+        }
+
+        const text = sel.toString().trim();
+        if (text.length === 0) {
+          hideAllToolbars();
+          return;
+        }
+
+        const passagePane = document.getElementById("passage-pane");
+        if (!passagePane || !passagePane.contains(sel.anchorNode)) {
+          hideAllToolbars();
+          return;
+        }
+
+        try {
+          const range = sel.getRangeAt(0);
+          activeSelectionRange = range.cloneRange();
+          const rect = range.getBoundingClientRect();
+          showSelectionToolbar(rect);
+        } catch(err) {
+          hideAllToolbars();
+        }
+      }
+
+      function showSelectionToolbar(rect) {
+        const toolbar = document.getElementById("idp-floating-toolbar");
+        if (!toolbar) return;
+        toolbar.style.display = "flex";
+        toolbar.style.left = (rect.left + rect.width / 2) + "px";
+        toolbar.style.top = (rect.top - 6) + "px";
+      }
+
+      function showActionToolbar(markEl) {
+        const toolbar = document.getElementById("idp-hl-action-toolbar");
+        if (!toolbar) return;
+        const rect = markEl.getBoundingClientRect();
+        toolbar.style.display = "flex";
+        toolbar.style.left = (rect.left + rect.width / 2) + "px";
+        toolbar.style.top = (rect.top - 6) + "px";
+
+        const hasNote = markEl.classList.contains("has-note") && !!markEl.dataset.note;
+        const delBtn = document.getElementById("btn-delete-note");
+        const editBtn = document.getElementById("btn-edit-note");
+        if (delBtn) delBtn.style.display = hasNote ? "inline-flex" : "none";
+        if (editBtn) editBtn.textContent = hasNote ? "📝 Edit Note" : "📝 Add Note";
+      }
+
+      function executeHighlight(openNoteAfter) {
+        if (!activeSelectionRange) return;
+        const sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(activeSelectionRange);
+
+        const mark = document.createElement("mark");
+        mark.className = "idp-hl";
+        mark.dataset.hlId = "hl_" + Date.now();
+
+        try {
+          activeSelectionRange.surroundContents(mark);
+          activeHighlightEl = mark;
+        } catch(e) {
+          document.execCommand("hiliteColor", false, "#ffeb3b");
+          activeHighlightEl = sel.anchorNode ? sel.anchorNode.parentElement : null;
+        }
+
+        sel.removeAllRanges();
+        hideAllToolbars();
+
+        if (openNoteAfter && activeHighlightEl) {
+          openNoteModal(activeHighlightEl);
+        }
+
+        saveCurrentPassageHighlights();
+      }
+
+      function clearHighlightElement(markEl) {
+        const parent = markEl.parentNode;
+        while (markEl.firstChild) {
+          if (markEl.firstChild.classList && markEl.firstChild.classList.contains("idp-note-indicator")) {
+            markEl.removeChild(markEl.firstChild);
+          } else {
+            parent.insertBefore(markEl.firstChild, markEl);
+          }
+        }
+        parent.removeChild(markEl);
+        saveCurrentPassageHighlights();
+      }
+
+      function openNoteModal(markEl) {
+        const modal = document.getElementById("idp-note-modal");
+        if (!modal) return;
+        const rect = markEl.getBoundingClientRect();
+        modal.style.display = "block";
+        modal.style.left = Math.max(160, Math.min(window.innerWidth - 160, rect.left + rect.width / 2)) + "px";
+        modal.style.top = (rect.top - 8) + "px";
+
+        const textarea = document.getElementById("idp-note-text");
+        const delBtn = document.getElementById("btn-modal-del-note");
+        const existing = markEl.dataset.note || "";
+        textarea.value = existing;
+        delBtn.style.display = existing ? "inline-block" : "none";
+        setTimeout(() => textarea.focus(), 50);
+      }
+
+      function saveNoteToElement(markEl, noteText) {
+        if (!noteText) {
+          deleteNoteFromElement(markEl);
+          return;
+        }
+        markEl.classList.add("has-note");
+        markEl.dataset.note = noteText;
+
+        let badge = markEl.querySelector(".idp-note-indicator");
+        if (!badge) {
+          badge = document.createElement("span");
+          badge.className = "idp-note-indicator";
+          badge.textContent = "📝";
+          markEl.appendChild(badge);
+        }
+        badge.title = "Note: " + noteText;
+
+        saveCurrentPassageHighlights();
+      }
+
+      function deleteNoteFromElement(markEl) {
+        markEl.classList.remove("has-note");
+        delete markEl.dataset.note;
+        const badge = markEl.querySelector(".idp-note-indicator");
+        if (badge) badge.remove();
+        saveCurrentPassageHighlights();
+      }
+
+      function saveCurrentPassageHighlights() {
+        if (!window.app || !window.app.currentTest) return;
+        const pane = document.getElementById("passage-pane");
+        if (!pane) return;
+        if (!window.app.passageHighlightsStore) {
+          window.app.passageHighlightsStore = {};
+        }
+        const key = window.app.currentTest.id + "_" + window.app.activePassageId;
+        window.app.passageHighlightsStore[key] = pane.innerHTML;
+      }
+
+      function restorePassageHighlights() {
+        if (!window.app || !window.app.currentTest) return;
+        if (!window.app.passageHighlightsStore) return;
+        const key = window.app.currentTest.id + "_" + window.app.activePassageId;
+        const saved = window.app.passageHighlightsStore[key];
+        if (saved) {
+          const pane = document.getElementById("passage-pane");
+          if (pane) pane.innerHTML = saved;
+        }
+      }
+
+      document.addEventListener("mouseup", handlePassageMouseUp);
+      document.addEventListener("selectionchange", () => {
+        const sel = window.getSelection();
+        if (!sel || sel.isCollapsed) {
+          hideAllToolbars();
+        }
+      });
+
+      // Hook into IELTS Platform
+      function patchAppWithFeatures() {
+        if (!window.app) return;
+
+        setupHighlightDOM();
+
+        // Hook renderPassagePane
+        const origRenderPassage = window.app.renderPassagePane;
+        if (origRenderPassage) {
+          window.app.renderPassagePane = function() {
+            origRenderPassage.call(this);
+            restorePassageHighlights();
+          };
+        }
+
+        // Hook renderQuestionsPane
+        const origRenderQuestions = window.app.renderQuestionsPane;
+        if (origRenderQuestions) {
+          window.app.renderQuestionsPane = function() {
+            origRenderQuestions.call(this);
+            injectQuestionCardFlags();
+          };
+        }
+
+        // Hook updateDockStatus
+        const origUpdateDock = window.app.updateDockStatus;
+        if (origUpdateDock) {
+          window.app.updateDockStatus = function() {
+            origUpdateDock.call(this);
+            updateQuestionCardFlagsStatus();
+          };
+        }
+      }
+
+      function injectQuestionCardFlags() {
+        if (!window.app) return;
+        const questionItems = document.querySelectorAll(".question-item");
+        questionItems.forEach(item => {
+          const qId = item.id.replace("q-item-", "");
+          if (!qId || item.querySelector(".q-flag-toggle-btn")) return;
+
+          const qLabel = item.querySelector(".q-label");
+          if (qLabel) {
+            const pill = qLabel.querySelector(".q-num-pill");
+            if (pill) {
+              const row = document.createElement("div");
+              row.className = "q-num-row";
+              pill.parentNode.insertBefore(row, pill);
+              row.appendChild(pill);
+
+              const flagBtn = document.createElement("button");
+              flagBtn.type = "button";
+              flagBtn.className = "q-flag-toggle-btn" + (window.app.reviewFlags && window.app.reviewFlags.has(Number(qId)) ? " is-flagged" : "");
+              flagBtn.title = "Flag/Review Question " + qId;
+              flagBtn.innerHTML = `
+                <span class="flag-icon">⚑</span>
+                <span class="flag-text">${window.app.reviewFlags && window.app.reviewFlags.has(Number(qId)) ? "Flagged" : "Flag"}</span>
+              `;
+              flagBtn.addEventListener("click", (e) => {
+                e.stopPropagation();
+                window.app.toggleReviewFlag(Number(qId));
+              });
+              row.appendChild(flagBtn);
+            }
+          }
+        });
+      }
+
+      function updateQuestionCardFlagsStatus() {
+        if (!window.app) return;
+        const flagBtns = document.querySelectorAll(".q-flag-toggle-btn");
+        flagBtns.forEach(btn => {
+          const parentItem = btn.closest(".question-item");
+          if (!parentItem) return;
+          const qId = Number(parentItem.id.replace("q-item-", ""));
+          const isFlagged = window.app.reviewFlags && window.app.reviewFlags.has(qId);
+          if (isFlagged) {
+            btn.classList.add("is-flagged");
+            const txt = btn.querySelector(".flag-text");
+            if (txt) txt.textContent = "Flagged";
+          } else {
+            btn.classList.remove("is-flagged");
+            const txt = btn.querySelector(".flag-text");
+            if (txt) txt.textContent = "Flag";
+          }
+        });
+      }
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", patchAppWithFeatures);
+      } else {
+        patchAppWithFeatures();
       }
     })();
   </script>
