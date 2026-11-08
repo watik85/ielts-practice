@@ -775,6 +775,63 @@
 
         setupHighlightDOM();
 
+        // Data Normalization Hook: Ensure passage_id and text are never undefined
+        function sanitizeTest(t) {
+          if (!t) return;
+          (t.passages || []).forEach((p, idx) => {
+            p.passage_id = p.passage_id || p.id || (idx + 1);
+            if (!p.text && p.paragraphs) {
+              p.text = p.paragraphs.map(x => `<p>${x}</p>`).join("");
+            }
+            (p.question_groups || []).forEach(g => {
+              g.instruction = g.instruction || g.instructions || "";
+              if (!g.title) {
+                const qIds = (g.questions || []).map(q => q.id);
+                g.title = qIds.length ? `Questions ${Math.min(...qIds)}–${Math.max(...qIds)}` : "Questions";
+              }
+            });
+          });
+        }
+
+        const origLoadTests = window.app.loadTestsList;
+        if (origLoadTests) {
+          window.app.loadTestsList = async function() {
+            await origLoadTests.call(this);
+            (this.testsData || []).forEach(sanitizeTest);
+            if (this.tests) {
+              this.tests.forEach(t => {
+                (t.passages || []).forEach((p, idx) => {
+                  if (p.passage_id === undefined) p.passage_id = idx + 1;
+                });
+              });
+            }
+          };
+        }
+
+        const origStartTest = window.app.startTest;
+        if (origStartTest) {
+          window.app.startTest = async function(testId) {
+            await origStartTest.call(this, testId);
+            sanitizeTest(this.currentTest);
+            this.renderWorkspace();
+          };
+        }
+
+        // Sanitize already loaded tests if any
+        if (window.app.testsData) {
+          window.app.testsData.forEach(sanitizeTest);
+          if (window.app.tests) {
+            window.app.tests.forEach(t => {
+              (t.passages || []).forEach((p, idx) => {
+                if (p.passage_id === undefined) p.passage_id = idx + 1;
+              });
+            });
+            if (window.app.currentView === "dashboard") {
+              window.app.render();
+            }
+          }
+        }
+
         // Hook renderPassagePane
         const origRenderPassage = window.app.renderPassagePane;
         if (origRenderPassage) {
