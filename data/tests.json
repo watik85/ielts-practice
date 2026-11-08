@@ -1,0 +1,3733 @@
+[
+  {
+    "id": "test-1",
+    "title": "Practice Test 1",
+    "category": "Academic Reading",
+    "duration_minutes": 60,
+    "total_questions": 40,
+    "passages": [
+      {
+        "passage_id": 1,
+        "title": "A spark, a flint: How fire leapt to life",
+        "subtitle": "The control of fire was the first and perhaps greatest of humanity's steps towards a life-enhancing technology",
+        "text": "<p>To early man, fire was a divine gift randomly delivered in the form of lightning, forest fire or burning lava. Unable to make flame for themselves, the earliest peoples probably stored fire by keeping slow burning logs alight or by carrying charcoal in pots.</p>\n<p>How and where man learnt how to produce flame at will is unknown. It was probably a secondary invention, accidentally made during tool-making operations with wood or stone. Studies of primitive societies suggest that the earliest method of making fire was through friction. European peasants would insert a wooden drill in a round hole and rotate it briskly between their palms. This process could be speeded up by wrapping a cord around the drill and pulling on each end.</p>\n<p>The Eskimos come up with a better design, using a bow to rotate the drill, a form of fire-making that was still used in some parts of the world until recently. Another primitive method of making fire was by percussion, using a flint and pyrites, a mineral which contains iron. This method was widely used in Europe and had the advantage that it did not depend on dry wood. It remained the only practical way of producing flame for thousands of years in the west until the mid-nineteenth century.</p>\n<p>The discovery of phosphorus, some centuries earlier, in 1669, had pointed the way to a practical match, but it remained the preserve of chemists for over a hundred years. The price of phosphorus was the equivalent of several hundred pounds per ounce, so the first matches were expensive.</p>\n<p>The quest for a practical match really began in the 1820s when a French chemist, Charles Chancel, invented the Instantaneous Lightbox. This consisted of a bottle of concentrated sulphuric acid and a box of splints, tipped with potassium chlorate, sugar and gum. It was hazardous to use, however, and had a nasty tendency to explode in the user's face.</p>\n<p>In 1827, John Walker, a chemist in Stockton-on-Tees, England, invented the first friction match. He called it the Congreve after Sir William Congreve, inventor of the rocket. These were splints of wood or cardboard coated with potassium chlorate and antimony sulphide. Walker's matches were followed three years later by the Lucifer match, invented by Samuel Jones. Lucifers were almost identical to Congreves, but smaller and packed in boxes.</p>\n<p>Both types had major disadvantages: they smelled terrible, burnt with an irregular spluttering flame, and sometimes threw sparks several yards. In 1830, a French chemistry student, Charles Sauria, produced the first strike-anywhere match by adding white phosphorus to the mix. These were a great success, but the white phosphorus was a deadly poison, causing necrosis of the jaw, or 'phossy jaw', among workers in match factories.</p>\n<p>The search for a safe match continued. In 1844, a Swedish chemist, Gustaf Erik Pasch, patented the safety match. He replaced the white phosphorus on the match head with red phosphorus, which was non-toxic, and put it on the striking surface of the box instead of the match head itself. Pasch's innovation was taken up by the brothers J.E. and C.F. Lundström, who founded the famous Swedish Match company.</p>\n<p>In the United States, the Diamond Match Company pioneered book matches. The innovation didn't catch on until after 1896, when a brewery had the novel idea of advertising its product in match books. Today book matches are the most widely used type in the US, with 90 percent handed out free by hotels, restaurants and others.</p>\n<p>Other American innovations include an anti-afterglow solution to prevent the match from smouldering after it has been blown out; and the waterproof match, which lights after eight hours in water.</p>",
+        "question_groups": [
+          {
+            "group_id": "t1-p1-g1",
+            "title": "Questions 1-8",
+            "instruction": "Complete the summary below. Choose your answers from the box at the bottom of the page and write them in boxes 1-8 on your answer sheet.<br><em>NB There are more words than spaces so you will not use them all. You may use any of the words more than once.</em>",
+            "type": "summary_gap_fill",
+            "word_list": [
+              "Mexicans",
+              "random",
+              "rotating",
+              "despite",
+              "preserve",
+              "realising",
+              "sunlight",
+              "lacking",
+              "heavenly",
+              "percussion",
+              "chance",
+              "friction",
+              "unaware",
+              "without",
+              "make",
+              "heating",
+              "Eskimos",
+              "surprised",
+              "until",
+              "smoke"
+            ],
+            "summary_template": "<strong>EARLY FIRE-LIGHTING METHODS</strong><br>\nPrimitive societies saw fire as a <em>heavenly</em> (Example) gift. They tried to <strong>[1]</strong> burning logs or charcoal <strong>[2]</strong> that they could create fire themselves. It is suspected that the first man-made flames were produced by <strong>[3]</strong>.<br>\nThe very first fire-lighting methods involved the creation of <strong>[4]</strong> by, for example, rapidly <strong>[5]</strong> a wooden stick in a round hole. The use of <strong>[6]</strong> or persistent chipping was also widespread in Europe and among other peoples such as the Chinese and <strong>[7]</strong>. European practice of this method continued until the 1850s <strong>[8]</strong> the discovery of phosphorus some years earlier.",
+            "questions": [
+              {
+                "id": 1,
+                "prompt": "Question 1",
+                "correct_answer": "preserve",
+                "alternatives": [
+                  "preserve",
+                  "preserving"
+                ],
+                "location": "stored fire by keeping slow burning logs alight",
+                "explanation": "Primitive people tried to preserve fire."
+              },
+              {
+                "id": 2,
+                "prompt": "Question 2",
+                "correct_answer": "unaware",
+                "alternatives": [
+                  "unaware"
+                ],
+                "location": "Unable to make flame for themselves",
+                "explanation": "They were unaware that they could create fire themselves."
+              },
+              {
+                "id": 3,
+                "prompt": "Question 3",
+                "correct_answer": "chance",
+                "alternatives": [
+                  "chance",
+                  "accident"
+                ],
+                "location": "accidentally made during tool-making operations",
+                "explanation": "First flames produced accidentally/by chance."
+              },
+              {
+                "id": 4,
+                "prompt": "Question 4",
+                "correct_answer": "friction",
+                "alternatives": [
+                  "friction"
+                ],
+                "location": "earliest method of making fire was through friction",
+                "explanation": "Involved creation of friction."
+              },
+              {
+                "id": 5,
+                "prompt": "Question 5",
+                "correct_answer": "rotating",
+                "alternatives": [
+                  "rotating"
+                ],
+                "location": "rotate it briskly between their palms",
+                "explanation": "Rapidly rotating a wooden stick."
+              },
+              {
+                "id": 6,
+                "prompt": "Question 6",
+                "correct_answer": "percussion",
+                "alternatives": [
+                  "percussion"
+                ],
+                "location": "Another primitive method of making fire was by percussion",
+                "explanation": "The use of percussion or chipping."
+              },
+              {
+                "id": 7,
+                "prompt": "Question 7",
+                "correct_answer": "Eskimos",
+                "alternatives": [
+                  "Eskimos",
+                  "eskimos"
+                ],
+                "location": "The Eskimos come up with a better design",
+                "explanation": "Such as the Chinese and Eskimos."
+              },
+              {
+                "id": 8,
+                "prompt": "Question 8",
+                "correct_answer": "despite",
+                "alternatives": [
+                  "despite"
+                ],
+                "location": "until the mid-nineteenth century ... despite discovery in 1669",
+                "explanation": "Continued despite the discovery of phosphorus."
+              }
+            ]
+          },
+          {
+            "group_id": "t1-p1-g2",
+            "title": "Questions 9-15",
+            "instruction": "Look at the following notes that have been made about the matches described in Reading Passage 1. Decide which type of match (A-H) corresponds with each description.<br><em>NB There are more matches than descriptions so you will not use them all. You may use any match more than once.</em>",
+            "type": "matching_features",
+            "features_list": [
+              {
+                "id": "A",
+                "label": "A - the Ethereal Match"
+              },
+              {
+                "id": "B",
+                "label": "B - the Instantaneous Lightbox"
+              },
+              {
+                "id": "C",
+                "label": "C - Congreves"
+              },
+              {
+                "id": "D",
+                "label": "D - Lucifers"
+              },
+              {
+                "id": "E",
+                "label": "E - the first strike-anywhere match"
+              },
+              {
+                "id": "F",
+                "label": "F - Lundstrom's safety match"
+              },
+              {
+                "id": "G",
+                "label": "G - book matches"
+              },
+              {
+                "id": "H",
+                "label": "H - waterproof matches"
+              }
+            ],
+            "questions": [
+              {
+                "id": 9,
+                "prompt": "made using a less poisonous type of phosphorus",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "correct_answer": "F",
+                "alternatives": [
+                  "F"
+                ],
+                "location": "“… the red phosphorus was non toxic”",
+                "explanation": "Lundstrom's safety match used red phosphorus which was non-toxic."
+              },
+              {
+                "id": 10,
+                "prompt": "identical to a previous type of match",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "correct_answer": "D",
+                "alternatives": [
+                  "D"
+                ],
+                "location": "“… three years later it was copied …”",
+                "explanation": "Lucifers were almost identical to Congreves."
+              },
+              {
+                "id": 11,
+                "prompt": "caused a deadly illness",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "correct_answer": "E",
+                "alternatives": [
+                  "E"
+                ],
+                "location": "“… since white phosphorus is a deadly poison …”",
+                "explanation": "The first strike-anywhere match caused 'phossy jaw'."
+              },
+              {
+                "id": 12,
+                "prompt": "first to look like modern matches",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "correct_answer": "C",
+                "alternatives": [
+                  "C"
+                ],
+                "location": "“The first matches resembling those used today …”",
+                "explanation": "Congreves were splints coated with potassium chlorate and antimony sulphide."
+              },
+              {
+                "id": 13,
+                "prompt": "first matches used for advertising",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "correct_answer": "G",
+                "alternatives": [
+                  "G"
+                ],
+                "location": "“… a brewery had the novel idea of advertising …”",
+                "explanation": "Book matches were used by a brewery for advertising."
+              },
+              {
+                "id": 14,
+                "prompt": "relied on an airtight glass container",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "correct_answer": "A",
+                "alternatives": [
+                  "A"
+                ],
+                "location": "“… a sealed glass tube …”",
+                "explanation": "The Ethereal Match consisted of phosphorus in a sealed glass tube."
+              },
+              {
+                "id": 15,
+                "prompt": "made with the help of an army design",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "correct_answer": "C",
+                "alternatives": [
+                  "C"
+                ],
+                "location": "“… borrowed the formula from a military rocket-maker …”",
+                "explanation": "Congreves were named after Sir William Congreve, inventor of the rocket."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "passage_id": 2,
+        "title": "Zoo conservation programmes",
+        "subtitle": "An examination of the claims and realities of modern zoo conservation",
+        "text": "<p>One of London Zoo’s recent advertisements caused me some irritation, so patently did it distort reality. Headlined “Without zoos you might as well tell these animals to get stuffed”, it was bordered with illustrations of 40-odd species of threatened animals, many of which are not even held by London Zoo. The advertisement was promoting the World Zoo Conservation Strategy (WZCS), which was launched in September 1993 by the World Zoo Organization (IUDZG) and the Captive Breeding Specialist Group of the World Conservation Union (IUCN).</p>\n<p>The strategy’s thesis is simple: the natural habitats of many species are disappearing fast, and zoos must step in to save them by captive breeding programmes until they can be safely re-introduced into the wild. Up to the mid-1960s, few zoos had conservation programmes of any kind, and captive breeding was an ad hoc affair. But a conference at London Zoo in 1972 changed all that. Today, zoos take conservation seriously, and the WZCS is an attempt to define their future role.</p>\n<p>This is probably the document’s first failing: it was written by zoo managers for zoo managers. One would assume that the calibre of these institutions would have been carefully examined, but the document relies heavily on the premise that members must meet certain standards. The facts don’t support the theory. The greatly respected American Association of Zoological Parks and Aquariums (AAZPA) has had extremely dubious members, and in the UK the Federation of Zoological Gardens of Great Britain and Ireland has occasionally had members that have been roundly censured in the national press.</p>\n<p>These include Robin Hill Adventure Park on the Isle of Wight, which many considered the most notorious collection of animals in the country. This establishment, which for years was protected by the Isle’s local council (which viewed it as a tourist amenity), was finally closed down following an investigation by the Born Free Foundation. The 1981 Zoo Licensing Act had failed to protect the animals.</p>\n<p>Of the world’s estimated 10,000 zoos, only a fraction are members of national or regional federations. The WZCS document claims that its 1,000 “core zoos” represent the conservation potential of the zoo community. But even if all 1,000 zoos were exemplary, what of the other 9,000? In North America, the AAZPA estimates that there are 1,000 to 1,500 un-registered zoos, ranging from roadside menageries to private collections.</p>\n<p>The document’s second major flaw is its assessment of the success of captive breeding programmes. Today approximately 16 species might be said to have been “saved” by captive breeding programmes, although a number of these can hardly be looked upon as resounding successes. Beyond that, about a further 20 species are being seriously considered for zoo conservation programmes. Given that the international conference at London Zoo was held 30 years ago, this is pretty slow progress, and a long way off Tudge’s target of 2,000.</p>",
+        "question_groups": [
+          {
+            "group_id": "t1-p2-g1",
+            "title": "Questions 16-22",
+            "instruction": "Do the following statements agree with the views of the writer in Reading Passage 2?<br>In boxes 16-22 write: <strong>YES</strong> if the statement agrees with the writer, <strong>NO</strong> if the statement contradicts the writer, <strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this.",
+            "type": "yes_no_not_given",
+            "questions": [
+              {
+                "id": 16,
+                "prompt": "London Zoo's advertisements are dishonest.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "YES",
+                "alternatives": [
+                  "YES"
+                ],
+                "location": "“… so patently did it distort reality.”",
+                "explanation": "The writer says the advert so patently distorted reality."
+              },
+              {
+                "id": 17,
+                "prompt": "Zoos made an insignificant contribution to conservation up until 30 years ago.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "YES",
+                "alternatives": [
+                  "YES"
+                ],
+                "location": "“Up to the mid-1960s, few zoos had conservation programmes …”",
+                "explanation": "Few zoos had conservation programmes before the 1960s/70s."
+              },
+              {
+                "id": 18,
+                "prompt": "The WZCS document became available in 1992.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NOT GIVEN",
+                "alternatives": [
+                  "NOT GIVEN"
+                ],
+                "location": "WZCS was launched in September 1993, publication availability not mentioned",
+                "explanation": "Document launched in September 1993, but exact availability in 1992 not given."
+              },
+              {
+                "id": 19,
+                "prompt": "The authors of the WZCS document are impartial.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NO",
+                "alternatives": [
+                  "NO"
+                ],
+                "location": "“… it was written by zoo managers for zoo managers.”",
+                "explanation": "The authors were zoo managers writing for zoo managers, not impartial."
+              },
+              {
+                "id": 20,
+                "prompt": "The number of un-registered zoos in North America is 10,000.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NO",
+                "alternatives": [
+                  "NO"
+                ],
+                "location": "“… in North America … 1,000 to 1,500 un-registered zoos …”",
+                "explanation": "North America has 1,000 to 1,500 unregistered zoos; 10,000 is world total."
+              },
+              {
+                "id": 21,
+                "prompt": "The WZCS document accurately reflects the proportions of the world's accredited zoos.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NO",
+                "alternatives": [
+                  "NO"
+                ],
+                "location": "“Of the world’s estimated 10,000 zoos, only a fraction are members …”",
+                "explanation": "The document does not accurately reflect the unaccredited majority."
+              },
+              {
+                "id": 22,
+                "prompt": "The WZCS document will succeed in improving conditions in all zoos.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NO",
+                "alternatives": [
+                  "NO"
+                ],
+                "location": "“The 1981 Zoo Licensing Act had failed … even if all 1,000 zoos were exemplary, what of the other 9,000?”",
+                "explanation": "The writer shows that conditions in the majority of zoos will not be improved."
+              }
+            ]
+          },
+          {
+            "group_id": "t1-p2-g2",
+            "title": "Questions 23-25",
+            "instruction": "Choose the appropriate letter A-D and write it in boxes 23-25 on your answer sheet.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "id": 23,
+                "prompt": "What was the primary purpose of the 1993 World Zoo Conservation Strategy?",
+                "options": [
+                  "A - to coordinate the animal collections of registered zoos",
+                  "B - to define the future conservation role of zoos",
+                  "C - to encourage the release of animals into developing countries",
+                  "D - to list the endangered species of the world"
+                ],
+                "correct_answer": "B",
+                "alternatives": [
+                  "B"
+                ],
+                "location": "“… the WZCS is an attempt to define their future role.”",
+                "explanation": "The WZCS is an attempt to define the future role of zoos in conservation."
+              },
+              {
+                "id": 24,
+                "prompt": "Why does the writer refer to Robin Hill Adventure Park?",
+                "options": [
+                  "A - to support the Isle of Wight local council",
+                  "B - to criticise the 1981 Zoo Licensing Act",
+                  "C - to illustrate a weakness in the WZCS document",
+                  "D - to exemplify the standards in AAZPA zoos"
+                ],
+                "correct_answer": "C",
+                "alternatives": [
+                  "C"
+                ],
+                "location": "“… premise that members must meet certain standards, but again the facts don’t support the theory … Robin Hill Adventure Park”",
+                "explanation": "It illustrates that member institutions do not always maintain high standards, exposing a weakness in the WZCS premise."
+              },
+              {
+                "id": 25,
+                "prompt": "What word best describes the writer's response to the claims made in the WZCS document about the success of captive breeding programmes?",
+                "options": [
+                  "A - disbelieving",
+                  "B - impartial",
+                  "C - prejudiced",
+                  "D - accepting"
+                ],
+                "correct_answer": "A",
+                "alternatives": [
+                  "A"
+                ],
+                "location": "“… although a number of these can hardly be looked upon as resounding successes … pretty slow progress”",
+                "explanation": "The writer is disbelieving and sceptical of the exaggerated claims."
+              }
+            ]
+          },
+          {
+            "group_id": "t1-p2-g3",
+            "title": "Questions 26-28",
+            "instruction": "The writer mentions a number of factors which lead him to doubt the value of the WZCS document. Which THREE of the following factors are mentioned? Write your answers (A-F) in boxes 26-28 on your answer sheet.",
+            "type": "multiple_choice_multi",
+            "multi_select_count": 3,
+            "options": [
+              "A - the number of unregistered zoos in the world",
+              "B - the lack of money in developing countries",
+              "C - the actions of the Isle of Wight local council",
+              "D - the failure of the WZCS to examine the standards of the \"core zoos\"",
+              "E - the unrealistic aim of the WZCS in view of the number of species \"saved\" to date",
+              "F - the policies of WZCS zoo managers"
+            ],
+            "questions": [
+              {
+                "id": 26,
+                "prompt": "Factor 1",
+                "correct_answer": "A",
+                "alternatives": [
+                  "A",
+                  "D",
+                  "E"
+                ],
+                "location": "“… 10,000 is a serious underestimate of the total number of places …”",
+                "explanation": "Factor A is mentioned (the vast number of unregistered zoos)."
+              },
+              {
+                "id": 27,
+                "prompt": "Factor 2",
+                "correct_answer": "D",
+                "alternatives": [
+                  "A",
+                  "D",
+                  "E"
+                ],
+                "location": "“One would assume that the calibre of these institutions would have been carefully examined …”",
+                "explanation": "Factor D is mentioned (failure to verify standards of core zoos)."
+              },
+              {
+                "id": 28,
+                "prompt": "Factor 3",
+                "correct_answer": "E",
+                "alternatives": [
+                  "A",
+                  "D",
+                  "E"
+                ],
+                "location": "“Today approximately 16 species might be said to have been 'saved' … slow progress, and a long way off Tudge's target of 2,000.”",
+                "explanation": "Factor E is mentioned (unrealistic targets vs few saved species)."
+              }
+            ],
+            "question_prompt": "Which THREE of the following factors are mentioned by the writer as having contributed to the lack of credibility of the World Zoo Conservation Strategy?"
+          }
+        ]
+      },
+      {
+        "passage_id": 3,
+        "title": "ARCHITECTURE — Reaching for the Sky",
+        "subtitle": "The evolution of modern architectural styles from the 19th to late 20th century",
+        "text": "<p>Architecture is the art and science of designing buildings and structures. A building reflects the scientific and technological achievements of the age as well as the ideas and aspirations of the designer and client. The appearance of individual buildings, however, is often controversial.</p>\n<p>The idea of putting modern buildings in an historic city would have astonished previous centuries. In nineteenth-century Britain, for example, the rapid growth of the cities resulted in thousands of new buildings being constructed in styles that were heavily influenced by historical periods: Gothic, Renaissance, and Classical. The materials used were traditional: mainly timber and stone, with bricks manufactured locally.</p>\n<p>During the first half of the twentieth century, however, a profound revolution took place. The architectural movement known as Modernism developed, led by architects such as Le Corbusier in France, Walter Gropius in Germany, and Frank Lloyd Wright in the United States. Modernists believed that 'form should follow function'. Buildings were stripped of unnecessary decoration that would detract from their primary purpose — to be used or lived in. New materials, especially steel frames and reinforced concrete, made it possible to construct tall, dramatic structures with huge expanses of glass.</p>\n<p>By the 1930s, Modernism had evolved into the International Style, characterised by geometric forms, flat roofs, and smooth, unornamented facades. However, the economic depression prevented their ideas from being widely realised until economic conditions improved after the Second World War.</p>\n<p>In the post-war era, the need for rapid reconstruction led to the mass production of low-cost high-rises and multi-storey housing. By the 1960s, disillusionment with Modernism set in. Many badly designed buildings and sterile concrete blocks proved unpopular, and parts of cities deteriorated into slums. Many of these buildings have since been demolished.</p>\n<p>By the 1970s, the Modernist era was drawing to a close. There was a renewed desire to preserve historic buildings or keep only their facades. Architects began to make more use of building styles and materials that were traditional to the area. Simultaneously, the architectural style usually referred to as High Tech was emerging. It celebrated scientific and engineering achievements by openly parading the sophisticated techniques used in construction. Such buildings are commonly made of metal and glass; examples are Stansted airport and the Lloyd's building in London.</p>\n<p>By the 1980s, Post-Modernism emerged, celebrating diversity and the co-existence of different styles, reviving ornamentation and borrowing playful historical motifs.</p>",
+        "question_groups": [
+          {
+            "group_id": "t1-p3-g1",
+            "title": "Questions 29-35",
+            "instruction": "Complete the table below using information from Reading Passage 3. Write your answers in boxes 29-35 on your answer sheet. Use NO MORE THAN THREE WORDS for each answer.",
+            "type": "table_completion",
+            "questions": [
+              {
+                "id": 29,
+                "prompt": "19th Century building materials: mainly ... (29) ...",
+                "correct_answer": "timber and stone",
+                "alternatives": [
+                  "timber and stone",
+                  "stone and timber"
+                ],
+                "location": "“mainly timber and stone, with bricks …”",
+                "explanation": "Traditional materials were timber and stone."
+              },
+              {
+                "id": 30,
+                "prompt": "1900-1930s architectural movement: ... (30) ...",
+                "correct_answer": "Modernism",
+                "alternatives": [
+                  "Modernism",
+                  "modernism"
+                ],
+                "location": "“The architectural movement known as Modernism developed …”",
+                "explanation": "The movement was Modernism."
+              },
+              {
+                "id": 31,
+                "prompt": "1930s evolution characterised by geometric forms: ... (31) ...",
+                "correct_answer": "International style",
+                "alternatives": [
+                  "International style",
+                  "International Style",
+                  "the International style"
+                ],
+                "location": "“… Modernism had evolved into the International Style …”",
+                "explanation": "The style was the International Style."
+              },
+              {
+                "id": 32,
+                "prompt": "1960s decline of Modernism caused by: ... (32) ...",
+                "correct_answer": "badly designed buildings",
+                "alternatives": [
+                  "badly designed buildings",
+                  "multi-storey housing",
+                  "mass-produced, low-cost high-rises",
+                  "low-cost high-rises",
+                  "concrete blocks"
+                ],
+                "location": "“… badly designed buildings and sterile concrete blocks …”",
+                "explanation": "Badly designed buildings / low-cost high-rises."
+              },
+              {
+                "id": 33,
+                "prompt": "1970s end of Modernist era marked by: ... (33) ... of historic buildings",
+                "correct_answer": "preservation",
+                "alternatives": [
+                  "preservation",
+                  "preserving",
+                  "the preservation"
+                ],
+                "location": "“Preserving historic buildings or keeping only their facades …”",
+                "explanation": "Preservation of historic buildings."
+              },
+              {
+                "id": 34,
+                "prompt": "1970s beginning of ... (34) ... era (metal and glass, sophisticated techniques)",
+                "correct_answer": "High Tech",
+                "alternatives": [
+                  "High Tech",
+                  "high tech",
+                  "High-Tech"
+                ],
+                "location": "“… style usually referred to as High Tech was also emerging …”",
+                "explanation": "The High Tech era."
+              },
+              {
+                "id": 35,
+                "prompt": "1980s Post-Modernism characteristics: ... (35) ...",
+                "correct_answer": "co-existence of styles",
+                "alternatives": [
+                  "co-existence of styles",
+                  "diversity of styles",
+                  "diverse styles",
+                  "different styles",
+                  "ornamentation"
+                ],
+                "location": "“… celebrating diversity and the co-existence of different styles …”",
+                "explanation": "Co-existence of styles / diverse styles."
+              }
+            ]
+          },
+          {
+            "group_id": "t1-p3-g2",
+            "title": "Questions 36-40",
+            "instruction": "Reading Passage 3 describes a number of cause and effect relationships. Match each Cause (36-40) in List A with its Effect (A-H) in List B.<br><em>NB There are more effects in List B than you will need, so you will not use all of them. You may use any effect more than once if you wish.</em>",
+            "type": "matching_features",
+            "features_list": [
+              {
+                "id": "A",
+                "label": "A - High-rise buildings become popular."
+              },
+              {
+                "id": "B",
+                "label": "B - Architects use traditional regional materials."
+              },
+              {
+                "id": "C",
+                "label": "C - A number of these have been knocked down."
+              },
+              {
+                "id": "D",
+                "label": "D - Light steel frames and lifts are developed."
+              },
+              {
+                "id": "E",
+                "label": "E - Historical buildings are preserved."
+              },
+              {
+                "id": "F",
+                "label": "F - All decoration is removed."
+              },
+              {
+                "id": "G",
+                "label": "G - Parts of cities become slums."
+              },
+              {
+                "id": "H",
+                "label": "H - Modernist ideas cannot be put into practice until the second half of the 20th century."
+              }
+            ],
+            "questions": [
+              {
+                "id": 36,
+                "prompt": "Cause: The rapid growth of cities in the 19th century",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "correct_answer": "G",
+                "alternatives": [
+                  "G"
+                ],
+                "location": "“Such rapid and uncontrolled growth helped to turn parts of cities into slums.”",
+                "explanation": "Rapid growth caused parts of cities to become slums."
+              },
+              {
+                "id": 37,
+                "prompt": "Cause: Modernist architects' belief that function was more important than form",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "correct_answer": "F",
+                "alternatives": [
+                  "F"
+                ],
+                "location": "“These were stripped of unnecessary decoration that would detract from their primary purpose …”",
+                "explanation": "All unnecessary decoration was removed."
+              },
+              {
+                "id": 38,
+                "prompt": "Cause: The economic depression of the 1930s",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "correct_answer": "H",
+                "alternatives": [
+                  "H"
+                ],
+                "location": "“But the economic depression prevented their ideas from being widely realised until the economic conditions improved …”",
+                "explanation": "Prevented ideas being realised until second half of 20th century."
+              },
+              {
+                "id": 39,
+                "prompt": "Cause: The poor quality of many post-war Modernist buildings",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "correct_answer": "C",
+                "alternatives": [
+                  "C"
+                ],
+                "location": "“Many of these buildings … have since been demolished.”",
+                "explanation": "A number have since been knocked down."
+              },
+              {
+                "id": 40,
+                "prompt": "Cause: The development of High Tech architecture",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "correct_answer": "D",
+                "alternatives": [
+                  "D"
+                ],
+                "location": "“celebrated scientific and engineering achievements by openly parading the sophisticated techniques …”",
+                "explanation": "Steel frames and advanced structural techniques were highlighted."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-2",
+    "title": "Practice Test 2",
+    "category": "Academic Reading",
+    "duration_minutes": 60,
+    "total_questions": 40,
+    "passages": [
+      {
+        "passage_id": 1,
+        "title": "Right and left-handedness in humans",
+        "subtitle": "An investigation into the biological, neurological and evolutionary origins of human handedness",
+        "text": "<p>Why do humans, virtually alone among all animal species, display a distinct preference for using one hand over the other? In all human populations throughout history and across cultures, approximately 90 percent of people are right-handed and 10 percent are left-handed.</p>\n<p>Professor Turner has studied left-handedness extensively. He noted that this distinctive asymmetry in the human population is itself systematic: the bias toward right-handedness has remained constant across hundreds of generations. In contrast, while other primates and mammals may display individual preferences for one paw or hand, they do not exhibit a species-wide bias in the same proportion.</p>\n<p>One of the earliest theories linking handedness to brain function was proposed in the 1860s by the French surgeon and anthropologist Dr Paul Broca. Broca discovered that the brain's left hemisphere is responsible for speech and language in almost all right-handers. He suggested that as our ancestors evolved speech, the left hemisphere became specialised for the fine motor control required for vocalisation, and along with this evolution came a preference for using the right hand, which is controlled by the left side of the brain.</p>\n<p>Research by Dr Brinkman into primates showed that monkeys do not show a consistent hand preference to the same degree as humans. Interestingly, Brinkman also observed that if a left-handed person suffers brain damage to the left hemisphere, their recovery of speech is often significantly faster and more complete than that of a right-handed person with identical damage, because language functions are more evenly distributed across both hemispheres in left-handers.</p>\n<p>In the 1980s, the late Dr Norman Geschwind of Harvard Medical School proposed that testosterone levels in the womb affect brain development. Geschwind noted that left-handedness is more common in males than in females. He suggested that testosterone slows the development of the left hemisphere, allowing the right hemisphere to dominate. Geschwind also found that left-handers appear more susceptible to certain conditions such as immune disorders and learning disabilities like dyslexia.</p>\n<p>Geneticist Charles Moore studied historical records, ancient art, and prehistoric tools. Moore discovered that left-right asymmetry exists before birth and that the 9-to-1 ratio has not changed for at least 5,000 years. His analysis of parental handedness showed that when both parents are right-handed, between 15 and 20 percent of children are left-handed; if one parent is left-handed, the figure rises to 40 percent; but if both parents are left-handed, surprisingly only about 6 percent of offspring are left-handed, suggesting that handedness cannot be explained by simple Mendelian genetics alone.</p>",
+        "question_groups": [
+          {
+            "group_id": "t2-p1-g1",
+            "title": "Questions 1-7",
+            "instruction": "Look at the following statements (Questions 1-7) and the list of people below. Match each statement with the correct person (A-E). Write the correct letter A-E in boxes 1-7 on your answer sheet.<br><em>NB You may use any letter more than once.</em>",
+            "type": "matching_features",
+            "features_list": [
+              {
+                "id": "A",
+                "label": "A - Dr Broca"
+              },
+              {
+                "id": "B",
+                "label": "B - Dr Brinkman"
+              },
+              {
+                "id": "C",
+                "label": "C - Dr Geschwind"
+              },
+              {
+                "id": "D",
+                "label": "D - Charles Moore"
+              },
+              {
+                "id": "E",
+                "label": "E - Professor Turner"
+              }
+            ],
+            "questions": [
+              {
+                "id": 1,
+                "prompt": "Monkeys do not show a hand preference to the same degree as humans.",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E"
+                ],
+                "correct_answer": "B",
+                "alternatives": [
+                  "B"
+                ],
+                "location": "“… evolution of speech went with right-handed preference.”",
+                "explanation": "Dr Brinkman studied monkeys and primates."
+              },
+              {
+                "id": 2,
+                "prompt": "The ratio of left-handed to right-handed people has remained constant over time.",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E"
+                ],
+                "correct_answer": "D",
+                "alternatives": [
+                  "D"
+                ],
+                "location": "gist of final paragraph / Charles Moore",
+                "explanation": "Charles Moore demonstrated the ratio has not changed for thousands of years."
+              },
+              {
+                "id": 3,
+                "prompt": "More men than women are left-handed.",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E"
+                ],
+                "correct_answer": "C",
+                "alternatives": [
+                  "C"
+                ],
+                "location": "“… there are more left-handed males than females.”",
+                "explanation": "Dr Geschwind noted higher prevalence in males linked to testosterone."
+              },
+              {
+                "id": 4,
+                "prompt": "Left-handed people may recover speech faster after brain damage.",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E"
+                ],
+                "correct_answer": "B",
+                "alternatives": [
+                  "B"
+                ],
+                "location": "“… if a left handed person is brain damaged … recovery of speech is quite often better …”",
+                "explanation": "Dr Brinkman found speech recovery is often better in left-handers."
+              },
+              {
+                "id": 5,
+                "prompt": "Hand preference is related to language processing in the brain.",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E"
+                ],
+                "correct_answer": "A",
+                "alternatives": [
+                  "A"
+                ],
+                "location": "3rd and 4th sentences of paragraph 3 (Broca)",
+                "explanation": "Dr Broca linked right-handedness to left hemisphere speech development."
+              },
+              {
+                "id": 6,
+                "prompt": "Left-handed people are more likely to suffer from certain immune disorders.",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E"
+                ],
+                "correct_answer": "C",
+                "alternatives": [
+                  "C"
+                ],
+                "location": "“… discovered that left-handers appear more susceptible to certain conditions …”",
+                "explanation": "Dr Geschwind linked left-handedness to immune disorders."
+              },
+              {
+                "id": 7,
+                "prompt": "Asymmetry is a common feature of the human body.",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E"
+                ],
+                "correct_answer": "E",
+                "alternatives": [
+                  "E"
+                ],
+                "location": "“He noted that this distinctive asymmetry in the human population is itself systematic.”",
+                "explanation": "Professor Turner noted distinctive systematic asymmetry in human populations."
+              }
+            ]
+          },
+          {
+            "group_id": "t2-p1-g2",
+            "title": "Questions 8-10",
+            "instruction": "Using the information in the passage, complete the table below. Write your answers in boxes 8-10 on your answer sheet.",
+            "type": "table_completion",
+            "questions": [
+              {
+                "id": 8,
+                "prompt": "Percentage of children left-handed when both parents are right-handed: ... (8) ...",
+                "correct_answer": "15-20%",
+                "alternatives": [
+                  "15-20%",
+                  "15 to 20%",
+                  "15%-20%",
+                  "15 - 20%"
+                ],
+                "location": "“… between 15 and 20 percent of children …”",
+                "explanation": "15-20% when both parents right-handed."
+              },
+              {
+                "id": 9,
+                "prompt": "Percentage of children left-handed when one parent is left-handed: ... (9) ...",
+                "correct_answer": "40%",
+                "alternatives": [
+                  "40%",
+                  "40 percent"
+                ],
+                "location": "“… if one parent is left-handed, the figure rises to 40 percent …”",
+                "explanation": "40% when one parent is left-handed."
+              },
+              {
+                "id": 10,
+                "prompt": "Percentage of children left-handed when both parents are left-handed: ... (10) ...",
+                "correct_answer": "6%",
+                "alternatives": [
+                  "6%",
+                  "6 percent"
+                ],
+                "location": "“… surprisingly only about 6 percent of offspring …”",
+                "explanation": "6% when both parents are left-handed."
+              }
+            ]
+          },
+          {
+            "group_id": "t2-p1-g3",
+            "title": "Questions 11-12",
+            "instruction": "Choose the appropriate letter A-D and write it in boxes 11-12 on your answer sheet.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "id": 11,
+                "prompt": "According to the passage, a person is defined as left-handed based primarily on:",
+                "options": [
+                  "A - which foot they use to kick a ball",
+                  "B - which eye they use for looking through a telescope",
+                  "C - which hand they use for eating",
+                  "D - their hand preference for skilled tasks like writing and drawing"
+                ],
+                "correct_answer": "D",
+                "alternatives": [
+                  "D"
+                ],
+                "location": "Passage context on handedness criteria in studies",
+                "explanation": "Handedness is assessed by preference for skilled tasks like writing."
+              },
+              {
+                "id": 12,
+                "prompt": "What does the writer conclude about human handedness?",
+                "options": [
+                  "A - It will eventually disappear through evolution.",
+                  "B - It is a natural biological variation inherent to human brain organisation.",
+                  "C - It can easily be changed by early childhood training.",
+                  "D - It is determined entirely by environmental factors."
+                ],
+                "correct_answer": "B",
+                "alternatives": [
+                  "B"
+                ],
+                "location": "Passage conclusion on evolutionary and brain architecture",
+                "explanation": "It is an inherent biological variation reflecting asymmetric brain organisation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "passage_id": 2,
+        "title": "Migratory beekeeping",
+        "subtitle": "How American commercial beekeepers move millions of hives across the continent to pollinate crops",
+        "text": "<p>Every spring in the United States, an extraordinary migration takes place. Beekeepers load millions of honeybees onto massive flatbed trucks and haul them across the country to pollinate crops. From California's almond orchards to the apple orchards of Washington and the blueberry fields of Maine, modern agriculture depends crucially on the pollination services provided by migratory beekeepers.</p>\n<p>One such beekeeper is Dave Hackenberg. In March, Hackenberg's family hauls thousands of hives from their wintering sites in Florida out to the flowering fields of California. In summer, they haul the hives back to clover fields in Pennsylvania or South Dakota to produce honey, before moving them south again ahead of winter.</p>\n<p>Moving millions of stinging insects is delicate work. Beekeepers prepare for migration at night when the hives are full of returned foragers and the bees are generally tranquil. A little smoke can ensure that this is the case, as smoke masks the alarm pheromones produced by guard bees. The hives are loaded onto 18-wheel tractor-trailers, tied down, and covered with heavy netting to prevent bees escaping during transit.</p>\n<p>In the past, beekeepers made most of their living selling honey, and farmers welcomed them onto their land for free. Today, the economics have reversed: pollination contracts represent the majority of a beekeeper's revenue. Farmers pay a substantial charge per hive for two to three weeks of pollination during blossom time. Almond orchards alone require over a million hives each February.</p>\n<p>At the extraction facility, machines slice the wax cappings off the honeycomb. The frames are placed into a high-speed centrifuge, where centrifugal force throws the honey out of the combs without destroying the wax structure, allowing the combs to be reused. After the harvest, a healthy double hive can be split into two separate colonies by introducing a new queen, thus replacing winter losses.</p>\n<p>A standard Langstroth beehive consists of several modular wooden boxes stacked on top of each other. At the base is the bottom board providing the entrance. Above it sits the deep hive body or brood chamber, where the queen lays eggs and workers raise larvae. Between the brood chamber and the upper boxes sits a wire screen known as the queen excluder, which has gaps wide enough for worker bees to pass through but too narrow for the larger queen. This ensures that the upper boxes, called honey supers containing movable frames of hexagonal comb, remain filled only with pure honey free of brood. The hive is topped by an inner cover and a weather-proof outer cover or telescoping lid.</p>",
+        "question_groups": [
+          {
+            "group_id": "t2-p2-g1",
+            "title": "Questions 13-19",
+            "instruction": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer. Write your answers in boxes 13-19 on your answer sheet.",
+            "type": "summary_gap_fill",
+            "summary_template": "In March, beekeepers <strong>[13]</strong> for migration at night when the hives are <strong>[14]</strong> and the bees are generally tranquil. A little <strong>[15]</strong> can ensure that this is the case.<br>\nToday, farmers pay a substantial <strong>[16]</strong> per hive for pollination services. In honey processing, automated <strong>[17]</strong> remove the wax cappings before centrifugal force spins the honey out of the <strong>[18]</strong>. Later, a vigorous colony can be <strong>[19]</strong> into two new hives.",
+            "questions": [
+              {
+                "id": 13,
+                "prompt": "Question 13",
+                "correct_answer": "prepare",
+                "alternatives": [
+                  "prepare",
+                  "get ready"
+                ],
+                "location": "gist of paragraph 4",
+                "explanation": "Beekeepers prepare for migration at night."
+              },
+              {
+                "id": 14,
+                "prompt": "Question 14",
+                "correct_answer": "full",
+                "alternatives": [
+                  "full"
+                ],
+                "location": "“These are not moved in the middle of the day …”",
+                "explanation": "Moved at night when hives are full."
+              },
+              {
+                "id": 15,
+                "prompt": "Question 15",
+                "correct_answer": "smoke",
+                "alternatives": [
+                  "smoke",
+                  "puffs of smoke"
+                ],
+                "location": "“… bees can be pacified with a few puffs of smoke …”",
+                "explanation": "A little smoke pacifies them."
+              },
+              {
+                "id": 16,
+                "prompt": "Question 16",
+                "correct_answer": "charge",
+                "alternatives": [
+                  "charge",
+                  "fee"
+                ],
+                "location": "“… the beekeeper will pay / farmers pay a substantial charge …”",
+                "explanation": "Farmers pay a substantial charge."
+              },
+              {
+                "id": 17,
+                "prompt": "Question 17",
+                "correct_answer": "machines",
+                "alternatives": [
+                  "machines"
+                ],
+                "location": "paraphrase of “uncapper” and “carousel”",
+                "explanation": "Automated machines slice wax cappings."
+              },
+              {
+                "id": 18,
+                "prompt": "Question 18",
+                "correct_answer": "combs",
+                "alternatives": [
+                  "combs",
+                  "honeycomb"
+                ],
+                "location": "“… centrifugal force throws the honey out of the combs …”",
+                "explanation": "Honey thrown out of the combs."
+              },
+              {
+                "id": 19,
+                "prompt": "Question 19",
+                "correct_answer": "split",
+                "alternatives": [
+                  "split",
+                  "separated"
+                ],
+                "location": "“… a healthy double hive can be separated into two boxes.”",
+                "explanation": "Can be split into two boxes."
+              }
+            ]
+          },
+          {
+            "group_id": "t2-p2-g2",
+            "title": "Questions 20-23",
+            "instruction": "Label the diagram of the Langstroth beehive below. Choose ONE OR TWO WORDS from Reading Passage 2 for each answer. Write your answers in boxes 20-23 on your answer sheet.<br><div style='text-align:center; margin:16px 0;'><img src='/static/images/test2_beehive_diagram.png' alt='Beehive Diagram' style='max-width:100%; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.15);'/></div>",
+            "type": "diagram_label",
+            "questions": [
+              {
+                "id": 20,
+                "prompt": "Item 20 (Pattern inside honey supers): ... (20) ...",
+                "correct_answer": "hexagonal cells",
+                "alternatives": [
+                  "hexagonal cells",
+                  "cells",
+                  "comb"
+                ],
+                "location": "“containing movable frames of hexagonal comb”",
+                "explanation": "Hexagonal cells / comb inside the frames."
+              },
+              {
+                "id": 21,
+                "prompt": "Item 21 (Movable components in the super): ... (21) ...",
+                "correct_answer": "frames",
+                "alternatives": [
+                  "frames",
+                  "frames of comb",
+                  "movable frames"
+                ],
+                "location": "“movable frames of hexagonal comb”",
+                "explanation": "Frames (of comb)."
+              },
+              {
+                "id": 22,
+                "prompt": "Item 22 (Barrier preventing queen from entering supers): ... (22) ...",
+                "correct_answer": "queen excluder",
+                "alternatives": [
+                  "queen excluder",
+                  "screen",
+                  "wire screen"
+                ],
+                "location": "“wire screen known as the queen excluder”",
+                "explanation": "The screen or queen excluder."
+              },
+              {
+                "id": 23,
+                "prompt": "Item 23 (Lower box where eggs and larvae are reared): ... (23) ...",
+                "correct_answer": "brood chamber",
+                "alternatives": [
+                  "brood chamber",
+                  "hive body"
+                ],
+                "location": "“deep hive body or brood chamber”",
+                "explanation": "Brood chamber."
+              }
+            ]
+          },
+          {
+            "group_id": "t2-p2-g3",
+            "title": "Questions 24-26",
+            "instruction": "Do the following statements agree with the information given in Reading Passage 2? In boxes 24-26 write: <strong>YES</strong> if the statement agrees with the writer, <strong>NO</strong> if the statement contradicts the writer, <strong>NOT GIVEN</strong> if there is no information on this.",
+            "type": "yes_no_not_given",
+            "questions": [
+              {
+                "id": 24,
+                "prompt": "Almond orchards require massive numbers of pollinating hives each year.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "YES",
+                "alternatives": [
+                  "YES"
+                ],
+                "location": "“Almond orchards alone require over a million hives each February.”",
+                "explanation": "Passage confirms almond orchards need over a million hives."
+              },
+              {
+                "id": 25,
+                "prompt": "Beekeepers earn more income from pollination fees today than in the past.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "YES",
+                "alternatives": [
+                  "YES"
+                ],
+                "location": "“In the past, beekeepers made most of their living selling honey … Today, pollination contracts represent the majority of revenue.”",
+                "explanation": "Yes, pollination fees represent the majority today."
+              },
+              {
+                "id": 26,
+                "prompt": "Centrifugal extraction permanently damages the honeycombs.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NO",
+                "alternatives": [
+                  "NO"
+                ],
+                "location": "“… throws the honey out of the combs without destroying the wax structure, allowing the combs to be reused.”",
+                "explanation": "Contradicts the text, which says wax structure is not destroyed."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "passage_id": 3,
+        "title": "Tourism",
+        "subtitle": "A sociological analysis of the tourist gaze and modern leisure culture",
+        "text": "<p><strong>[Paragraph A]</strong> Tourism, holidaymaking and travel are these days more significant social phenomena than most commentators have considered. On the face of it there could not be a more trivial subject for a book. And indeed since social scientists have had considerable difficulty explaining weightier topics such as work or politics it might be thought that they would have great difficulties in accounting for more trivial phenomena such as holidaymaking. However there are interesting parallels with the study of deviance. This involves the investigation of bizarre and idiosyncratic social practices which happen to be defined as deviant in some societies but not necessarily in others. The assumption is that the investigation of deviance can reveal interesting and significant aspects of normal societies. It could be said that a similar analysis can be applied to tourism.</p>\n<p><strong>[Paragraph B]</strong> Tourism is not universal. It is one manifestation of how work and leisure are organised as separate and regulated spheres of social practice in modern societies. A key characteristic of the tourist gaze is the clear demarcation between work and leisure: it is an activity undertaken during regulated periods away from the home and everyday workplace. Potential tourists are constantly evaluating places to visit, stimulated by daydreaming and anticipation.</p>\n<p><strong>[Paragraph C]</strong> Such anticipation is constructed and sustained through a variety of non-tourist practices, such as film, TV, literature, magazines, records and videos, which construct and reinforce the tourist gaze. Furthermore, travel writer Daniel Boorstin argues that modern tourism has become artificial and trivialised: mass tourists travel in guided groups and find pleasure in inauthentic, contrived attractions which he terms 'pseudo-events', insulated from the host culture inside an 'environmental bubble'.</p>\n<p><strong>[Paragraph D]</strong> <em>(Example)</em> In contrast to Boorstin, other theorists argue that tourism is an active pursuit of alternative experiences. The viewing of tourist sites involves a much greater sensitivity to visual elements of landscape or townscape than is normally found in daily life. Tourists seek contrasting experiences: the unusual, the historic, the sublime, or the exotic.</p>\n<p><strong>[Paragraph E]</strong> In earlier eras, travel was the preserve of a wealthy elite. It involved individual initiative, risk, and prolonged engagement with foreign cultures. Today, democratic mass tourism contrasts sharply with this traditional travel. It is organised, packaged, and commodified for millions of consumers across social classes.</p>\n<p><strong>[Paragraph F]</strong> Modern tourism relies heavily on professional intermediaries: travel agents, tour operators, and tour guides. Tour guides serve as cultural brokers, directing the tourists' gaze to approved sights, framing interpretations, and insulating visitors from potential difficulties. They cater to tourists' expectations and shape what they see and remember.</p>",
+        "question_groups": [
+          {
+            "group_id": "t2-p3-g1",
+            "title": "Questions 27-31",
+            "instruction": "Reading Passage 3 has 6 paragraphs (A-F). Choose the most suitable heading for each paragraph from the list of headings below. Write the appropriate numbers (i-ix) in boxes 27-31 on your answer sheet. Paragraph D has been done for you as an example.<br><em>NB There are more headings than paragraphs so you will not use all of them.</em>",
+            "type": "matching_headings",
+            "headings_list": [
+              {
+                "id": "i",
+                "label": "i - The politics of tourism"
+              },
+              {
+                "id": "ii",
+                "label": "ii - The cost of tourism"
+              },
+              {
+                "id": "iii",
+                "label": "iii - Justifying the study of tourism"
+              },
+              {
+                "id": "iv",
+                "label": "iv - Tourism contrasted with travel"
+              },
+              {
+                "id": "v",
+                "label": "v - The essence of modern tourism"
+              },
+              {
+                "id": "vi",
+                "label": "vi - Tourism versus leisure"
+              },
+              {
+                "id": "vii",
+                "label": "vii - The artificiality of modern tourism"
+              },
+              {
+                "id": "viii",
+                "label": "viii - The role of modern tour guides"
+              },
+              {
+                "id": "ix",
+                "label": "ix - Creating an alternative to the everyday experience (Example: Paragraph D)"
+              }
+            ],
+            "questions": [
+              {
+                "id": 27,
+                "prompt": "Paragraph A",
+                "correct_answer": "iii",
+                "alternatives": [
+                  "iii"
+                ],
+                "location": "“On the face of it there could not be a more trivial subject … However … parallels with study of deviance”",
+                "explanation": "Heading iii: Justifying the study of tourism."
+              },
+              {
+                "id": 28,
+                "prompt": "Paragraph B",
+                "correct_answer": "v",
+                "alternatives": [
+                  "v"
+                ],
+                "location": "“Tourism is not universal. It is one manifestation of how work and leisure are organised …”",
+                "explanation": "Heading v: The essence of modern tourism."
+              },
+              {
+                "id": 29,
+                "prompt": "Paragraph C",
+                "correct_answer": "vii",
+                "alternatives": [
+                  "vii"
+                ],
+                "location": "“Boorstin argues that modern tourism has become artificial … inauthentic, contrived attractions”",
+                "explanation": "Heading vii: The artificiality of modern tourism."
+              },
+              {
+                "id": 30,
+                "prompt": "Paragraph E",
+                "correct_answer": "iv",
+                "alternatives": [
+                  "iv"
+                ],
+                "location": "“In earlier eras, travel was the preserve of an elite … mass tourism contrasts sharply with traditional travel.”",
+                "explanation": "Heading iv: Tourism contrasted with travel."
+              },
+              {
+                "id": 31,
+                "prompt": "Paragraph F",
+                "correct_answer": "viii",
+                "alternatives": [
+                  "viii"
+                ],
+                "location": "“Modern tourism relies heavily on professional intermediaries … tour guides serve as cultural brokers …”",
+                "explanation": "Heading viii: The role of modern tour guides."
+              }
+            ]
+          },
+          {
+            "group_id": "t2-p3-g2",
+            "title": "Questions 32-36",
+            "instruction": "Do the following statements agree with the views of the writer in Reading Passage 3? In boxes 32-36 write: <strong>YES</strong> if the statement agrees with the writer, <strong>NO</strong> if the statement contradicts the writer, <strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this.",
+            "type": "yes_no_not_given",
+            "questions": [
+              {
+                "id": 32,
+                "prompt": "Tourism is a trivial subject.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NO",
+                "alternatives": [
+                  "NO"
+                ],
+                "location": "“more significant social phenomena than most commentators have considered … on the face of it trivial, but …”",
+                "explanation": "Writer argues it is NOT trivial; it reveals significant social structures."
+              },
+              {
+                "id": 33,
+                "prompt": "An analysis of deviance can act as a model for the analysis of tourism.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "YES",
+                "alternatives": [
+                  "YES"
+                ],
+                "location": "“However there are interesting parallels with the study of deviance … a similar analysis can be applied”",
+                "explanation": "Writer explicitly states deviance analysis can act as a parallel/model."
+              },
+              {
+                "id": 34,
+                "prompt": "Tourists usually choose to travel overseas.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NOT GIVEN",
+                "alternatives": [
+                  "NOT GIVEN"
+                ],
+                "location": "No mention of whether overseas travel is chosen more than domestic",
+                "explanation": "The passage does not compare proportions of overseas vs domestic travel."
+              },
+              {
+                "id": 35,
+                "prompt": "Tourists focus more on places they visit than those at home.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "YES",
+                "alternatives": [
+                  "YES"
+                ],
+                "location": "“The viewing of these tourist sites often involves … much greater sensitivity to visual elements than daily life”",
+                "explanation": "Viewing tourist sites involves greater visual sensitivity than everyday places."
+              },
+              {
+                "id": 36,
+                "prompt": "Tour operators try to cheat tourists.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NOT GIVEN",
+                "alternatives": [
+                  "NOT GIVEN"
+                ],
+                "location": "Tour operators described as intermediaries, cheating not mentioned",
+                "explanation": "Cheating is never suggested in the text."
+              }
+            ]
+          },
+          {
+            "group_id": "t2-p3-g3",
+            "title": "Questions 37-40",
+            "instruction": "Choose one phrase (A-H) from the list of phrases to complete each key point below. Write the appropriate letters (A-H) in boxes 37-40 on your answer sheet.<br><em>NB There are more phrases than sentences so you will not use all of them.</em>",
+            "type": "matching_features",
+            "features_list": [
+              {
+                "id": "A",
+                "label": "A - local people and their environment."
+              },
+              {
+                "id": "B",
+                "label": "B - the expectations of tourists."
+              },
+              {
+                "id": "C",
+                "label": "C - the phenomena of holidaymaking."
+              },
+              {
+                "id": "D",
+                "label": "D - the distinction we make between work and leisure."
+              },
+              {
+                "id": "E",
+                "label": "E - the individual character of travel."
+              },
+              {
+                "id": "F",
+                "label": "F - places seen in everyday life."
+              },
+              {
+                "id": "G",
+                "label": "G - photographs which recapture our holidays."
+              },
+              {
+                "id": "H",
+                "label": "H - sights designed specially for tourists."
+              }
+            ],
+            "questions": [
+              {
+                "id": 37,
+                "prompt": "Our concept of tourism arises from ...",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "correct_answer": "D",
+                "alternatives": [
+                  "D"
+                ],
+                "location": "“It is one manifestation of how work and leisure are organised as separate and regulated spheres …”",
+                "explanation": "D: the distinction we make between work and leisure."
+              },
+              {
+                "id": 38,
+                "prompt": "The media can be used to enhance ...",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "correct_answer": "B",
+                "alternatives": [
+                  "B"
+                ],
+                "location": "“Such anticipation is constructed and sustained through … film, TV, literature …”",
+                "explanation": "B: the expectations of tourists."
+              },
+              {
+                "id": 39,
+                "prompt": "People view tourist landscapes in a different way from ...",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "correct_answer": "F",
+                "alternatives": [
+                  "F"
+                ],
+                "location": "“… greater sensitivity to visual elements of landscape … than is normally found in daily life.”",
+                "explanation": "F: places seen in everyday life."
+              },
+              {
+                "id": 40,
+                "prompt": "Group tours encourage participants to look at ...",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ],
+                "correct_answer": "H",
+                "alternatives": [
+                  "H"
+                ],
+                "location": "“… the mass tourist travels in guided groups and finds pleasure in inauthentic, contrived attractions …”",
+                "explanation": "H: sights designed specially for tourists."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-3",
+    "title": "Practice Test 3",
+    "category": "Academic Reading",
+    "duration_minutes": 60,
+    "total_questions": 40,
+    "passages": [
+      {
+        "passage_id": 1,
+        "title": "Spoken Corpus Comes to Life",
+        "subtitle": "How computerized speech databases are revolutionizing lexicography and dictionary publishing",
+        "text": "<p><strong>[Paragraph A]</strong> The compilation of dictionaries has entered a dramatic new era. Lexicographers have always relied on written sources: books, newspapers, and formal texts. But spoken English has eluded systematic analysis because of the immense difficulty of capturing and transcribing natural conversations. Now, advances in computer technology and audio recording have made it possible to build multi-million-word spoken corpora that reveal how people truly speak.</p>\n<p><strong>[Paragraph B]</strong> For decades, the Longman dictionary company had maintained a renowned written corpus of modern English. However, linguists recognised that written English operates according to conventions that differ markedly from everyday conversation. In the early 1990s, Longman teamed up with the British National Corpus project to collect ten million words of spontaneous spoken English from across Britain.</p>\n<p><strong>[Paragraph C]</strong> Fieldworkers recruited volunteers from diverse social classes, regions, and age groups. Equipped with hidden cassette recorders, volunteers recorded natural interactions with family, friends, and colleagues. The audio tapes were subsequently transcribed verbatim and keyed into computers. This immense store of real-life dialogue became the basis, along with the company's existing written corpus, for a revolutionary dictionary called the <em>Language Activator</em>.</p>\n<p><strong>[Paragraph D]</strong> Computer analysis of the spoken corpus immediately challenged long-held grammatical dogmas. It revealed that speakers frequently use ellipsis, vague language, and distinctive question tags. More importantly, it allowed lexicographers to identify the most common lexical collocations: key words are systematically followed by specific related phrases. Furthermore, the corpus revealed which meanings and grammatical forms of words are used most frequently in real life.</p>\n<p><strong>[Paragraph E]</strong> The spoken corpus also shed light on aspects of human interaction that traditional dictionaries ignored: the crucial role of discourse markers, hesitation noises, and pauses. Speakers use 'well', 'erm', and subtle pauses to play for time, convey emotion, negotiate relationships, and signal doubt or irony. Capturing these interactive features has allowed lexicographers to provide genuine spoken examples.</p>\n<p><strong>[Paragraph F]</strong> Lexicographers stress that just because a word or idiom occurs in spontaneous speech does not guarantee its inclusion in a general dictionary. The sifting and editing process remains as rigorous as ever. What the corpus provides is empirical evidence of authentic usage, empowering learners of English to sound natural rather than stilted.</p>",
+        "question_groups": [
+          {
+            "group_id": "t3-p1-g1",
+            "title": "Questions 1-6",
+            "instruction": "Reading Passage 1 has 6 paragraphs (A-F). Choose the most suitable heading for each paragraph from the list of headings below. Write the appropriate numbers (i-x) in boxes 1-6 on your answer sheet.<br><em>NB There are more headings than paragraphs so you will not use all of them.</em>",
+            "type": "matching_headings",
+            "headings_list": [
+              {
+                "id": "i",
+                "label": "i - Grammar rules rewritten"
+              },
+              {
+                "id": "ii",
+                "label": "ii - Why spoken English differs from written English"
+              },
+              {
+                "id": "iii",
+                "label": "iii - The technical difficulties of recording speech"
+              },
+              {
+                "id": "iv",
+                "label": "iv - The communicative power of pauses and fillers"
+              },
+              {
+                "id": "v",
+                "label": "v - Commercial competition among publishers"
+              },
+              {
+                "id": "vi",
+                "label": "vi - A technological revolution in dictionary making"
+              },
+              {
+                "id": "vii",
+                "label": "vii - The role of university researchers"
+              },
+              {
+                "id": "viii",
+                "label": "viii - Discovering patterns and frequencies of words"
+              },
+              {
+                "id": "ix",
+                "label": "ix - Editorial selection and the learner's needs"
+              },
+              {
+                "id": "x",
+                "label": "x - How spontaneous speech was captured and transcribed"
+              }
+            ],
+            "questions": [
+              {
+                "id": 1,
+                "prompt": "Paragraph A",
+                "correct_answer": "vi",
+                "alternatives": [
+                  "vi"
+                ],
+                "location": "“compilation of dictionaries has entered a dramatic new era … computer technology”",
+                "explanation": "Heading vi: A technological revolution in dictionary making."
+              },
+              {
+                "id": 2,
+                "prompt": "Paragraph B",
+                "correct_answer": "ii",
+                "alternatives": [
+                  "ii"
+                ],
+                "location": "“written English operates according to conventions that differ markedly from everyday conversation”",
+                "explanation": "Heading ii: Why spoken English differs from written English."
+              },
+              {
+                "id": 3,
+                "prompt": "Paragraph C",
+                "correct_answer": "x",
+                "alternatives": [
+                  "x"
+                ],
+                "location": "“recruited volunteers … cassette recorders … transcribed verbatim and keyed into computers”",
+                "explanation": "Heading x: How spontaneous speech was captured and transcribed."
+              },
+              {
+                "id": 4,
+                "prompt": "Paragraph D",
+                "correct_answer": "viii",
+                "alternatives": [
+                  "viii"
+                ],
+                "location": "“identify the most common lexical collocations … which meanings and forms are used most frequently”",
+                "explanation": "Heading viii: Discovering patterns and frequencies of words."
+              },
+              {
+                "id": 5,
+                "prompt": "Paragraph E",
+                "correct_answer": "iv",
+                "alternatives": [
+                  "iv"
+                ],
+                "location": "“role of discourse markers, hesitation noises, and pauses … convey emotion, doubt and irony”",
+                "explanation": "Heading iv: The communicative power of pauses and fillers."
+              },
+              {
+                "id": 6,
+                "prompt": "Paragraph F",
+                "correct_answer": "ix",
+                "alternatives": [
+                  "ix"
+                ],
+                "location": "“sifting and editing process … empowering learners of English to sound natural”",
+                "explanation": "Heading ix: Editorial selection and the learner's needs."
+              }
+            ]
+          },
+          {
+            "group_id": "t3-p1-g2",
+            "title": "Questions 7-11",
+            "instruction": "The diagram below illustrates the information provided in Reading Passage 1. Complete the labels on the diagram with an appropriate word or words. Use NO MORE THAN THREE WORDS for each space. Write your answers in boxes 7-11 on your answer sheet.<br><div style='text-align:center; margin:16px 0;'><img src='/static/images/test3_flowchart_diagram.png' alt='Language Activator Diagram' style='max-width:100%; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.15);'/></div>",
+            "type": "diagram_label",
+            "questions": [
+              {
+                "id": 7,
+                "prompt": "Input into Language Activator: Data from ... (7) ... written corpus",
+                "correct_answer": "existing",
+                "alternatives": [
+                  "existing",
+                  "company's existing"
+                ],
+                "location": "“along with the company's existing written corpus …”",
+                "explanation": "Data from existing written corpus."
+              },
+              {
+                "id": 8,
+                "prompt": "Box: Key words and ... (8) ...",
+                "correct_answer": "related phrases",
+                "alternatives": [
+                  "related phrases",
+                  "phrases"
+                ],
+                "location": "“… key words … are followed by related phrases …”",
+                "explanation": "Key words and related phrases."
+              },
+              {
+                "id": 9,
+                "prompt": "Box: Most frequently used ... (9) ... of words",
+                "correct_answer": "meanings",
+                "alternatives": [
+                  "meanings",
+                  "forms",
+                  "meanings and forms"
+                ],
+                "location": "gist of paragraph D",
+                "explanation": "Most frequently used meanings / forms of words."
+              },
+              {
+                "id": 10,
+                "prompt": "Box: Differences between written and ... (10) ... use",
+                "correct_answer": "spoken",
+                "alternatives": [
+                  "spoken",
+                  "real",
+                  "oral"
+                ],
+                "location": "“… very different way to spoken English.”",
+                "explanation": "Differences between written and spoken use."
+              },
+              {
+                "id": 11,
+                "prompt": "Box: The portrayal of feelings through ... (11) ...",
+                "correct_answer": "noises and pauses",
+                "alternatives": [
+                  "noises and pauses",
+                  "pauses",
+                  "noise",
+                  "pauses and noises"
+                ],
+                "location": "“reveals the power of the pauses and noises we use to … convey emotion”",
+                "explanation": "Noises and pauses."
+              }
+            ]
+          },
+          {
+            "group_id": "t3-p1-g3",
+            "title": "Question 12",
+            "instruction": "Choose the appropriate letter A-D and write it in box 12 on your answer sheet.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "id": 12,
+                "prompt": "Why was this article written?",
+                "options": [
+                  "A - To give an example of a current dictionary.",
+                  "B - To announce a new approach to dictionary writing.",
+                  "C - To show how dictionaries have progressed over the years.",
+                  "D - To compare the content of different dictionaries."
+                ],
+                "correct_answer": "B",
+                "alternatives": [
+                  "B"
+                ],
+                "location": "Overall passage theme introducing spoken corpora in lexicography",
+                "explanation": "B: To announce a new approach to dictionary writing."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "passage_id": 2,
+        "title": "Moles happy as homes go underground",
+        "subtitle": "The rising popularity and ecological benefits of earth-sheltered and underground housing in Europe",
+        "text": "<p><strong>[Paragraph A]</strong> Across Europe, an increasing number of homeowners and architects are turning their backs on conventional housing and going underground. Earth-sheltered houses — buildings that are built into hillsides or covered with a protective layer of turf and soil — are shaking off their reputation as dark, damp bunkers and proving to be light, spacious, energy-efficient, and aesthetically pleasing.</p>\n<p><strong>[Paragraph B]</strong> In conventional above-ground housing, heating and cooling account for the vast majority of domestic energy consumption. Underground homes, however, exploit the natural insulating qualities of the earth. Several feet below the surface, the temperature of soil remains remarkably constant year-round, buffering the dwelling against winter freezing and summer heat waves. Consequently, heating bills can be reduced by up to 75 percent.</p>\n<p><strong>[Paragraph C]</strong> In Europe the obstacle has been conservative developers who prefer to ensure quick sales with conventional mass-produced housing. Traditional builders argue that subterranean homes are difficult to construct and hard to sell. But pioneer architects are demonstrating that with modern waterproof membranes and south-facing glass facades, underground homes can flood with natural light while blending harmoniously into the landscape.</p>\n<p><strong>[Paragraph D]</strong> In the Netherlands, where land is at a premium and flood defence is vital, the Dutch development was greeted with undisguised relief by South Limburg planners. Faced with a shortage of land and fierce opposition to building over green belts, planners approved an entire estate of earth-covered homes. The estate has become an international showpiece.</p>\n<p><strong>[Paragraph E]</strong> In Switzerland and Germany, innovative uses of earth shelter have been devised. It was architect Hurkmans who hit on the idea of making use of noise embankments along busy highways. By building homes directly beneath the earth banks that line motorways, residents enjoy quiet, sheltered living spaces while the highway embankment serves its dual acoustic purpose.</p>\n<p><strong>[Paragraph F]</strong> Underground architecture is not restricted to private residences. In Italy, the Olivetti centre in Ivrea forms a house/hotel for Olivetti employees built largely beneath ground level. The building integrates offices, accommodation, and recreational facilities without marring the pristine Alpine landscape.</p>\n<p><strong>[Paragraph G]</strong> Living underground also provides psychological benefits, such as a sense of peace, security, and seclusion. However, architects caution that not everyone adapts so well. Some people experience claustrophobia if rooms lack adequate daylight or views to the outside, which is why courtyards and atrium designs are essential.</p>\n<p><strong>[Paragraph H]</strong> The roots of modern underground living often began with eccentric individuals. In Australia's Coober Pedy, residents sought shelter from blistering desert heat in former opal mines. In France, an eccentric homeowner's residence evolved when he dug a cool room for his bakery business in a hill he had created, eventually expanding it into an extensive comfortable family home.</p>",
+        "question_groups": [
+          {
+            "group_id": "t3-p2-g1",
+            "title": "Questions 13-20",
+            "instruction": "Reading Passage 2 has 8 paragraphs (A-H). Choose the most suitable heading for each paragraph from the list of headings below. Write the appropriate numbers (i-xi) in boxes 13-20 on your answer sheet.<br><em>NB There are more headings than paragraphs so you will not use all of them.</em>",
+            "type": "matching_headings",
+            "headings_list": [
+              {
+                "id": "i",
+                "label": "i - Highway noise embankments put to dual use"
+              },
+              {
+                "id": "ii",
+                "label": "ii - The historic roots of cave dwellings"
+              },
+              {
+                "id": "iii",
+                "label": "iii - Psychological considerations and the need for light"
+              },
+              {
+                "id": "iv",
+                "label": "iv - Individual initiative: from bakery cool room to home"
+              },
+              {
+                "id": "v",
+                "label": "v - An official Dutch estate saves green belt land"
+              },
+              {
+                "id": "vi",
+                "label": "vi - Commercial applications of underground construction"
+              },
+              {
+                "id": "vii",
+                "label": "vii - Corporate retreat: an underground hotel in Italy"
+              },
+              {
+                "id": "viii",
+                "label": "viii - Commercial developer resistance vs design potential"
+              },
+              {
+                "id": "ix",
+                "label": "ix - Thermal efficiency and massive energy savings"
+              },
+              {
+                "id": "x",
+                "label": "x - Government subsidies for eco-housing"
+              },
+              {
+                "id": "xi",
+                "label": "xi - A new perspective on subterranean living"
+              }
+            ],
+            "questions": [
+              {
+                "id": 13,
+                "prompt": "Paragraph A",
+                "correct_answer": "xi",
+                "alternatives": [
+                  "xi"
+                ],
+                "location": "Subterranean living shaking off negative reputation",
+                "explanation": "Heading xi: A new perspective on subterranean living."
+              },
+              {
+                "id": 14,
+                "prompt": "Paragraph B",
+                "correct_answer": "ix",
+                "alternatives": [
+                  "ix"
+                ],
+                "location": "Thermal insulation of soil reducing heating bills by 75%",
+                "explanation": "Heading ix: Thermal efficiency and massive energy savings."
+              },
+              {
+                "id": 15,
+                "prompt": "Paragraph C",
+                "correct_answer": "viii",
+                "alternatives": [
+                  "viii"
+                ],
+                "location": "Developers prefer quick sales with conventional housing vs innovative design",
+                "explanation": "Heading viii: Commercial developer resistance vs design potential."
+              },
+              {
+                "id": 16,
+                "prompt": "Paragraph D",
+                "correct_answer": "v",
+                "alternatives": [
+                  "v"
+                ],
+                "location": "Dutch South Limburg planners approve earth-covered estate",
+                "explanation": "Heading v: An official Dutch estate saves green belt land."
+              },
+              {
+                "id": 17,
+                "prompt": "Paragraph E",
+                "correct_answer": "i",
+                "alternatives": [
+                  "i"
+                ],
+                "location": "Hurkmans making use of noise embankments",
+                "explanation": "Heading i: Highway noise embankments put to dual use."
+              },
+              {
+                "id": 18,
+                "prompt": "Paragraph F",
+                "correct_answer": "vii",
+                "alternatives": [
+                  "vii"
+                ],
+                "location": "Olivetti centre in Ivrea forms a house/hotel for employees",
+                "explanation": "Heading vii: Corporate retreat: an underground hotel in Italy."
+              },
+              {
+                "id": 19,
+                "prompt": "Paragraph G",
+                "correct_answer": "iii",
+                "alternatives": [
+                  "iii"
+                ],
+                "location": "Psychological aspects, claustrophobia and need for light",
+                "explanation": "Heading iii: Psychological considerations and the need for light."
+              },
+              {
+                "id": 20,
+                "prompt": "Paragraph H",
+                "correct_answer": "iv",
+                "alternatives": [
+                  "iv"
+                ],
+                "location": "Home evolved when he dug a cool room for his bakery",
+                "explanation": "Heading iv: Individual initiative: from bakery cool room to home."
+              }
+            ]
+          },
+          {
+            "group_id": "t3-p2-g2",
+            "title": "Questions 21-26",
+            "instruction": "Complete the sentences below. Choose NO MORE THAN THREE WORDS from the passage for each answer. Write your answers in boxes 21-26 on your answer sheet.",
+            "type": "sentence_completion",
+            "questions": [
+              {
+                "id": 21,
+                "prompt": "European housing developers prefer mass-produced houses because they ... (21) ... .",
+                "correct_answer": "sell quickly",
+                "alternatives": [
+                  "sell quickly",
+                  "sell more quickly",
+                  "ensure quick sales"
+                ],
+                "location": "“… developers who prefer to ensure quick sales with conventional mass-produced housing.”",
+                "explanation": "Developers prefer conventional housing because they sell quickly."
+              },
+              {
+                "id": 22,
+                "prompt": "The Dutch development was welcomed by the ... (22) ... .",
+                "correct_answer": "South Limburg planners",
+                "alternatives": [
+                  "South Limburg planners",
+                  "planners"
+                ],
+                "location": "“… greeted with undisguised relief by South Limburg planners …”",
+                "explanation": "Welcomed by South Limburg planners."
+              },
+              {
+                "id": 23,
+                "prompt": "Hurkmans built houses into ... (23) ... beside motorways.",
+                "correct_answer": "noise embankments",
+                "alternatives": [
+                  "noise embankments",
+                  "road embankments",
+                  "embankments"
+                ],
+                "location": "“… hit on the idea of making use of noise embankments …”",
+                "explanation": "Noise embankments."
+              },
+              {
+                "id": 24,
+                "prompt": "The Ivrea underground centre provides accommodation for ... (24) ... .",
+                "correct_answer": "Olivetti employees",
+                "alternatives": [
+                  "Olivetti employees",
+                  "employees"
+                ],
+                "location": "“… forms a house/hotel for Olivetti employees.”",
+                "explanation": "Olivetti employees."
+              },
+              {
+                "id": 25,
+                "prompt": "Some individuals find it difficult to ... (25) ... living underground.",
+                "correct_answer": "adapt to",
+                "alternatives": [
+                  "adapt to",
+                  "adapt"
+                ],
+                "location": "“Not everyone adapts so well …”",
+                "explanation": "Difficult to adapt to."
+              },
+              {
+                "id": 26,
+                "prompt": "One French home originally started as ... (26) ... for a local business.",
+                "correct_answer": "a cool room",
+                "alternatives": [
+                  "a cool room",
+                  "cool room",
+                  "his bakery business",
+                  "a bakery"
+                ],
+                "location": "“… he dug a cool room for his bakery business …”",
+                "explanation": "A cool room for his bakery business."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "passage_id": 3,
+        "title": "A workaholic economy",
+        "subtitle": "Why modern Americans are working longer hours despite soaring economic productivity",
+        "text": "<p>For the first 80 years of the twentieth century, the average working week in the Western world fell steadily. Between 1870 and 1970, working hours dropped from roughly 60 hours a week to under 40 hours. Most economists assumed this trend would continue, predicting that by the early twenty-first century, Americans and Europeans would enjoy four-day working weeks and unprecedented leisure.</p>\n<p>However, since 1970, this progress has reversed. Harvard economist Juliet Schor reveals that working hours in the United States have increased noticeably over the last two decades. The average American now works the equivalent of an extra month each year compared to 1970. This increase spans blue-collar and white-collar workers alike.</p>\n<p>Crucially, this rise in hours has occurred despite substantial gains in national productivity. Between 1948 and 1990, American productivity more than doubled. Yet real wages have stagnated since 1970. Employers have chosen to translate productivity increases into greater total output and longer hours for a trimmed workforce, rather than into higher wages or shorter hours.</p>\n<p>Furthermore, the current economic recovery has gained a certain amount of notoriety for its 'jobless' nature. Instead of hiring new full-time workers when demand increases, companies compel existing staff to work overtime. Overtime is far cheaper for employers than paying the health insurance and pension benefits associated with hiring additional workers.</p>\n<p>Some progressive companies have experimented with reduced working hours and flexible arrangements. Schor cites studies that show increased productivity for part-time workers: employees working shorter hours make fewer errors, suffer less fatigue, and take fewer sick days. However, institutional pressures and consumer culture — the vicious cycle of 'work-and-spend' — continue to trap millions of Americans into working excessive hours.</p>",
+        "question_groups": [
+          {
+            "group_id": "t3-p3-g1",
+            "title": "Questions 27-32",
+            "instruction": "Do the following statements agree with the views of the writer in Reading Passage 3? In boxes 27-32 write: <strong>YES</strong> if the statement agrees with the writer, <strong>NO</strong> if the statement contradicts the writer, <strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this.",
+            "type": "yes_no_not_given",
+            "questions": [
+              {
+                "id": 27,
+                "prompt": "Employees have fewer working hours today compared with the 1970s.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NO",
+                "alternatives": [
+                  "NO"
+                ],
+                "location": "“… working hours have increased noticeably since 1970 …”",
+                "explanation": "Contradicts the writer: hours have increased, not decreased."
+              },
+              {
+                "id": 28,
+                "prompt": "Juliet Schor's book was widely praised by business leaders.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NOT GIVEN",
+                "alternatives": [
+                  "NOT GIVEN"
+                ],
+                "location": "Reception of Schor's book by business leaders not mentioned",
+                "explanation": "Business leaders' reception is not mentioned."
+              },
+              {
+                "id": 29,
+                "prompt": "Real wages in the United States have failed to rise since 1970.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "YES",
+                "alternatives": [
+                  "YES"
+                ],
+                "location": "“… real wages have stagnated since that year (1970).”",
+                "explanation": "Yes, real wages have stagnated."
+              },
+              {
+                "id": 30,
+                "prompt": "The recent economic recovery led to a dramatic surge in new full-time hiring.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NO",
+                "alternatives": [
+                  "NO"
+                ],
+                "location": "“… recovery has gained a certain amount of notoriety for its «jobless» nature.”",
+                "explanation": "No, it is notorious for being jobless with overtime instead."
+              },
+              {
+                "id": 31,
+                "prompt": "Part-time workers often display higher rates of productivity than full-time staff.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "YES",
+                "alternatives": [
+                  "YES"
+                ],
+                "location": "“She cites … studies that show increased productivity for part time workers …”",
+                "explanation": "Yes, studies show higher productivity."
+              },
+              {
+                "id": 32,
+                "prompt": "European workers now work longer hours than their American counterparts.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NOT GIVEN",
+                "alternatives": [
+                  "NOT GIVEN"
+                ],
+                "location": "Passage focuses on US, no comparison of European vs US hours today",
+                "explanation": "Not given in the text."
+              }
+            ]
+          },
+          {
+            "group_id": "t3-p3-g2",
+            "title": "Questions 33-34",
+            "instruction": "Choose the appropriate letter A-D and write it in boxes 33-34 on your answer sheet.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "id": 33,
+                "prompt": "According to the passage, why do employers prefer overtime to hiring new staff?",
+                "options": [
+                  "A - New workers require expensive training.",
+                  "B - Existing workers work faster under pressure.",
+                  "C - It avoids the cost of providing extra employee benefits like healthcare.",
+                  "D - Unions demand that current members receive overtime."
+                ],
+                "correct_answer": "C",
+                "alternatives": [
+                  "C"
+                ],
+                "location": "“Overtime is far cheaper … than paying health insurance and pension benefits”",
+                "explanation": "C: It avoids extra benefit costs like healthcare and pensions."
+              },
+              {
+                "id": 34,
+                "prompt": "What does Juliet Schor identify as a major factor perpetuating long working hours?",
+                "options": [
+                  "A - The modern culture of consumerism and 'work-and-spend'.",
+                  "B - A lack of technical qualifications among workers.",
+                  "C - Government regulations mandating minimum hours.",
+                  "D - The decline of manufacturing industries."
+                ],
+                "correct_answer": "A",
+                "alternatives": [
+                  "A"
+                ],
+                "location": "“… consumer culture — the vicious cycle of 'work-and-spend' — continues to trap millions”",
+                "explanation": "A: The culture of consumerism and 'work-and-spend'."
+              }
+            ]
+          },
+          {
+            "group_id": "t3-p3-g3",
+            "title": "Questions 35-38",
+            "instruction": "The writer mentions a number of consequences of the 'workaholic economy'. Which FOUR of the following factors (A-G) are mentioned in Reading Passage 3? Write your answers (A-G) in boxes 35-38 on your answer sheet in any order.",
+            "type": "multiple_choice_multi",
+            "multi_select_count": 4,
+            "options": [
+              "A - An increase in job sharing across all industries",
+              "B - Workers sacrificing leisure time for consumer goods",
+              "C - A decline in corporate profits",
+              "D - Persistent wage stagnation despite higher output",
+              "E - A decrease in workplace stress",
+              "F - Employers relying on overtime rather than recruiting",
+              "G - Higher productivity among employees on reduced schedules"
+            ],
+            "questions": [
+              {
+                "id": 35,
+                "prompt": "Factor 1",
+                "correct_answer": "B",
+                "alternatives": [
+                  "B",
+                  "D",
+                  "F",
+                  "G"
+                ],
+                "location": "work-and-spend consumer cycle",
+                "explanation": "B is mentioned (sacrificing leisure for consumer goods)."
+              },
+              {
+                "id": 36,
+                "prompt": "Factor 2",
+                "correct_answer": "D",
+                "alternatives": [
+                  "B",
+                  "D",
+                  "F",
+                  "G"
+                ],
+                "location": "stagnant real wages despite doubled productivity",
+                "explanation": "D is mentioned (wage stagnation despite higher output)."
+              },
+              {
+                "id": 37,
+                "prompt": "Factor 3",
+                "correct_answer": "F",
+                "alternatives": [
+                  "B",
+                  "D",
+                  "F",
+                  "G"
+                ],
+                "location": "overtime instead of hiring new staff",
+                "explanation": "F is mentioned (relying on overtime rather than recruiting)."
+              },
+              {
+                "id": 38,
+                "prompt": "Factor 4",
+                "correct_answer": "G",
+                "alternatives": [
+                  "B",
+                  "D",
+                  "F",
+                  "G"
+                ],
+                "location": "increased productivity for part-time workers",
+                "explanation": "G is mentioned (higher productivity on reduced schedules)."
+              }
+            ],
+            "question_prompt": "Which FOUR of the following factors are mentioned in Reading Passage 3 as consequences of the 'workaholic economy'?"
+          },
+          {
+            "group_id": "t3-p3-g4",
+            "title": "Questions 39-40",
+            "instruction": "Answer questions 39-40 based on Reading Passage 3.",
+            "type": "sentence_completion",
+            "questions": [
+              {
+                "id": 39,
+                "prompt": "What is the primary conclusion of the author in Reading Passage 3?",
+                "options": [
+                  "A - American working hours have increased noticeably despite massive gains in productivity.",
+                  "B - Advanced technology always leads to shorter working weeks.",
+                  "C - European workers are less productive than American workers.",
+                  "D - Overtime pay should be strictly prohibited by law."
+                ],
+                "correct_answer": "A",
+                "alternatives": [
+                  "A"
+                ],
+                "location": "Overall passage thesis in paragraphs 2 and 3",
+                "explanation": "The author demonstrates that working hours have lengthened noticeably since 1970 despite productivity doubling."
+              },
+              {
+                "id": 40,
+                "prompt": "Juliet Schor cites studies showing that employees on shorter schedules make ... (40) ... compared to full-time staff.",
+                "correct_answer": "fewer errors",
+                "alternatives": [
+                  "fewer errors",
+                  "less errors"
+                ],
+                "location": "“employees working shorter hours make fewer errors, suffer less fatigue …”",
+                "explanation": "Studies show part-time workers make fewer errors."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-4",
+    "title": "Practice Test 4",
+    "category": "Academic Reading",
+    "duration_minutes": 60,
+    "total_questions": 40,
+    "passages": [
+      {
+        "passage_id": 1,
+        "title": "Glass: Capturing the Dance of Light",
+        "subtitle": "The fascinating history, science, and technological revolution of glass manufacturing",
+        "text": "<p><strong>[Paragraph A]</strong> <em>(Example)</em> Glass, in one form or another, has been made by humankind for more than 4,000 years. From ancient Egyptian beads to Roman drinking vessels, glass has captivated people with its transparency, durability, and brilliance.</p>\n<p><strong>[Paragraph B]</strong> On the horizon lies an even more extraordinary future for glass in the field of fibre optics. Hair-thin strands of high-purity glass can carry pulses of light containing billions of bits of data over thousands of kilometres without loss of signal. Optical fibres could function hundreds of times faster than conventional copper cables, and the surge in fibre optic use is revolutionising telecommunications, internet systems, and medical endoscopes.</p>\n<p><strong>[Paragraph C]</strong> The art of glassblowing is also experiencing a vibrant renaissance. Studio glass artists in Europe and the United States have elevated glass from functional tableware to fine art. Galleries and international collectors eagerly compete for one-of-a-kind sculptural creations, creating a flourishing trade for glass artists.</p>\n<p><strong>[Paragraph D]</strong> In 1920, an industrial breakthrough dramatically changed the glass industry: the development of the Corning ribbon machine. Invented by William Woods at the Corning Glass Works in New York, the ribbon machine automated the manufacturing of incandescent light bulb envelopes. The machine could produce an astonishing 1,000 light bulb blanks per minute, driving down costs and making electric lighting universally accessible.</p>\n<p><strong>[Paragraph E]</strong> Scientifically, glass is a remarkable material. Technically defined as an amorphous solid or supercooled liquid, glass possesses the rigid mechanical properties of a solid while retaining the random molecular structure of a liquid. Because it lacks a crystalline melting point, it softens gradually over a wide temperature range, making it exceptionally malleable and easy to blow, press, roll, and mould into intricate shapes.</p>\n<p><strong>[Paragraph F]</strong> Modern architects have embraced glass as the defining material of twentieth and twenty-first-century skylines. Advances in laminated, tempered, and low-emissivity (low-E) glass allow designers to construct sweeping curtain walls, light-filled atriums, and energy-efficient transparent buildings that blur the boundary between indoor and outdoor spaces.</p>",
+        "question_groups": [
+          {
+            "group_id": "t4-p1-g1",
+            "title": "Questions 1-5",
+            "instruction": "Reading Passage 1 has 6 paragraphs (A-F). Choose the most suitable heading for paragraphs B-F from the list of headings below. Write the appropriate numbers (i-ix) in boxes 1-5 on your answer sheet. Paragraph A has been done for you as an example.<br><em>NB There are more headings than paragraphs so you will not use all of them.</em>",
+            "type": "matching_headings",
+            "headings_list": [
+              {
+                "id": "i",
+                "label": "i - The increase in trade for glass artists"
+              },
+              {
+                "id": "ii",
+                "label": "ii - The environmental challenges of glass recycling"
+              },
+              {
+                "id": "iii",
+                "label": "iii - Reasons why glass is so easy to shape"
+              },
+              {
+                "id": "iv",
+                "label": "iv - Early Egyptian glassmaking techniques"
+              },
+              {
+                "id": "v",
+                "label": "v - The float glass process of the 1950s"
+              },
+              {
+                "id": "vi",
+                "label": "vi - The future with glass for designers of buildings and homes"
+              },
+              {
+                "id": "vii",
+                "label": "vii - Ancient Roman glass vessels (Example: Paragraph A)"
+              },
+              {
+                "id": "viii",
+                "label": "viii - Exciting innovations in fibre optics"
+              },
+              {
+                "id": "ix",
+                "label": "ix - The impact of a machine for glass objects made in 1920"
+              }
+            ],
+            "questions": [
+              {
+                "id": 1,
+                "prompt": "Paragraph B",
+                "correct_answer": "viii",
+                "alternatives": [
+                  "viii"
+                ],
+                "location": "“On the horizon … fibre optics … surge in fibre optic use”",
+                "explanation": "Heading viii: Exciting innovations in fibre optics."
+              },
+              {
+                "id": 2,
+                "prompt": "Paragraph C",
+                "correct_answer": "i",
+                "alternatives": [
+                  "i"
+                ],
+                "location": "“flourishing trade for glass artists”",
+                "explanation": "Heading i: The increase in trade for glass artists."
+              },
+              {
+                "id": 3,
+                "prompt": "Paragraph D",
+                "correct_answer": "ix",
+                "alternatives": [
+                  "ix"
+                ],
+                "location": "“In 1920 … Corning ribbon machine … produce 1,000 light bulb blanks per minute”",
+                "explanation": "Heading ix: The impact of a machine for glass objects made in 1920."
+              },
+              {
+                "id": 4,
+                "prompt": "Paragraph E",
+                "correct_answer": "iii",
+                "alternatives": [
+                  "iii"
+                ],
+                "location": "“softens gradually … making it exceptionally malleable and easy to blow, press”",
+                "explanation": "Heading iii: Reasons why glass is so easy to shape."
+              },
+              {
+                "id": 5,
+                "prompt": "Paragraph F",
+                "correct_answer": "vi",
+                "alternatives": [
+                  "vi"
+                ],
+                "location": "“Architects have embraced glass … energy-efficient transparent buildings”",
+                "explanation": "Heading vi: The future with glass for designers of buildings and homes."
+              }
+            ]
+          },
+          {
+            "group_id": "t4-p1-g2",
+            "title": "Questions 6-8",
+            "instruction": "The diagram below shows the principle of Corning's ribbon machine. Label the diagram by choosing NO MORE THAN THREE WORDS from the passage for each answer. Write your answers in boxes 6-8 on your answer sheet.<br><div style='text-align:center; margin:16px 0;'><img src='/static/images/test4_ribbon_diagram.png' alt='Corning Ribbon Machine Diagram' style='max-width:100%; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.15);'/></div>",
+            "type": "diagram_label",
+            "questions": [
+              {
+                "id": 6,
+                "prompt": "Item 6 (Stream of melted material flowing from furnace): ... (6) ...",
+                "correct_answer": "molten glass",
+                "alternatives": [
+                  "molten glass",
+                  "ribbon of glass",
+                  "molten glass ribbon"
+                ],
+                "location": "“continuous ribbon of molten glass”",
+                "explanation": "Molten glass / ribbon of glass."
+              },
+              {
+                "id": 7,
+                "prompt": "Item 7 (Conveyor surface transporting the glass): ... (7) ...",
+                "correct_answer": "steel belt",
+                "alternatives": [
+                  "steel belt",
+                  "belt of steel",
+                  "moving belt"
+                ],
+                "location": "“moving steel belt with orifice holes”",
+                "explanation": "Belt of steel / steel belt."
+              },
+              {
+                "id": 8,
+                "prompt": "Item 8 (Shaping tools closing around the blown glass): ... (8) ...",
+                "correct_answer": "moulds",
+                "alternatives": [
+                  "moulds",
+                  "lightbulb moulds",
+                  "molds"
+                ],
+                "location": "“two-part moulds close around the sagging glass”",
+                "explanation": "(lightbulb) moulds."
+              }
+            ]
+          },
+          {
+            "group_id": "t4-p1-g3",
+            "title": "Questions 9-13",
+            "instruction": "Classify the following developments according to the periods in which they occurred:<br><strong>A</strong> - 19th Century or earlier<br><strong>B</strong> - First half of the 20th Century (1900-1950)<br><strong>C</strong> - Second half of the 20th Century (1950 onwards)<br>Write the correct letter A, B, or C in boxes 9-13 on your answer sheet.",
+            "type": "matching_features",
+            "features_list": [
+              {
+                "id": "A",
+                "label": "A - 19th Century or earlier"
+              },
+              {
+                "id": "B",
+                "label": "B - First half of the 20th Century (1900-1950)"
+              },
+              {
+                "id": "C",
+                "label": "C - Second half of the 20th Century (1950 onwards)"
+              }
+            ],
+            "questions": [
+              {
+                "id": 9,
+                "prompt": "The development of early mechanized ribbon production precursors",
+                "options": [
+                  "A",
+                  "B",
+                  "C"
+                ],
+                "correct_answer": "A",
+                "alternatives": [
+                  "A"
+                ],
+                "location": "In 1870 … ribbon machine origins",
+                "explanation": "A: 19th Century or earlier."
+              },
+              {
+                "id": 10,
+                "prompt": "The invention and industrial adoption of the Corning ribbon machine",
+                "options": [
+                  "A",
+                  "B",
+                  "C"
+                ],
+                "correct_answer": "B",
+                "alternatives": [
+                  "B"
+                ],
+                "location": "In 1920 … Corning ribbon machine",
+                "explanation": "B: First half of the 20th Century."
+              },
+              {
+                "id": 11,
+                "prompt": "The discovery of glass blowing",
+                "options": [
+                  "A",
+                  "B",
+                  "C"
+                ],
+                "correct_answer": "A",
+                "alternatives": [
+                  "A"
+                ],
+                "location": "Ancient origins of glass blowing",
+                "explanation": "A: 19th Century or earlier."
+              },
+              {
+                "id": 12,
+                "prompt": "The emergence of high-tech architectural curtain walls and low-E glass",
+                "options": [
+                  "A",
+                  "B",
+                  "C"
+                ],
+                "correct_answer": "C",
+                "alternatives": [
+                  "C"
+                ],
+                "location": "Late 20th century architecture",
+                "explanation": "C: Second half of the 20th Century."
+              },
+              {
+                "id": 13,
+                "prompt": "Early optical instruments and spectacle lenses",
+                "options": [
+                  "A",
+                  "B",
+                  "C"
+                ],
+                "correct_answer": "A",
+                "alternatives": [
+                  "A"
+                ],
+                "location": "Early optical devices",
+                "explanation": "A: 19th Century or earlier."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "passage_id": 2,
+        "title": "Why some women cross the finish line ahead of men",
+        "subtitle": "An examination of female corporate leadership and the barriers to senior management",
+        "text": "<p><strong>[Paragraph A]</strong> Women are entering the business world in unprecedented numbers, but when it comes to the senior executive suite and boardrooms, they remain dramatically under-represented. Despite decades of equal opportunity legislation, the proverbial 'glass ceiling' still appears firmly in place in most corporations.</p>\n<p><strong>[Paragraph B]</strong> Sociologist Marilyn Davidson has conducted detailed studies into the career progression of male and female executives. She found that women often face a double standard: assertive behaviour that is admired in male executives as 'decisive' is frequently perceived negatively in women as 'aggressive'.</p>\n<p><strong>[Paragraph C]</strong> Moreover, corporate cultures often reward 24-hour commitment and continuous career tenure, penalising women who take maternity leave or career breaks for family care. Organisational restructuring, known as de-layering, has also flattened corporate hierarchies, reducing middle management tiers where women previously established track records.</p>\n<p><strong>[Paragraph D]</strong> Yet there are signs of positive change. An annual corporate survey shows a notable doubling of the number of women serving as non-executive directors on major public company boards. While starting from a low base, the trend indicates that corporate attitudes are beginning to shift.</p>\n<p><strong>[Paragraph E]</strong> Management consultant Andrew Crisp argues that demographic trends are compelling companies to value diversity. With skilled labour shortages and a shrinking pool of young graduates, firms that fail to attract and promote talented women will find themselves at a severe competitive disadvantage.</p>\n<p><strong>[Paragraph F]</strong> Research by Professor Sears highlights that effective leadership in modern knowledge-based economies requires collaborative communication, empathy, and team-building — attributes in which female leaders often excel. Sears stresses that until there is a fundamental belief among employers in the business value of diversity, true equality cannot be achieved.</p>\n<p><strong>[Paragraph G]</strong> Ultimately, dismantling structural barriers requires more than token appointments. Companies must implement flexible working arrangements, transparent promotion criteria, and active mentorship networks to enable women to cross the corporate finish line.</p>",
+        "question_groups": [
+          {
+            "group_id": "t4-p2-g1",
+            "title": "Questions 14-19",
+            "instruction": "Reading Passage 2 has 7 paragraphs (A-G). Which paragraph contains the following information? Write the correct letter A-G in boxes 14-19 on your answer sheet.",
+            "type": "matching_features",
+            "features_list": [
+              {
+                "id": "A",
+                "label": "Paragraph A"
+              },
+              {
+                "id": "B",
+                "label": "Paragraph B"
+              },
+              {
+                "id": "C",
+                "label": "Paragraph C"
+              },
+              {
+                "id": "D",
+                "label": "Paragraph D"
+              },
+              {
+                "id": "E",
+                "label": "Paragraph E"
+              },
+              {
+                "id": "F",
+                "label": "Paragraph F"
+              },
+              {
+                "id": "G",
+                "label": "Paragraph G"
+              }
+            ],
+            "questions": [
+              {
+                "id": 14,
+                "prompt": "Demographic trends and labour shortages forcing change",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G"
+                ],
+                "correct_answer": "E",
+                "alternatives": [
+                  "E"
+                ],
+                "location": "“Demographic trends are compelling companies …”",
+                "explanation": "Paragraph E discusses demographic trends."
+              },
+              {
+                "id": 15,
+                "prompt": "Recommendations for structural changes and mentorship",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G"
+                ],
+                "correct_answer": "G",
+                "alternatives": [
+                  "G"
+                ],
+                "location": "“flexible working arrangements, transparent promotion criteria …”",
+                "explanation": "Paragraph G gives recommendations."
+              },
+              {
+                "id": 16,
+                "prompt": "Persistent under-representation despite equal opportunity laws",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G"
+                ],
+                "correct_answer": "A",
+                "alternatives": [
+                  "A"
+                ],
+                "location": "“remain dramatically under-represented … glass ceiling”",
+                "explanation": "Paragraph A discusses persistent under-representation."
+              },
+              {
+                "id": 17,
+                "prompt": "The negative impact of corporate de-layering and tenure norms",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G"
+                ],
+                "correct_answer": "C",
+                "alternatives": [
+                  "C"
+                ],
+                "location": "“Organisational restructuring, known as de-layering …”",
+                "explanation": "Paragraph C discusses de-layering and tenure norms."
+              },
+              {
+                "id": 18,
+                "prompt": "Leadership qualities required in modern knowledge economies",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G"
+                ],
+                "correct_answer": "F",
+                "alternatives": [
+                  "F"
+                ],
+                "location": "“leadership in modern knowledge-based economies requires …”",
+                "explanation": "Paragraph F discusses modern leadership attributes."
+              },
+              {
+                "id": 19,
+                "prompt": "Evidence of an increase in female non-executive board directors",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G"
+                ],
+                "correct_answer": "D",
+                "alternatives": [
+                  "D"
+                ],
+                "location": "“survey shows a notable doubling of the number of women …”",
+                "explanation": "Paragraph D gives survey evidence."
+              }
+            ]
+          },
+          {
+            "group_id": "t4-p2-g2",
+            "title": "Questions 20-23",
+            "instruction": "Look at the following opinions (Questions 20-23) and the list of researchers below. Match each opinion with the correct person:<br><strong>A</strong> - Andrew Crisp<br><strong>M</strong> - Marilyn Davidson<br><strong>S</strong> - Professor Sears<br>Write the correct letter in boxes 20-23 on your answer sheet.",
+            "type": "matching_features",
+            "features_list": [
+              {
+                "id": "A",
+                "label": "A - Andrew Crisp"
+              },
+              {
+                "id": "M",
+                "label": "M - Marilyn Davidson"
+              },
+              {
+                "id": "S",
+                "label": "S - Professor Sears"
+              }
+            ],
+            "questions": [
+              {
+                "id": 20,
+                "prompt": "Firms failing to promote women will suffer competitive disadvantages.",
+                "options": [
+                  "A",
+                  "M",
+                  "S"
+                ],
+                "correct_answer": "A",
+                "alternatives": [
+                  "A"
+                ],
+                "location": "Andrew Crisp: “firms that fail to attract and promote talented women …”",
+                "explanation": "Andrew Crisp (A)."
+              },
+              {
+                "id": 21,
+                "prompt": "De-layering in corporate management has removed stepping stones for female advancement.",
+                "options": [
+                  "A",
+                  "M",
+                  "S"
+                ],
+                "correct_answer": "S",
+                "alternatives": [
+                  "S"
+                ],
+                "location": "Sears on de-layering halting progress",
+                "explanation": "Professor Sears (S)."
+              },
+              {
+                "id": 22,
+                "prompt": "Women executives face conflicting perceptions regarding assertive behaviour.",
+                "options": [
+                  "A",
+                  "M",
+                  "S"
+                ],
+                "correct_answer": "M",
+                "alternatives": [
+                  "M"
+                ],
+                "location": "Marilyn Davidson: “double standard: assertive behaviour …”",
+                "explanation": "Marilyn Davidson (M)."
+              },
+              {
+                "id": 23,
+                "prompt": "True equality requires employers to recognise the tangible business value of diversity.",
+                "options": [
+                  "A",
+                  "M",
+                  "S"
+                ],
+                "correct_answer": "S",
+                "alternatives": [
+                  "S"
+                ],
+                "location": "Sears: “Until there is a belief among employers until they value …”",
+                "explanation": "Professor Sears (S)."
+              }
+            ]
+          },
+          {
+            "group_id": "t4-p2-g3",
+            "title": "Questions 24-27",
+            "instruction": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer. Write your answers in boxes 24-27 on your answer sheet.",
+            "type": "sentence_completion",
+            "questions": [
+              {
+                "id": 24,
+                "prompt": "What change did the annual survey report regarding female non-executive directors?",
+                "correct_answer": "it has doubled",
+                "alternatives": [
+                  "it has doubled",
+                  "doubled",
+                  "doubling",
+                  "it doubled"
+                ],
+                "location": "“This year the survey shows a doubling of the number …”",
+                "explanation": "It has doubled / doubling."
+              },
+              {
+                "id": 25,
+                "prompt": "What organisational trend has eliminated middle management levels?",
+                "correct_answer": "de-layering",
+                "alternatives": [
+                  "de-layering",
+                  "delayering"
+                ],
+                "location": "“Sears said that this (de-layering) has halted progress …”",
+                "explanation": "De-layering."
+              },
+              {
+                "id": 26,
+                "prompt": "What general trends indicate an increasing proportion of women entering the workforce?",
+                "correct_answer": "demographic trends",
+                "alternatives": [
+                  "demographic trends",
+                  "demographic"
+                ],
+                "location": "“Demographic trends suggest that the number of women …”",
+                "explanation": "Demographic trends."
+              },
+              {
+                "id": 27,
+                "prompt": "Whose core beliefs must shift to achieve lasting gender equality in management?",
+                "correct_answer": "employers",
+                "alternatives": [
+                  "employers",
+                  "among employers"
+                ],
+                "location": "“Until there is a belief among employers until they value the difference …”",
+                "explanation": "Employers."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "passage_id": 3,
+        "title": "Population viability analysis",
+        "subtitle": "Using computational models and genetics to predict and prevent species extinction in Australia",
+        "text": "<p><strong>[Part A]</strong> Australia possesses one of the world's most unique collections of flora and fauna, but also one of the highest modern extinction rates. Over the past two centuries, dozens of native mammal and bird species have vanished. To combat this biodiversity crisis, conservation biologists have developed Population Viability Analysis (PVA), a sophisticated tool that uses mathematical modelling to predict the probability that a population will persist for a specified period into the future.</p>\n<p><strong>[Part B]</strong> A PVA model incorporates four primary sources of uncertainty that threaten small populations:<br>\n<strong>[Paragraph A]</strong> First, demographic stochasticity refers to the random variation in survival and reproductive rates among individuals. In a large population, birth and death rates average out; but in a tiny population, an accidental cluster of deaths or reproductive failures can swiftly trigger extinction.<br>\n<strong>[Paragraph B]</strong> Second, environmental stochasticity encompasses unpredictable fluctuations in climate, food availability, and diseases. In Australia's volatile climate, catastrophic bushfires, prolonged droughts, and flash floods can wipe out an entire isolated sub-population overnight.<br>\n<strong>[Paragraph C]</strong> Third, catastrophic sex ratio imbalances can arise by chance. If a small population of twenty individuals produces by chance only two females, reproductive output collapses regardless of environmental conditions.<br>\n<strong>[Paragraph D]</strong> Fourth, genetic deterioration becomes acute in restricted populations. Inbreeding depression reduces fertility and disease resistance, while loss of genetic diversity restricts an animal's ability to adapt to future environmental changes.</p>\n<p><strong>[Part C]</strong> In the temperate forests of south-eastern Australia, PVA was applied to the Leadbeater's possum. Models revealed that even if logging was curtailed, if clear-fell logging occurs in key old-growth corridors, the species could become extinct within 50 years. The survival of such vulnerable marsupials depends on maintaining connected forest habitat across their geographical distribution.</p>",
+        "question_groups": [
+          {
+            "group_id": "t4-p3-g1",
+            "title": "Questions 28-31",
+            "instruction": "Do the following statements agree with the views of the writer in Part A of Reading Passage 3? In boxes 28-31 write: <strong>YES</strong> if the statement agrees with the writer, <strong>NO</strong> if the statement contradicts the writer, <strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this.",
+            "type": "yes_no_not_given",
+            "questions": [
+              {
+                "id": 28,
+                "prompt": "Australia has suffered significant loss of native species over the past 200 years.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "YES",
+                "alternatives": [
+                  "YES"
+                ],
+                "location": "“highest modern extinction rates … dozens of native mammal and bird species have vanished”",
+                "explanation": "Yes, Australia has suffered severe modern extinction rates."
+              },
+              {
+                "id": 29,
+                "prompt": "PVA models can guarantee that an endangered species will avoid extinction.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NO",
+                "alternatives": [
+                  "NO"
+                ],
+                "location": "“PVA … predicts the probability that a population will persist”",
+                "explanation": "No, it predicts probability, it cannot guarantee survival."
+              },
+              {
+                "id": 30,
+                "prompt": "PVA was originally invented to study agricultural pests.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NO",
+                "alternatives": [
+                  "NO"
+                ],
+                "location": "“developed by conservation biologists … to combat biodiversity crisis”",
+                "explanation": "No, it was developed by conservation biologists for biodiversity conservation."
+              },
+              {
+                "id": 31,
+                "prompt": "Australian researchers receive adequate funding for wildlife preservation.",
+                "options": [
+                  "YES",
+                  "NO",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NOT GIVEN",
+                "alternatives": [
+                  "NOT GIVEN"
+                ],
+                "location": "Funding levels for Australian researchers not discussed",
+                "explanation": "Funding adequacy is not mentioned in the passage."
+              }
+            ]
+          },
+          {
+            "group_id": "t4-p3-g2",
+            "title": "Questions 32-35",
+            "instruction": "Look at Part B of Reading Passage 3 (Paragraphs A-D). Match each paragraph with the correct process (i-vi) below. Write the correct roman numeral (i-vi) in boxes 32-35 on your answer sheet.<br><em>NB There are more processes than paragraphs so you will not use all of them.</em>",
+            "type": "matching_headings",
+            "headings_list": [
+              {
+                "id": "i",
+                "label": "i - The effect on survival of an animal's ability to adapt to changes"
+              },
+              {
+                "id": "ii",
+                "label": "ii - The fluctuating environment in Australia, e.g. fire, flood and drought"
+              },
+              {
+                "id": "iii",
+                "label": "iii - The problems of having a small or unequal number of one sex"
+              },
+              {
+                "id": "iv",
+                "label": "iv - The influence of introduced predators like foxes and cats"
+              },
+              {
+                "id": "v",
+                "label": "v - The role of human hunting in population declines"
+              },
+              {
+                "id": "vi",
+                "label": "vi - The fluctuation in individual reproduction and death rates"
+              }
+            ],
+            "questions": [
+              {
+                "id": 32,
+                "prompt": "Part B, Paragraph A",
+                "correct_answer": "vi",
+                "alternatives": [
+                  "vi"
+                ],
+                "location": "“demographic stochasticity refers to the random variation in survival and reproductive rates”",
+                "explanation": "Paragraph A matches vi: fluctuation in reproduction rates."
+              },
+              {
+                "id": 33,
+                "prompt": "Part B, Paragraph B",
+                "correct_answer": "ii",
+                "alternatives": [
+                  "ii"
+                ],
+                "location": "“environmental stochasticity … bushfires, prolonged droughts, and flash floods”",
+                "explanation": "Paragraph B matches ii: fluctuating environment."
+              },
+              {
+                "id": 34,
+                "prompt": "Part B, Paragraph C",
+                "correct_answer": "iii",
+                "alternatives": [
+                  "iii"
+                ],
+                "location": "“catastrophic sex ratio imbalances … only two females”",
+                "explanation": "Paragraph C matches iii: unequal number of one sex."
+              },
+              {
+                "id": 35,
+                "prompt": "Part B, Paragraph D",
+                "correct_answer": "i",
+                "alternatives": [
+                  "i"
+                ],
+                "location": "“loss of genetic diversity restricts an animal's ability to adapt to future environmental changes”",
+                "explanation": "Paragraph D matches i: animal's ability to adapt to changes."
+              }
+            ]
+          },
+          {
+            "group_id": "t4-p3-g3",
+            "title": "Questions 36-40",
+            "instruction": "Complete the sentences below using information from Part C (Questions 36-38 & 40), and choose the correct letter for Question 39.",
+            "type": "sentence_completion",
+            "questions": [
+              {
+                "id": 36,
+                "prompt": "PVA simulations indicated that Leadbeater's possums ... (36) ... if clear-felling continues.",
+                "correct_answer": "will become extinct",
+                "alternatives": [
+                  "will become extinct",
+                  "may become extinct",
+                  "could become extinct",
+                  "will not survive",
+                  "may not survive",
+                  "become extinct"
+                ],
+                "location": "“could become extinct within 50 years”",
+                "explanation": "Will/may/could become extinct."
+              },
+              {
+                "id": 37,
+                "prompt": "Conservation requires maintaining forest corridors across the animal's geographical ... (37) ... .",
+                "correct_answer": "distribution",
+                "alternatives": [
+                  "distribution",
+                  "locality"
+                ],
+                "location": "“across their geographical distribution / locality”",
+                "explanation": "Geographical distribution / locality."
+              },
+              {
+                "id": 38,
+                "prompt": "The possum population faces severe risk if ... (38) ... in old-growth areas.",
+                "correct_answer": "logging occurs",
+                "alternatives": [
+                  "logging occurs",
+                  "logging takes place",
+                  "clear-fell logging occurs"
+                ],
+                "location": "“if clear-fell logging occurs in key old-growth corridors”",
+                "explanation": "Logging occurs / takes place."
+              },
+              {
+                "id": 39,
+                "prompt": "What is the primary conclusion of Reading Passage 3?",
+                "options": [
+                  "A - Australia should halt all economic development in forest zones.",
+                  "B - Population Viability Analysis is an essential predictive tool for species conservation.",
+                  "C - Genetic diversity is more important than habitat preservation.",
+                  "D - Mathematical modelling is unreliable for predicting animal extinction."
+                ],
+                "correct_answer": "B",
+                "alternatives": [
+                  "B"
+                ],
+                "location": "Overall passage theme on PVA utility in conservation",
+                "explanation": "B: PVA is an essential predictive tool for species conservation."
+              },
+              {
+                "id": 40,
+                "prompt": "In PVA modelling, unpredictable natural events such as bushfires and floods are termed ... (40) ... .",
+                "correct_answer": "environmental stochasticity",
+                "alternatives": [
+                  "environmental stochasticity",
+                  "stochasticity"
+                ],
+                "location": "“Second, environmental stochasticity encompasses unpredictable fluctuations in climate, food availability, and diseases.”",
+                "explanation": "PVA classifies unpredictable natural catastrophes as environmental stochasticity."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-gt",
+    "title": "General Training Practice Test",
+    "category": "General Training Reading",
+    "duration_minutes": 60,
+    "total_questions": 40,
+    "passages": [
+      {
+        "passage_id": 1,
+        "title": "General Training Module: Part 1",
+        "subtitle": "Consumer instructions and travel booking information",
+        "text": "<p><strong>SECTION 1: Instructions for a Moulinex Iron</strong><br>\nRead the instructions below and answer Questions 1-8.</p>\n<p><strong>A</strong> - Filling the reservoir: Unplug the iron before filling. Use ordinary tap water, or distilled water if living in a hard water area. Do not fill past the MAX indicator level.</p>\n<p><strong>B</strong> - Temperature control dial: Set the thermostat to the temperature appropriate for the type of fabric being ironed: synthetics, wool, silk, cotton, or linen. Allow the pilot light to extinguish before beginning.</p>\n<p><strong>C</strong> - Steam button: Press the steam burst button to release powerful jets of steam to remove stubborn wrinkles. For dry ironing, keep the steam selector set to the 'O' position.</p>\n<p><strong>D</strong> - Spray nozzle: Aim the spray nozzle at deep creases and depress the spray plunger to dampen fabric.</p>\n<p><strong>E</strong> - Anti-calc self-cleaning system: Over time, calcium deposits can cause furring up of internal steam vents. Activate the self-clean valve over a sink every month to flush out mineral build-up.</p>\n<hr/>\n<p><strong>SECTION 2: Cambridge Coach Services — Booking Information</strong><br>\nRead the coach travel terms and conditions and answer Questions 9-14.</p>\n<p>• Seat reservations: Requests for particular seats can be made on most coach breaks when booking, subject to availability.<br>\n• Baggage allowance: One medium-sized suitcase per passenger is carried free in the luggage hold. A small holdall can also be taken on board the coach.<br>\n• Special dietary requirements: If you require a special diet you must inform us at the time of booking so that appropriate hotel catering can be arranged.<br>\n• Room supplements: Other coach breaks have a limited number of rooms with private facilities; the supplementary charge shown in the price panel will be added to your account.<br>\n• Entertainment schedules: The advertised entertainment could be withdrawn if there is a lack of demand or due to unforeseen circumstances.<br>\n• Tickets: Air or boat tickets may have to be retained by your driver or courier, who will then issue them to you at the relevant departure point.</p>",
+        "question_groups": [
+          {
+            "group_id": "gt-p1-g1",
+            "title": "Questions 1-4",
+            "instruction": "The diagram in the leaflet shows different parts of the Moulinex iron (A-E). Match each feature to its corresponding function (Questions 1-4). Write the correct letter in boxes 1-4 on your answer sheet.<br><em>A - Water reservoir | B - Thermostat dial | C - Steam burst button | D - Spray nozzle | E - Self-cleaning valve</em>",
+            "type": "matching_features",
+            "features_list": [
+              {
+                "id": "A",
+                "label": "A - Water reservoir"
+              },
+              {
+                "id": "B",
+                "label": "B - Thermostat dial"
+              },
+              {
+                "id": "C",
+                "label": "C - Steam burst button"
+              },
+              {
+                "id": "D",
+                "label": "D - Spray nozzle"
+              },
+              {
+                "id": "E",
+                "label": "E - Self-cleaning valve"
+              }
+            ],
+            "questions": [
+              {
+                "id": 1,
+                "prompt": "Emits water to dampen tough creases",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E"
+                ],
+                "correct_answer": "D",
+                "alternatives": [
+                  "D"
+                ],
+                "location": "D: Spray nozzle",
+                "explanation": "D: Spray nozzle."
+              },
+              {
+                "id": 2,
+                "prompt": "Holds water for generating steam",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E"
+                ],
+                "correct_answer": "A",
+                "alternatives": [
+                  "A"
+                ],
+                "location": "A: Filling the reservoir",
+                "explanation": "A: Water reservoir."
+              },
+              {
+                "id": 3,
+                "prompt": "Releases extra bursts of steam for stubborn creases",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E"
+                ],
+                "correct_answer": "C",
+                "alternatives": [
+                  "C"
+                ],
+                "location": "C: Steam burst button",
+                "explanation": "C: Steam button."
+              },
+              {
+                "id": 4,
+                "prompt": "Removes calcium build-up and flushes vents",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E"
+                ],
+                "correct_answer": "E",
+                "alternatives": [
+                  "E"
+                ],
+                "location": "E: Anti-calc self-cleaning",
+                "explanation": "E: Self-cleaning valve."
+              }
+            ]
+          },
+          {
+            "group_id": "gt-p1-g2",
+            "title": "Questions 5-8",
+            "instruction": "Answer the questions below using NO MORE THAN THREE WORDS from the passage for each answer. Write your answers in boxes 5-8 on your answer sheet.",
+            "type": "sentence_completion",
+            "questions": [
+              {
+                "id": 5,
+                "prompt": "What should be used to fill the reservoir in hard water areas?",
+                "correct_answer": "distilled water",
+                "alternatives": [
+                  "distilled water",
+                  "distilled"
+                ],
+                "location": "“… or distilled water if living in a hard water area.”",
+                "explanation": "Distilled water."
+              },
+              {
+                "id": 6,
+                "prompt": "What should dictate the temperature setting on the dial?",
+                "correct_answer": "the fabric",
+                "alternatives": [
+                  "the fabric",
+                  "type of fabric",
+                  "fabric",
+                  "the type of fabric"
+                ],
+                "location": "“… temperature appropriate for the type of fabric …”",
+                "explanation": "The type of fabric."
+              },
+              {
+                "id": 7,
+                "prompt": "What should you do to the thermostat dial for cotton and linen?",
+                "correct_answer": "increase temperature",
+                "alternatives": [
+                  "increase temperature",
+                  "turn up",
+                  "turn up temperature"
+                ],
+                "location": "higher dial settings for cotton/linen",
+                "explanation": "Turn up / increase temperature."
+              },
+              {
+                "id": 8,
+                "prompt": "What problem does regular monthly self-cleaning prevent inside the iron?",
+                "correct_answer": "calcium deposits",
+                "alternatives": [
+                  "calcium deposits",
+                  "furring up"
+                ],
+                "location": "“… calcium deposits can cause furring up …”",
+                "explanation": "Calcium deposits / furring up."
+              }
+            ]
+          },
+          {
+            "group_id": "gt-p1-g3",
+            "title": "Questions 9-14",
+            "instruction": "Choose the appropriate letter A-D and write it in boxes 9-14 on your answer sheet.",
+            "type": "multiple_choice",
+            "questions": [
+              {
+                "id": 9,
+                "prompt": "When can specific seat preferences on coach breaks be requested?",
+                "options": [
+                  "A - On the morning of travel",
+                  "B - When paying the final balance",
+                  "C - At the time of booking",
+                  "D - Directly from the driver"
+                ],
+                "correct_answer": "C",
+                "alternatives": [
+                  "C"
+                ],
+                "location": "“Requests for particular seats can be made … when booking”",
+                "explanation": "C: At the time of booking."
+              },
+              {
+                "id": 10,
+                "prompt": "When will connecting air or ferry tickets be given to passengers?",
+                "options": [
+                  "A - By post before departure",
+                  "B - At the travel agent's office",
+                  "C - Upon arrival at the hotel",
+                  "D - By the driver/courier at the departure point"
+                ],
+                "correct_answer": "D",
+                "alternatives": [
+                  "D"
+                ],
+                "location": "“… driver or courier will then issue them to you at the relevant point.”",
+                "explanation": "D: At the relevant departure point by driver/courier."
+              },
+              {
+                "id": 11,
+                "prompt": "What must passengers with dietary requirements do?",
+                "options": [
+                  "A - Bring their own food",
+                  "B - Notify the hotel upon arrival",
+                  "C - Inform the company when making the booking",
+                  "D - Pay an extra catering surcharge"
+                ],
+                "correct_answer": "C",
+                "alternatives": [
+                  "C"
+                ],
+                "location": "“If you require a special diet you must inform us at the time of booking”",
+                "explanation": "C: Inform the company at the time of booking."
+              },
+              {
+                "id": 12,
+                "prompt": "What happens if a passenger books a room with private bathroom facilities?",
+                "options": [
+                  "A - An extra supplementary charge is added to the bill",
+                  "B - It is provided free of charge",
+                  "C - It must be shared with another passenger",
+                  "D - It is guaranteed on all tours"
+                ],
+                "correct_answer": "A",
+                "alternatives": [
+                  "A"
+                ],
+                "location": "“… supplementary charge shown in the price panel will be added …”",
+                "explanation": "A: A supplementary charge is added."
+              },
+              {
+                "id": 13,
+                "prompt": "Why might advertised tour entertainment be cancelled?",
+                "options": [
+                  "A - Bad weather conditions",
+                  "B - If there is insufficient customer demand",
+                  "C - Illness of performers",
+                  "D - Local noise bylaws"
+                ],
+                "correct_answer": "B",
+                "alternatives": [
+                  "B"
+                ],
+                "location": "“entertainment … could be withdrawn if there is a lack of demand …”",
+                "explanation": "B: Lack of demand."
+              },
+              {
+                "id": 14,
+                "prompt": "In addition to one suitcase in the hold, passengers may bring:",
+                "options": [
+                  "A - Unlimited shopping bags",
+                  "B - A small holdall on board the coach",
+                  "C - A bicycle",
+                  "D - Extra boxes at a surcharge"
+                ],
+                "correct_answer": "B",
+                "alternatives": [
+                  "B"
+                ],
+                "location": "“… a small holdall can also be taken on board the coach.”",
+                "explanation": "B: A small holdall on board the coach."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "passage_id": 2,
+        "title": "General Training Module: Part 2",
+        "subtitle": "Student clubs and International Students House information",
+        "text": "<p><strong>SECTION 1: Student Clubs and Societies</strong><br>\nRead the guide below and answer Questions 15-21.</p>\n<p><strong>Club A: The Mountaineering & Hiking Society</strong> — Organises weekend climbing and hiking expeditions across the national parks. Equipment hire available. Perfect for outdoor adventurers.</p>\n<p><strong>Club B: The Debating Union</strong> — Weekly parliamentary debates on topical political, philosophical, and social issues. Meets every Thursday evening in the Student Union.</p>\n<p><strong>Club C: The Film & Cinema Guild</strong> — Screens art-house classics and modern international cinema every Tuesday. Members receive discounted tickets to local cinemas.</p>\n<p><strong>Club D: The Community Volunteer Network</strong> — Connects students with local charities, nursing homes, and youth clubs. Ideal for students wanting to give back to the community.</p>\n<p><strong>Club E: The International Culinary Society</strong> — Explores global gastronomy through weekly cooking workshops, potluck dinners, and restaurant visits. Open to food lovers of all backgrounds.</p>\n<p><strong>Club F: The Chamber Music Ensemble</strong> — Rehearses classical and baroque chamber repertoire. Auditions held at the start of each academic term.</p>\n<hr/>\n<p><strong>SECTION 2: International Students House (ISH)</strong><br>\nRead the information leaflet below and answer Questions 22-29.</p>\n<p>International Students House is a bustling residential and social centre located near Regent's Park in central London. ISH welcomes both British and international students from colleges across London. Both long-term residents and short-stay visitors are welcomed. Membership of the ISH Club is available on an annual basis, providing access to our dining room, bar, fitness centre, study rooms, and busy programme of social events, including subsidized weekend excursions around Britain. Thanks to the support of STA Travel, ISH now provides the services of a dedicated International Students Adviser to assist with visas, welfare, and accommodation queries. Over the Christmas period, the Club offers specially reduced accommodation rates for students wishing to stay in London.</p>",
+        "question_groups": [
+          {
+            "group_id": "gt-p2-g1",
+            "title": "Questions 15-21",
+            "instruction": "Look at the list of student clubs (A-F). Match each student's requirement with the most appropriate club. Write the correct letter A-F in boxes 15-21 on your answer sheet.<br><em>NB You may use any letter more than once.</em>",
+            "type": "matching_features",
+            "features_list": [
+              {
+                "id": "A",
+                "label": "A - Mountaineering & Hiking Society"
+              },
+              {
+                "id": "B",
+                "label": "B - Debating Union"
+              },
+              {
+                "id": "C",
+                "label": "C - Film & Cinema Guild"
+              },
+              {
+                "id": "D",
+                "label": "D - Community Volunteer Network"
+              },
+              {
+                "id": "E",
+                "label": "E - International Culinary Society"
+              },
+              {
+                "id": "F",
+                "label": "F - Chamber Music Ensemble"
+              }
+            ],
+            "questions": [
+              {
+                "id": 15,
+                "prompt": "Elena wants to learn how to prepare authentic Asian and Latin dishes.",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "correct_answer": "E",
+                "alternatives": [
+                  "E"
+                ],
+                "location": "Club E: International Culinary Society",
+                "explanation": "Club E."
+              },
+              {
+                "id": 16,
+                "prompt": "Tariq wants to spend his free weekends helping disadvantaged children.",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "correct_answer": "D",
+                "alternatives": [
+                  "D"
+                ],
+                "location": "Club D: Community Volunteer Network",
+                "explanation": "Club D."
+              },
+              {
+                "id": 17,
+                "prompt": "Sophie wants to go hill walking and rent outdoor gear.",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "correct_answer": "A",
+                "alternatives": [
+                  "A"
+                ],
+                "location": "Club A: Mountaineering & Hiking Society",
+                "explanation": "Club A."
+              },
+              {
+                "id": 18,
+                "prompt": "Marco loves sampling food from different international cultures.",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "correct_answer": "E",
+                "alternatives": [
+                  "E"
+                ],
+                "location": "Club E: International Culinary Society",
+                "explanation": "Club E."
+              },
+              {
+                "id": 19,
+                "prompt": "David wants to go rock climbing in scenic national parks.",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "correct_answer": "A",
+                "alternatives": [
+                  "A"
+                ],
+                "location": "Club A: Mountaineering & Hiking Society",
+                "explanation": "Club A."
+              },
+              {
+                "id": 20,
+                "prompt": "Aisha wants to practice public speaking and debate current affairs.",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "correct_answer": "B",
+                "alternatives": [
+                  "B"
+                ],
+                "location": "Club B: Debating Union",
+                "explanation": "Club B."
+              },
+              {
+                "id": 21,
+                "prompt": "Kenji plays the cello and wants to perform classical works in an ensemble.",
+                "options": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F"
+                ],
+                "correct_answer": "F",
+                "alternatives": [
+                  "F"
+                ],
+                "location": "Club F: Chamber Music Ensemble",
+                "explanation": "Club F."
+              }
+            ]
+          },
+          {
+            "group_id": "gt-p2-g2",
+            "title": "Questions 22-28",
+            "instruction": "Do the following statements agree with the information in Reading Passage 2? In boxes 22-28 write: <strong>TRUE</strong> if the statement agrees with the information, <strong>FALSE</strong> if the statement contradicts the information, <strong>NOT GIVEN</strong> if there is no information on this.",
+            "type": "true_false_not_given",
+            "questions": [
+              {
+                "id": 22,
+                "prompt": "Students can stay at International Students House for both long and short periods.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "TRUE",
+                "alternatives": [
+                  "TRUE",
+                  "T"
+                ],
+                "location": "“Both long-term residents and short-stay visitors are welcomed.”",
+                "explanation": "True."
+              },
+              {
+                "id": 23,
+                "prompt": "Club membership must be purchased for a minimum of three years.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "FALSE",
+                "alternatives": [
+                  "FALSE",
+                  "F"
+                ],
+                "location": "“Membership … is available on an annual basis”",
+                "explanation": "False: available annually (one year at a time)."
+              },
+              {
+                "id": 24,
+                "prompt": "Meals in the ISH dining room are free for all members.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NOT GIVEN",
+                "alternatives": [
+                  "NOT GIVEN",
+                  "NG"
+                ],
+                "location": "Dining room access mentioned, whether meals are free is not stated",
+                "explanation": "Not Given."
+              },
+              {
+                "id": 25,
+                "prompt": "Club members can take part in organized weekend trips outside London.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "TRUE",
+                "alternatives": [
+                  "TRUE",
+                  "T"
+                ],
+                "location": "“… subsidized weekend excursions around Britain.”",
+                "explanation": "True."
+              },
+              {
+                "id": 26,
+                "prompt": "An advisory service for international students is funded with assistance from STA Travel.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "TRUE",
+                "alternatives": [
+                  "TRUE",
+                  "T"
+                ],
+                "location": "“Thanks to the support of STA Travel … provides the services of an International Students Adviser”",
+                "explanation": "True."
+              },
+              {
+                "id": 27,
+                "prompt": "The International Students Adviser can issue official student visas.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "NOT GIVEN",
+                "alternatives": [
+                  "NOT GIVEN",
+                  "NG"
+                ],
+                "location": "Adviser assists with visa queries, but authority to issue is not stated",
+                "explanation": "Not Given."
+              },
+              {
+                "id": 28,
+                "prompt": "Accommodation fees increase during the Christmas holiday period.",
+                "options": [
+                  "TRUE",
+                  "FALSE",
+                  "NOT GIVEN"
+                ],
+                "correct_answer": "FALSE",
+                "alternatives": [
+                  "FALSE",
+                  "F"
+                ],
+                "location": "“… offering reduced accommodation rates for students … over Christmas.”",
+                "explanation": "False: offers reduced rates, not increased."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "passage_id": 3,
+        "title": "General Training Module: Part 3",
+        "subtitle": "Paper recycling: environmental necessity and technological processes",
+        "text": "<p>Paper is one of the most ubiquitous materials in modern civilisation, but its production places immense demands on global forests, water resources, and energy. Fortunately, unlike plastic or synthetic waste products, paper comes from a sustainable resource: trees are replaceable through managed forestry. Furthermore, paper is biodegradable, so it does not pose as persistent an environmental hazard when discarded in landfill sites.</p>\n<p>Nevertheless, recycling paper makes tremendous ecological sense. Recycling reduces the volume of municipal waste, saves energy, and diminishes the need to fell natural ancient forests. Today, approximately half the paper used in Western nations comes from recycled fibres, while the remainder comes directly from virgin fibre or pulp.</p>\n<p>Governments have actively encouraged waste paper collection and sorting schemes. However, collecting waste paper is only the first step. Recycled paper cannot replace virgin paper in every application: with each recycling cycle, cellulose fibres become shorter, stiffer, and weaker, eventually degrading into dust. Advances in the technology required to remove ink, known as de-inking, have expanded the range of high-grade paper products that can incorporate recycled fibre, but society must accept a slight change in the quality and brightness of paper products.</p>\n<p>The industrial process of paper recycling follows several distinct phases:<br>\n1. <strong>Collection</strong>: Waste paper is gathered from homes, schools, and offices.<br>\n2. <strong>Sorting</strong>: Collected waste is sorted into grades and freed from contaminants such as plastic tape, staples, and food waste.<br>\n3. <strong>Pulping</strong>: The sorted paper is chopped and mixed with warm water and chemicals in a large vat, creating a slurry where fibres are repulped.<br>\n4. <strong>De-inking</strong>: Chemical froth flotation is used to de-ink and remove ink particles from the slurry to make the pulp white.<br>\n5. <strong>Refining & Screening</strong>: The cleaned slurry is refined and beaten to improve fibre bonding before being sprayed onto fast-moving wire screens to form new paper sheets.</p>",
+        "question_groups": [
+          {
+            "group_id": "gt-p3-g1",
+            "title": "Questions 29-35",
+            "instruction": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer. Write your answers in boxes 29-35 on your answer sheet.",
+            "type": "summary_gap_fill",
+            "summary_template": "Paper differs from other waste products because it comes from a <strong>[29]</strong> resource and is <strong>[30]</strong> in landfill.<br>\nWhile half of our paper is recycled, the rest is manufactured from <strong>[31]</strong>.<br>\nTo promote recycling, <strong>[32]</strong> have established collection programmes. Recent <strong>[33]</strong> in de-inking systems have enabled better reuse, although consumers must accept differences in the <strong>[34]</strong> of recycled paper products. In recycling, paper must be carefully separated from other <strong>[35]</strong>.",
+            "questions": [
+              {
+                "id": 29,
+                "prompt": "Question 29",
+                "correct_answer": "sustainable",
+                "alternatives": [
+                  "sustainable",
+                  "sustainable resource",
+                  "replaceable",
+                  "sustamable"
+                ],
+                "location": "“Paper … comes from a sustainable resource …”",
+                "explanation": "Sustainable / replaceable resource."
+              },
+              {
+                "id": 30,
+                "prompt": "Question 30",
+                "correct_answer": "biodegradable",
+                "alternatives": [
+                  "biodegradable"
+                ],
+                "location": "“Paper is also biodegradable …”",
+                "explanation": "Biodegradable."
+              },
+              {
+                "id": 31,
+                "prompt": "Question 31",
+                "correct_answer": "virgin fibre",
+                "alternatives": [
+                  "virgin fibre",
+                  "virgin pulp",
+                  "pulp"
+                ],
+                "location": "“… rest comes directly from virgin fibre …”",
+                "explanation": "Virgin fibre / pulp."
+              },
+              {
+                "id": 32,
+                "prompt": "Question 32",
+                "correct_answer": "governments",
+                "alternatives": [
+                  "governments",
+                  "the government",
+                  "government"
+                ],
+                "location": "“Governments have encouraged waste paper collection …”",
+                "explanation": "Governments."
+              },
+              {
+                "id": 33,
+                "prompt": "Question 33",
+                "correct_answer": "advances",
+                "alternatives": [
+                  "advances",
+                  "advancements"
+                ],
+                "location": "“… advances in the technology required to remove ink …”",
+                "explanation": "Advances in technology."
+              },
+              {
+                "id": 34,
+                "prompt": "Question 34",
+                "correct_answer": "quality",
+                "alternatives": [
+                  "quality",
+                  "brightness"
+                ],
+                "location": "“We need to accept a change in the quality of paper products”",
+                "explanation": "Quality."
+              },
+              {
+                "id": 35,
+                "prompt": "Question 35",
+                "correct_answer": "contaminants",
+                "alternatives": [
+                  "contaminants",
+                  "waste"
+                ],
+                "location": "“… sorted from contaminants”",
+                "explanation": "Contaminants."
+              }
+            ]
+          },
+          {
+            "group_id": "gt-p3-g2",
+            "title": "Questions 36-40",
+            "instruction": "Complete the flow chart below illustrating the paper recycling process. Choose NO MORE THAN TWO WORDS from the passage for each answer. Write your answers in boxes 36-40 on your answer sheet.",
+            "type": "summary_gap_fill",
+            "summary_template": "<strong>THE PAPER RECYCLING PROCESS</strong><br>\nStep 1: Waste paper collected from households, schools and <strong>[36]</strong><br>\n&darr;<br>\nStep 2: Paper is <strong>[37]</strong> into grades and freed from foreign matter<br>\n&darr;<br>\nStep 3: Paper mixed with warm water and <strong>[38]</strong> in a vat<br>\n&darr;<br>\nStep 4: Froth flotation used to <strong>[39]</strong> the pulp and make it white<br>\n&darr;<br>\nStep 5: Slurry is cleaned, <strong>[40]</strong>, and rolled onto wire screens to form new paper.",
+            "questions": [
+              {
+                "id": 36,
+                "prompt": "Question 36",
+                "correct_answer": "offices",
+                "alternatives": [
+                  "offices"
+                ],
+                "location": "“gathered from homes, schools, and offices”",
+                "explanation": "Offices."
+              },
+              {
+                "id": 37,
+                "prompt": "Question 37",
+                "correct_answer": "sorted",
+                "alternatives": [
+                  "sorted"
+                ],
+                "location": "“Collected waste is sorted into grades”",
+                "explanation": "Sorted."
+              },
+              {
+                "id": 38,
+                "prompt": "Question 38",
+                "correct_answer": "repulped",
+                "alternatives": [
+                  "repulped",
+                  "pulped",
+                  "re-pulped"
+                ],
+                "location": "“… creating a slurry where fibres are repulped”",
+                "explanation": "(re)pulped."
+              },
+              {
+                "id": 39,
+                "prompt": "Question 39",
+                "correct_answer": "de-ink",
+                "alternatives": [
+                  "de-ink",
+                  "remove ink",
+                  "make white"
+                ],
+                "location": "“used to de-ink and remove ink particles”",
+                "explanation": "De-ink / remove ink."
+              },
+              {
+                "id": 40,
+                "prompt": "Question 40",
+                "correct_answer": "refined",
+                "alternatives": [
+                  "refined"
+                ],
+                "location": "“slurry is refined and beaten”",
+                "explanation": "Refined."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
