@@ -124,7 +124,9 @@
                 "location": "until the mid-nineteenth century ... despite discovery in 1669",
                 "explanation": "Continued despite the discovery of phosphorus."
               }
-            ]
+            ],
+            "id": "t1-p1-g1",
+            "instructions": "Complete the summary below. Choose your answers from the box at the bottom of the page and write them in boxes 1-8 on your answer sheet.<br><em>NB There are more words than spaces so you will not use them all. You may use any of the words more than once.</em>"
           },
           {
             "group_id": "t1-p1-g2",
@@ -306,8 +308,23 @@
                 "location": "“… borrowed the formula from a military rocket-maker …”",
                 "explanation": "Congreves were named after Sir William Congreve, inventor of the rocket."
               }
-            ]
+            ],
+            "id": "t1-p1-g2",
+            "instructions": "Look at the following notes that have been made about the matches described in Reading Passage 1. Decide which type of match (A-H) corresponds with each description.<br><em>NB There are more matches than descriptions so you will not use them all. You may use any match more than once.</em>"
           }
+        ],
+        "id": 1,
+        "paragraphs": [
+          "To early man, fire was a divine gift randomly delivered in the form of lightning, forest fire or burning lava. Unable to make flame for themselves, the earliest peoples probably stored fire by keeping slow burning logs alight or by carrying charcoal in pots.",
+          "How and where man learnt how to produce flame at will is unknown. It was probably a secondary invention, accidentally made during tool-making operations with wood or stone. Studies of primitive societies suggest that the earliest method of making fire was through friction. European peasants would insert a wooden drill in a round hole and rotate it briskly between their palms. This process could be speeded up by wrapping a cord around the drill and pulling on each end.",
+          "The Eskimos come up with a better design, using a bow to rotate the drill, a form of fire-making that was still used in some parts of the world until recently. Another primitive method of making fire was by percussion, using a flint and pyrites, a mineral which contains iron. This method was widely used in Europe and had the advantage that it did not depend on dry wood. It remained the only practical way of producing flame for thousands of years in the west until the mid-nineteenth century.",
+          "The discovery of phosphorus, some centuries earlier, in 1669, had pointed the way to a practical match, but it remained the preserve of chemists for over a hundred years. The price of phosphorus was the equivalent of several hundred pounds per ounce, so the first matches were expensive.",
+          "The quest for a practical match really began in the 1820s when a French chemist, Charles Chancel, invented the Instantaneous Lightbox. This consisted of a bottle of concentrated sulphuric acid and a box of splints, tipped with potassium chlorate, sugar and gum. It was hazardous to use, however, and had a nasty tendency to explode in the user's face.",
+          "In 1827, John Walker, a chemist in Stockton-on-Tees, England, invented the first friction match. He called it the Congreve after Sir William Congreve, inventor of the rocket. These were splints of wood or cardboard coated with potassium chlorate and antimony sulphide. Walker's matches were followed three years later by the Lucifer match, invented by Samuel Jones. Lucifers were almost identical to Congreves, but smaller and packed in boxes.",
+          "Both types had major disadvantages: they smelled terrible, burnt with an irregular spluttering flame, and sometimes threw sparks several yards. In 1830, a French chemistry student, Charles Sauria, produced the first strike-anywhere match by adding white phosphorus to the mix. These were a great success, but the white phosphorus was a deadly poison, causing necrosis of the jaw, or 'phossy jaw', among workers in match factories.",
+          "The search for a safe match continued. In 1844, a Swedish chemist, Gustaf Erik Pasch, patented the safety match. He replaced the white phosphorus on the match head with red phosphorus, which was non-toxic, and put it on the striking surface of the box instead of the match head itself. Pasch's innovation was taken up by the brothers J.E. and C.F. Lundström, who founded the famous Swedish Match company.",
+          "In the United States, the Diamond Match Company pioneered book matches. The innovation didn't catch on until after 1896, when a brewery had the novel idea of advertising its product in match books. Today book matches are the most widely used type in the US, with 90 percent handed out free by hotels, restaurants and others.",
+          "Other American innovations include an anti-afterglow solution to prevent the match from smouldering after it has been blown out; and the waterproof match, which lights after eight hours in water."
         ]
       },
       {
@@ -427,7 +444,9 @@
                 "location": "“The 1981 Zoo Licensing Act had failed … even if all 1,000 zoos were exemplary, what of the other 9,000?”",
                 "explanation": "The writer shows that conditions in the majority of zoos will not be improved."
               }
-            ]
+            ],
+            "id": "t1-p2-g1",
+            "instructions": "Do the following statements agree with the views of the writer in Reading Passage 2?<br>In boxes 16-22 write: <strong>YES</strong> if the statement agrees with the writer, <strong>NO</strong> if the statement contradicts the writer, <strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this."
           },
           {
             "group_id": "t1-p2-g2",
@@ -483,7 +502,9 @@
                 "location": "“… although a number of these can hardly be looked upon as resounding successes … pretty slow progress”",
                 "explanation": "The writer is disbelieving and sceptical of the exaggerated claims."
               }
-            ]
+            ],
+            "id": "t1-p2-g2",
+            "instructions": "Choose the appropriate letter A-D and write it in boxes 23-25 on your answer sheet."
           },
           {
             "group_id": "t1-p2-g3",
@@ -537,8 +558,19 @@
                 "explanation": "Factor E is mentioned (unrealistic targets vs few saved species)."
               }
             ],
-            "question_prompt": "Which THREE of the following factors are mentioned by the writer as having contributed to the lack of credibility of the World Zoo Conservation Strategy?"
+            "question_prompt": "Which THREE of the following factors are mentioned by the writer as having contributed to the lack of credibility of the World Zoo Conservation Strategy?",
+            "id": "t1-p2-g3",
+            "instructions": "The writer mentions a number of factors which lead him to doubt the value of the WZCS document. Which THREE of the following factors are mentioned? Write your answers (A-F) in boxes 26-28 on your answer sheet."
           }
+        ],
+        "id": 2,
+        "paragraphs": [
+          "One of London Zoo’s recent advertisements caused me some irritation, so patently did it distort reality. Headlined “Without zoos you might as well tell these animals to get stuffed”, it was bordered with illustrations of 40-odd species of threatened animals, many of which are not even held by London Zoo. The advertisement was promoting the World Zoo Conservation Strategy (WZCS), which was launched in September 1993 by the World Zoo Organization (IUDZG) and the Captive Breeding Specialist Group of the World Conservation Union (IUCN).",
+          "The strategy’s thesis is simple: the natural habitats of many species are disappearing fast, and zoos must step in to save them by captive breeding programmes until they can be safely re-introduced into the wild. Up to the mid-1960s, few zoos had conservation programmes of any kind, and captive breeding was an ad hoc affair. But a conference at London Zoo in 1972 changed all that. Today, zoos take conservation seriously, and the WZCS is an attempt to define their future role.",
+          "This is probably the document’s first failing: it was written by zoo managers for zoo managers. One would assume that the calibre of these institutions would have been carefully examined, but the document relies heavily on the premise that members must meet certain standards. The facts don’t support the theory. The greatly respected American Association of Zoological Parks and Aquariums (AAZPA) has had extremely dubious members, and in the UK the Federation of Zoological Gardens of Great Britain and Ireland has occasionally had members that have been roundly censured in the national press.",
+          "These include Robin Hill Adventure Park on the Isle of Wight, which many considered the most notorious collection of animals in the country. This establishment, which for years was protected by the Isle’s local council (which viewed it as a tourist amenity), was finally closed down following an investigation by the Born Free Foundation. The 1981 Zoo Licensing Act had failed to protect the animals.",
+          "Of the world’s estimated 10,000 zoos, only a fraction are members of national or regional federations. The WZCS document claims that its 1,000 “core zoos” represent the conservation potential of the zoo community. But even if all 1,000 zoos were exemplary, what of the other 9,000? In North America, the AAZPA estimates that there are 1,000 to 1,500 un-registered zoos, ranging from roadside menageries to private collections.",
+          "The document’s second major flaw is its assessment of the success of captive breeding programmes. Today approximately 16 species might be said to have been “saved” by captive breeding programmes, although a number of these can hardly be looked upon as resounding successes. Beyond that, about a further 20 species are being seriously considered for zoo conservation programmes. Given that the international conference at London Zoo was held 30 years ago, this is pretty slow progress, and a long way off Tudge’s target of 2,000."
         ]
       },
       {
@@ -639,7 +671,9 @@
                 "location": "“… celebrating diversity and the co-existence of different styles …”",
                 "explanation": "Co-existence of styles / diverse styles."
               }
-            ]
+            ],
+            "id": "t1-p3-g1",
+            "instructions": "Complete the table below using information from Reading Passage 3. Write your answers in boxes 29-35 on your answer sheet. Use NO MORE THAN THREE WORDS for each answer."
           },
           {
             "group_id": "t1-p3-g2",
@@ -781,8 +815,20 @@
                 "location": "“celebrated scientific and engineering achievements by openly parading the sophisticated techniques …”",
                 "explanation": "Steel frames and advanced structural techniques were highlighted."
               }
-            ]
+            ],
+            "id": "t1-p3-g2",
+            "instructions": "Reading Passage 3 describes a number of cause and effect relationships. Match each Cause (36-40) in List A with its Effect (A-H) in List B.<br><em>NB There are more effects in List B than you will need, so you will not use all of them. You may use any effect more than once if you wish.</em>"
           }
+        ],
+        "id": 3,
+        "paragraphs": [
+          "Architecture is the art and science of designing buildings and structures. A building reflects the scientific and technological achievements of the age as well as the ideas and aspirations of the designer and client. The appearance of individual buildings, however, is often controversial.",
+          "The idea of putting modern buildings in an historic city would have astonished previous centuries. In nineteenth-century Britain, for example, the rapid growth of the cities resulted in thousands of new buildings being constructed in styles that were heavily influenced by historical periods: Gothic, Renaissance, and Classical. The materials used were traditional: mainly timber and stone, with bricks manufactured locally.",
+          "During the first half of the twentieth century, however, a profound revolution took place. The architectural movement known as Modernism developed, led by architects such as Le Corbusier in France, Walter Gropius in Germany, and Frank Lloyd Wright in the United States. Modernists believed that 'form should follow function'. Buildings were stripped of unnecessary decoration that would detract from their primary purpose — to be used or lived in. New materials, especially steel frames and reinforced concrete, made it possible to construct tall, dramatic structures with huge expanses of glass.",
+          "By the 1930s, Modernism had evolved into the International Style, characterised by geometric forms, flat roofs, and smooth, unornamented facades. However, the economic depression prevented their ideas from being widely realised until economic conditions improved after the Second World War.",
+          "In the post-war era, the need for rapid reconstruction led to the mass production of low-cost high-rises and multi-storey housing. By the 1960s, disillusionment with Modernism set in. Many badly designed buildings and sterile concrete blocks proved unpopular, and parts of cities deteriorated into slums. Many of these buildings have since been demolished.",
+          "By the 1970s, the Modernist era was drawing to a close. There was a renewed desire to preserve historic buildings or keep only their facades. Architects began to make more use of building styles and materials that were traditional to the area. Simultaneously, the architectural style usually referred to as High Tech was emerging. It celebrated scientific and engineering achievements by openly parading the sophisticated techniques used in construction. Such buildings are commonly made of metal and glass; examples are Stansted airport and the Lloyd's building in London.",
+          "By the 1980s, Post-Modernism emerged, celebrating diversity and the co-existence of different styles, reviving ornamentation and borrowing playful historical motifs."
         ]
       }
     ]
@@ -947,7 +993,9 @@
                 "location": "“He noted that this distinctive asymmetry in the human population is itself systematic.”",
                 "explanation": "Professor Turner noted distinctive systematic asymmetry in human populations."
               }
-            ]
+            ],
+            "id": "t2-p1-g1",
+            "instructions": "Look at the following statements (Questions 1-7) and the list of people below. Match each statement with the correct person (A-E). Write the correct letter A-E in boxes 1-7 on your answer sheet.<br><em>NB You may use any letter more than once.</em>"
           },
           {
             "group_id": "t2-p1-g2",
@@ -990,7 +1038,9 @@
                 "location": "“… surprisingly only about 6 percent of offspring …”",
                 "explanation": "6% when both parents are left-handed."
               }
-            ]
+            ],
+            "id": "t2-p1-g2",
+            "instructions": "Using the information in the passage, complete the table below. Write your answers in boxes 8-10 on your answer sheet."
           },
           {
             "group_id": "t2-p1-g3",
@@ -1030,8 +1080,19 @@
                 "location": "Passage conclusion on evolutionary and brain architecture",
                 "explanation": "It is an inherent biological variation reflecting asymmetric brain organisation."
               }
-            ]
+            ],
+            "id": "t2-p1-g3",
+            "instructions": "Choose the appropriate letter A-D and write it in boxes 11-12 on your answer sheet."
           }
+        ],
+        "id": 1,
+        "paragraphs": [
+          "Why do humans, virtually alone among all animal species, display a distinct preference for using one hand over the other? In all human populations throughout history and across cultures, approximately 90 percent of people are right-handed and 10 percent are left-handed.",
+          "Professor Turner has studied left-handedness extensively. He noted that this distinctive asymmetry in the human population is itself systematic: the bias toward right-handedness has remained constant across hundreds of generations. In contrast, while other primates and mammals may display individual preferences for one paw or hand, they do not exhibit a species-wide bias in the same proportion.",
+          "One of the earliest theories linking handedness to brain function was proposed in the 1860s by the French surgeon and anthropologist Dr Paul Broca. Broca discovered that the brain's left hemisphere is responsible for speech and language in almost all right-handers. He suggested that as our ancestors evolved speech, the left hemisphere became specialised for the fine motor control required for vocalisation, and along with this evolution came a preference for using the right hand, which is controlled by the left side of the brain.",
+          "Research by Dr Brinkman into primates showed that monkeys do not show a consistent hand preference to the same degree as humans. Interestingly, Brinkman also observed that if a left-handed person suffers brain damage to the left hemisphere, their recovery of speech is often significantly faster and more complete than that of a right-handed person with identical damage, because language functions are more evenly distributed across both hemispheres in left-handers.",
+          "In the 1980s, the late Dr Norman Geschwind of Harvard Medical School proposed that testosterone levels in the womb affect brain development. Geschwind noted that left-handedness is more common in males than in females. He suggested that testosterone slows the development of the left hemisphere, allowing the right hemisphere to dominate. Geschwind also found that left-handers appear more susceptible to certain conditions such as immune disorders and learning disabilities like dyslexia.",
+          "Geneticist Charles Moore studied historical records, ancient art, and prehistoric tools. Moore discovered that left-right asymmetry exists before birth and that the 9-to-1 ratio has not changed for at least 5,000 years. His analysis of parental handedness showed that when both parents are right-handed, between 15 and 20 percent of children are left-handed; if one parent is left-handed, the figure rises to 40 percent; but if both parents are left-handed, surprisingly only about 6 percent of offspring are left-handed, suggesting that handedness cannot be explained by simple Mendelian genetics alone."
         ]
       },
       {
@@ -1122,7 +1183,9 @@
                 "location": "“… a healthy double hive can be separated into two boxes.”",
                 "explanation": "Can be split into two boxes."
               }
-            ]
+            ],
+            "id": "t2-p2-g1",
+            "instructions": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer. Write your answers in boxes 13-19 on your answer sheet."
           },
           {
             "group_id": "t2-p2-g2",
@@ -1177,7 +1240,9 @@
                 "location": "“deep hive body or brood chamber”",
                 "explanation": "Brood chamber."
               }
-            ]
+            ],
+            "id": "t2-p2-g2",
+            "instructions": "Label the diagram of the Langstroth beehive below. Choose ONE OR TWO WORDS from Reading Passage 2 for each answer. Write your answers in boxes 20-23 on your answer sheet.<br><div style='text-align:center; margin:16px 0;'><img src='/static/images/test2_beehive_diagram.png' alt='Beehive Diagram' style='max-width:100%; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.15);'/></div>"
           },
           {
             "group_id": "t2-p2-g3",
@@ -1230,8 +1295,19 @@
                 "location": "“… throws the honey out of the combs without destroying the wax structure, allowing the combs to be reused.”",
                 "explanation": "Contradicts the text, which says wax structure is not destroyed."
               }
-            ]
+            ],
+            "id": "t2-p2-g3",
+            "instructions": "Do the following statements agree with the information given in Reading Passage 2? In boxes 24-26 write: <strong>YES</strong> if the statement agrees with the writer, <strong>NO</strong> if the statement contradicts the writer, <strong>NOT GIVEN</strong> if there is no information on this."
           }
+        ],
+        "id": 2,
+        "paragraphs": [
+          "Every spring in the United States, an extraordinary migration takes place. Beekeepers load millions of honeybees onto massive flatbed trucks and haul them across the country to pollinate crops. From California's almond orchards to the apple orchards of Washington and the blueberry fields of Maine, modern agriculture depends crucially on the pollination services provided by migratory beekeepers.",
+          "One such beekeeper is Dave Hackenberg. In March, Hackenberg's family hauls thousands of hives from their wintering sites in Florida out to the flowering fields of California. In summer, they haul the hives back to clover fields in Pennsylvania or South Dakota to produce honey, before moving them south again ahead of winter.",
+          "Moving millions of stinging insects is delicate work. Beekeepers prepare for migration at night when the hives are full of returned foragers and the bees are generally tranquil. A little smoke can ensure that this is the case, as smoke masks the alarm pheromones produced by guard bees. The hives are loaded onto 18-wheel tractor-trailers, tied down, and covered with heavy netting to prevent bees escaping during transit.",
+          "In the past, beekeepers made most of their living selling honey, and farmers welcomed them onto their land for free. Today, the economics have reversed: pollination contracts represent the majority of a beekeeper's revenue. Farmers pay a substantial charge per hive for two to three weeks of pollination during blossom time. Almond orchards alone require over a million hives each February.",
+          "At the extraction facility, machines slice the wax cappings off the honeycomb. The frames are placed into a high-speed centrifuge, where centrifugal force throws the honey out of the combs without destroying the wax structure, allowing the combs to be reused. After the harvest, a healthy double hive can be split into two separate colonies by introducing a new queen, thus replacing winter losses.",
+          "A standard Langstroth beehive consists of several modular wooden boxes stacked on top of each other. At the base is the bottom board providing the entrance. Above it sits the deep hive body or brood chamber, where the queen lays eggs and workers raise larvae. Between the brood chamber and the upper boxes sits a wire screen known as the queen excluder, which has gaps wide enough for worker bees to pass through but too narrow for the larger queen. This ensures that the upper boxes, called honey supers containing movable frames of hexagonal comb, remain filled only with pure honey free of brood. The hive is topped by an inner cover and a weather-proof outer cover or telescoping lid."
         ]
       },
       {
@@ -1334,7 +1410,9 @@
                 "location": "“Modern tourism relies heavily on professional intermediaries … tour guides serve as cultural brokers …”",
                 "explanation": "Heading viii: The role of modern tour guides."
               }
-            ]
+            ],
+            "id": "t2-p3-g1",
+            "instructions": "Reading Passage 3 has 6 paragraphs (A-F). Choose the most suitable heading for each paragraph from the list of headings below. Write the appropriate numbers (i-ix) in boxes 27-31 on your answer sheet. Paragraph D has been done for you as an example.<br><em>NB There are more headings than paragraphs so you will not use all of them.</em>"
           },
           {
             "group_id": "t2-p3-g2",
@@ -1417,7 +1495,9 @@
                 "location": "Tour operators described as intermediaries, cheating not mentioned",
                 "explanation": "Cheating is never suggested in the text."
               }
-            ]
+            ],
+            "id": "t2-p3-g2",
+            "instructions": "Do the following statements agree with the views of the writer in Reading Passage 3? In boxes 32-36 write: <strong>YES</strong> if the statement agrees with the writer, <strong>NO</strong> if the statement contradicts the writer, <strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this."
           },
           {
             "group_id": "t2-p3-g3",
@@ -1539,8 +1619,19 @@
                 "location": "“… the mass tourist travels in guided groups and finds pleasure in inauthentic, contrived attractions …”",
                 "explanation": "H: sights designed specially for tourists."
               }
-            ]
+            ],
+            "id": "t2-p3-g3",
+            "instructions": "Choose one phrase (A-H) from the list of phrases to complete each key point below. Write the appropriate letters (A-H) in boxes 37-40 on your answer sheet.<br><em>NB There are more phrases than sentences so you will not use all of them.</em>"
           }
+        ],
+        "id": 3,
+        "paragraphs": [
+          "<strong>[Paragraph A]</strong> Tourism, holidaymaking and travel are these days more significant social phenomena than most commentators have considered. On the face of it there could not be a more trivial subject for a book. And indeed since social scientists have had considerable difficulty explaining weightier topics such as work or politics it might be thought that they would have great difficulties in accounting for more trivial phenomena such as holidaymaking. However there are interesting parallels with the study of deviance. This involves the investigation of bizarre and idiosyncratic social practices which happen to be defined as deviant in some societies but not necessarily in others. The assumption is that the investigation of deviance can reveal interesting and significant aspects of normal societies. It could be said that a similar analysis can be applied to tourism.",
+          "<strong>[Paragraph B]</strong> Tourism is not universal. It is one manifestation of how work and leisure are organised as separate and regulated spheres of social practice in modern societies. A key characteristic of the tourist gaze is the clear demarcation between work and leisure: it is an activity undertaken during regulated periods away from the home and everyday workplace. Potential tourists are constantly evaluating places to visit, stimulated by daydreaming and anticipation.",
+          "<strong>[Paragraph C]</strong> Such anticipation is constructed and sustained through a variety of non-tourist practices, such as film, TV, literature, magazines, records and videos, which construct and reinforce the tourist gaze. Furthermore, travel writer Daniel Boorstin argues that modern tourism has become artificial and trivialised: mass tourists travel in guided groups and find pleasure in inauthentic, contrived attractions which he terms 'pseudo-events', insulated from the host culture inside an 'environmental bubble'.",
+          "<strong>[Paragraph D]</strong> <em>(Example)</em> In contrast to Boorstin, other theorists argue that tourism is an active pursuit of alternative experiences. The viewing of tourist sites involves a much greater sensitivity to visual elements of landscape or townscape than is normally found in daily life. Tourists seek contrasting experiences: the unusual, the historic, the sublime, or the exotic.",
+          "<strong>[Paragraph E]</strong> In earlier eras, travel was the preserve of a wealthy elite. It involved individual initiative, risk, and prolonged engagement with foreign cultures. Today, democratic mass tourism contrasts sharply with this traditional travel. It is organised, packaged, and commodified for millions of consumers across social classes.",
+          "<strong>[Paragraph F]</strong> Modern tourism relies heavily on professional intermediaries: travel agents, tour operators, and tour guides. Tour guides serve as cultural brokers, directing the tourists' gaze to approved sights, framing interpretations, and insulating visitors from potential difficulties. They cater to tourists' expectations and shape what they see and remember."
         ]
       }
     ]
@@ -1666,7 +1757,9 @@
                 "location": "“sifting and editing process … empowering learners of English to sound natural”",
                 "explanation": "Heading ix: Editorial selection and the learner's needs."
               }
-            ]
+            ],
+            "id": "t3-p1-g1",
+            "instructions": "Reading Passage 1 has 6 paragraphs (A-F). Choose the most suitable heading for each paragraph from the list of headings below. Write the appropriate numbers (i-x) in boxes 1-6 on your answer sheet.<br><em>NB There are more headings than paragraphs so you will not use all of them.</em>"
           },
           {
             "group_id": "t3-p1-g2",
@@ -1733,7 +1826,9 @@
                 "location": "“reveals the power of the pauses and noises we use to … convey emotion”",
                 "explanation": "Noises and pauses."
               }
-            ]
+            ],
+            "id": "t3-p1-g2",
+            "instructions": "The diagram below illustrates the information provided in Reading Passage 1. Complete the labels on the diagram with an appropriate word or words. Use NO MORE THAN THREE WORDS for each space. Write your answers in boxes 7-11 on your answer sheet.<br><div style='text-align:center; margin:16px 0;'><img src='/static/images/test3_flowchart_diagram.png' alt='Language Activator Diagram' style='max-width:100%; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.15);'/></div>"
           },
           {
             "group_id": "t3-p1-g3",
@@ -1757,8 +1852,19 @@
                 "location": "Overall passage theme introducing spoken corpora in lexicography",
                 "explanation": "B: To announce a new approach to dictionary writing."
               }
-            ]
+            ],
+            "id": "t3-p1-g3",
+            "instructions": "Choose the appropriate letter A-D and write it in box 12 on your answer sheet."
           }
+        ],
+        "id": 1,
+        "paragraphs": [
+          "<strong>[Paragraph A]</strong> The compilation of dictionaries has entered a dramatic new era. Lexicographers have always relied on written sources: books, newspapers, and formal texts. But spoken English has eluded systematic analysis because of the immense difficulty of capturing and transcribing natural conversations. Now, advances in computer technology and audio recording have made it possible to build multi-million-word spoken corpora that reveal how people truly speak.",
+          "<strong>[Paragraph B]</strong> For decades, the Longman dictionary company had maintained a renowned written corpus of modern English. However, linguists recognised that written English operates according to conventions that differ markedly from everyday conversation. In the early 1990s, Longman teamed up with the British National Corpus project to collect ten million words of spontaneous spoken English from across Britain.",
+          "<strong>[Paragraph C]</strong> Fieldworkers recruited volunteers from diverse social classes, regions, and age groups. Equipped with hidden cassette recorders, volunteers recorded natural interactions with family, friends, and colleagues. The audio tapes were subsequently transcribed verbatim and keyed into computers. This immense store of real-life dialogue became the basis, along with the company's existing written corpus, for a revolutionary dictionary called the <em>Language Activator</em>.",
+          "<strong>[Paragraph D]</strong> Computer analysis of the spoken corpus immediately challenged long-held grammatical dogmas. It revealed that speakers frequently use ellipsis, vague language, and distinctive question tags. More importantly, it allowed lexicographers to identify the most common lexical collocations: key words are systematically followed by specific related phrases. Furthermore, the corpus revealed which meanings and grammatical forms of words are used most frequently in real life.",
+          "<strong>[Paragraph E]</strong> The spoken corpus also shed light on aspects of human interaction that traditional dictionaries ignored: the crucial role of discourse markers, hesitation noises, and pauses. Speakers use 'well', 'erm', and subtle pauses to play for time, convey emotion, negotiate relationships, and signal doubt or irony. Capturing these interactive features has allowed lexicographers to provide genuine spoken examples.",
+          "<strong>[Paragraph F]</strong> Lexicographers stress that just because a word or idiom occurs in spontaneous speech does not guarantee its inclusion in a general dictionary. The sifting and editing process remains as rigorous as ever. What the corpus provides is empirical evidence of authentic usage, empowering learners of English to sound natural rather than stilted."
         ]
       },
       {
@@ -1899,7 +2005,9 @@
                 "location": "Home evolved when he dug a cool room for his bakery",
                 "explanation": "Heading iv: Individual initiative: from bakery cool room to home."
               }
-            ]
+            ],
+            "id": "t3-p2-g1",
+            "instructions": "Reading Passage 2 has 8 paragraphs (A-H). Choose the most suitable heading for each paragraph from the list of headings below. Write the appropriate numbers (i-xi) in boxes 13-20 on your answer sheet.<br><em>NB There are more headings than paragraphs so you will not use all of them.</em>"
           },
           {
             "group_id": "t3-p2-g2",
@@ -1977,8 +2085,21 @@
                 "location": "“… he dug a cool room for his bakery business …”",
                 "explanation": "A cool room for his bakery business."
               }
-            ]
+            ],
+            "id": "t3-p2-g2",
+            "instructions": "Complete the sentences below. Choose NO MORE THAN THREE WORDS from the passage for each answer. Write your answers in boxes 21-26 on your answer sheet."
           }
+        ],
+        "id": 2,
+        "paragraphs": [
+          "<strong>[Paragraph A]</strong> Across Europe, an increasing number of homeowners and architects are turning their backs on conventional housing and going underground. Earth-sheltered houses — buildings that are built into hillsides or covered with a protective layer of turf and soil — are shaking off their reputation as dark, damp bunkers and proving to be light, spacious, energy-efficient, and aesthetically pleasing.",
+          "<strong>[Paragraph B]</strong> In conventional above-ground housing, heating and cooling account for the vast majority of domestic energy consumption. Underground homes, however, exploit the natural insulating qualities of the earth. Several feet below the surface, the temperature of soil remains remarkably constant year-round, buffering the dwelling against winter freezing and summer heat waves. Consequently, heating bills can be reduced by up to 75 percent.",
+          "<strong>[Paragraph C]</strong> In Europe the obstacle has been conservative developers who prefer to ensure quick sales with conventional mass-produced housing. Traditional builders argue that subterranean homes are difficult to construct and hard to sell. But pioneer architects are demonstrating that with modern waterproof membranes and south-facing glass facades, underground homes can flood with natural light while blending harmoniously into the landscape.",
+          "<strong>[Paragraph D]</strong> In the Netherlands, where land is at a premium and flood defence is vital, the Dutch development was greeted with undisguised relief by South Limburg planners. Faced with a shortage of land and fierce opposition to building over green belts, planners approved an entire estate of earth-covered homes. The estate has become an international showpiece.",
+          "<strong>[Paragraph E]</strong> In Switzerland and Germany, innovative uses of earth shelter have been devised. It was architect Hurkmans who hit on the idea of making use of noise embankments along busy highways. By building homes directly beneath the earth banks that line motorways, residents enjoy quiet, sheltered living spaces while the highway embankment serves its dual acoustic purpose.",
+          "<strong>[Paragraph F]</strong> Underground architecture is not restricted to private residences. In Italy, the Olivetti centre in Ivrea forms a house/hotel for Olivetti employees built largely beneath ground level. The building integrates offices, accommodation, and recreational facilities without marring the pristine Alpine landscape.",
+          "<strong>[Paragraph G]</strong> Living underground also provides psychological benefits, such as a sense of peace, security, and seclusion. However, architects caution that not everyone adapts so well. Some people experience claustrophobia if rooms lack adequate daylight or views to the outside, which is why courtyards and atrium designs are essential.",
+          "<strong>[Paragraph H]</strong> The roots of modern underground living often began with eccentric individuals. In Australia's Coober Pedy, residents sought shelter from blistering desert heat in former opal mines. In France, an eccentric homeowner's residence evolved when he dug a cool room for his bakery business in a hill he had created, eventually expanding it into an extensive comfortable family home."
         ]
       },
       {
@@ -2083,7 +2204,9 @@
                 "location": "Passage focuses on US, no comparison of European vs US hours today",
                 "explanation": "Not given in the text."
               }
-            ]
+            ],
+            "id": "t3-p3-g1",
+            "instructions": "Do the following statements agree with the views of the writer in Reading Passage 3? In boxes 27-32 write: <strong>YES</strong> if the statement agrees with the writer, <strong>NO</strong> if the statement contradicts the writer, <strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this."
           },
           {
             "group_id": "t3-p3-g2",
@@ -2123,7 +2246,9 @@
                 "location": "“… consumer culture — the vicious cycle of 'work-and-spend' — continues to trap millions”",
                 "explanation": "A: The culture of consumerism and 'work-and-spend'."
               }
-            ]
+            ],
+            "id": "t3-p3-g2",
+            "instructions": "Choose the appropriate letter A-D and write it in boxes 33-34 on your answer sheet."
           },
           {
             "group_id": "t3-p3-g3",
@@ -2194,7 +2319,9 @@
                 "explanation": "G is mentioned (higher productivity on reduced schedules)."
               }
             ],
-            "question_prompt": "Which FOUR of the following factors are mentioned in Reading Passage 3 as consequences of the 'workaholic economy'?"
+            "question_prompt": "Which FOUR of the following factors are mentioned in Reading Passage 3 as consequences of the 'workaholic economy'?",
+            "id": "t3-p3-g3",
+            "instructions": "The writer mentions a number of consequences of the 'workaholic economy'. Which FOUR of the following factors (A-G) are mentioned in Reading Passage 3? Write your answers (A-G) in boxes 35-38 on your answer sheet in any order."
           },
           {
             "group_id": "t3-p3-g4",
@@ -2229,8 +2356,18 @@
                 "location": "“employees working shorter hours make fewer errors, suffer less fatigue …”",
                 "explanation": "Studies show part-time workers make fewer errors."
               }
-            ]
+            ],
+            "id": "t3-p3-g4",
+            "instructions": "Answer questions 39-40 based on Reading Passage 3."
           }
+        ],
+        "id": 3,
+        "paragraphs": [
+          "For the first 80 years of the twentieth century, the average working week in the Western world fell steadily. Between 1870 and 1970, working hours dropped from roughly 60 hours a week to under 40 hours. Most economists assumed this trend would continue, predicting that by the early twenty-first century, Americans and Europeans would enjoy four-day working weeks and unprecedented leisure.",
+          "However, since 1970, this progress has reversed. Harvard economist Juliet Schor reveals that working hours in the United States have increased noticeably over the last two decades. The average American now works the equivalent of an extra month each year compared to 1970. This increase spans blue-collar and white-collar workers alike.",
+          "Crucially, this rise in hours has occurred despite substantial gains in national productivity. Between 1948 and 1990, American productivity more than doubled. Yet real wages have stagnated since 1970. Employers have chosen to translate productivity increases into greater total output and longer hours for a trimmed workforce, rather than into higher wages or shorter hours.",
+          "Furthermore, the current economic recovery has gained a certain amount of notoriety for its 'jobless' nature. Instead of hiring new full-time workers when demand increases, companies compel existing staff to work overtime. Overtime is far cheaper for employers than paying the health insurance and pension benefits associated with hiring additional workers.",
+          "Some progressive companies have experimented with reduced working hours and flexible arrangements. Schor cites studies that show increased productivity for part-time workers: employees working shorter hours make fewer errors, suffer less fatigue, and take fewer sick days. However, institutional pressures and consumer culture — the vicious cycle of 'work-and-spend' — continue to trap millions of Americans into working excessive hours."
         ]
       }
     ]
@@ -2342,7 +2479,9 @@
                 "location": "“Architects have embraced glass … energy-efficient transparent buildings”",
                 "explanation": "Heading vi: The future with glass for designers of buildings and homes."
               }
-            ]
+            ],
+            "id": "t4-p1-g1",
+            "instructions": "Reading Passage 1 has 6 paragraphs (A-F). Choose the most suitable heading for paragraphs B-F from the list of headings below. Write the appropriate numbers (i-ix) in boxes 1-5 on your answer sheet. Paragraph A has been done for you as an example.<br><em>NB There are more headings than paragraphs so you will not use all of them.</em>"
           },
           {
             "group_id": "t4-p1-g2",
@@ -2386,7 +2525,9 @@
                 "location": "“two-part moulds close around the sagging glass”",
                 "explanation": "(lightbulb) moulds."
               }
-            ]
+            ],
+            "id": "t4-p1-g2",
+            "instructions": "The diagram below shows the principle of Corning's ribbon machine. Label the diagram by choosing NO MORE THAN THREE WORDS from the passage for each answer. Write your answers in boxes 6-8 on your answer sheet.<br><div style='text-align:center; margin:16px 0;'><img src='/static/images/test4_ribbon_diagram.png' alt='Corning Ribbon Machine Diagram' style='max-width:100%; border-radius:6px; box-shadow:0 2px 8px rgba(0,0,0,0.15);'/></div>"
           },
           {
             "group_id": "t4-p1-g3",
@@ -2483,8 +2624,19 @@
                 "location": "Early optical devices",
                 "explanation": "A: 19th Century or earlier."
               }
-            ]
+            ],
+            "id": "t4-p1-g3",
+            "instructions": "Classify the following developments according to the periods in which they occurred:<br><strong>A</strong> - 19th Century or earlier<br><strong>B</strong> - First half of the 20th Century (1900-1950)<br><strong>C</strong> - Second half of the 20th Century (1950 onwards)<br>Write the correct letter A, B, or C in boxes 9-13 on your answer sheet."
           }
+        ],
+        "id": 1,
+        "paragraphs": [
+          "<strong>[Paragraph A]</strong> <em>(Example)</em> Glass, in one form or another, has been made by humankind for more than 4,000 years. From ancient Egyptian beads to Roman drinking vessels, glass has captivated people with its transparency, durability, and brilliance.",
+          "<strong>[Paragraph B]</strong> On the horizon lies an even more extraordinary future for glass in the field of fibre optics. Hair-thin strands of high-purity glass can carry pulses of light containing billions of bits of data over thousands of kilometres without loss of signal. Optical fibres could function hundreds of times faster than conventional copper cables, and the surge in fibre optic use is revolutionising telecommunications, internet systems, and medical endoscopes.",
+          "<strong>[Paragraph C]</strong> The art of glassblowing is also experiencing a vibrant renaissance. Studio glass artists in Europe and the United States have elevated glass from functional tableware to fine art. Galleries and international collectors eagerly compete for one-of-a-kind sculptural creations, creating a flourishing trade for glass artists.",
+          "<strong>[Paragraph D]</strong> In 1920, an industrial breakthrough dramatically changed the glass industry: the development of the Corning ribbon machine. Invented by William Woods at the Corning Glass Works in New York, the ribbon machine automated the manufacturing of incandescent light bulb envelopes. The machine could produce an astonishing 1,000 light bulb blanks per minute, driving down costs and making electric lighting universally accessible.",
+          "<strong>[Paragraph E]</strong> Scientifically, glass is a remarkable material. Technically defined as an amorphous solid or supercooled liquid, glass possesses the rigid mechanical properties of a solid while retaining the random molecular structure of a liquid. Because it lacks a crystalline melting point, it softens gradually over a wide temperature range, making it exceptionally malleable and easy to blow, press, roll, and mould into intricate shapes.",
+          "<strong>[Paragraph F]</strong> Modern architects have embraced glass as the defining material of twentieth and twenty-first-century skylines. Advances in laminated, tempered, and low-emissivity (low-E) glass allow designers to construct sweeping curtain walls, light-filled atriums, and energy-efficient transparent buildings that blur the boundary between indoor and outdoor spaces."
         ]
       },
       {
@@ -2643,7 +2795,9 @@
                 "location": "“survey shows a notable doubling of the number of women …”",
                 "explanation": "Paragraph D gives survey evidence."
               }
-            ]
+            ],
+            "id": "t4-p2-g1",
+            "instructions": "Reading Passage 2 has 7 paragraphs (A-G). Which paragraph contains the following information? Write the correct letter A-G in boxes 14-19 on your answer sheet."
           },
           {
             "group_id": "t4-p2-g2",
@@ -2725,7 +2879,9 @@
                 "location": "Sears: “Until there is a belief among employers until they value …”",
                 "explanation": "Professor Sears (S)."
               }
-            ]
+            ],
+            "id": "t4-p2-g2",
+            "instructions": "Look at the following opinions (Questions 20-23) and the list of researchers below. Match each opinion with the correct person:<br><strong>A</strong> - Andrew Crisp<br><strong>M</strong> - Marilyn Davidson<br><strong>S</strong> - Professor Sears<br>Write the correct letter in boxes 20-23 on your answer sheet."
           },
           {
             "group_id": "t4-p2-g3",
@@ -2779,8 +2935,20 @@
                 "location": "“Until there is a belief among employers until they value the difference …”",
                 "explanation": "Employers."
               }
-            ]
+            ],
+            "id": "t4-p2-g3",
+            "instructions": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer. Write your answers in boxes 24-27 on your answer sheet."
           }
+        ],
+        "id": 2,
+        "paragraphs": [
+          "<strong>[Paragraph A]</strong> Women are entering the business world in unprecedented numbers, but when it comes to the senior executive suite and boardrooms, they remain dramatically under-represented. Despite decades of equal opportunity legislation, the proverbial 'glass ceiling' still appears firmly in place in most corporations.",
+          "<strong>[Paragraph B]</strong> Sociologist Marilyn Davidson has conducted detailed studies into the career progression of male and female executives. She found that women often face a double standard: assertive behaviour that is admired in male executives as 'decisive' is frequently perceived negatively in women as 'aggressive'.",
+          "<strong>[Paragraph C]</strong> Moreover, corporate cultures often reward 24-hour commitment and continuous career tenure, penalising women who take maternity leave or career breaks for family care. Organisational restructuring, known as de-layering, has also flattened corporate hierarchies, reducing middle management tiers where women previously established track records.",
+          "<strong>[Paragraph D]</strong> Yet there are signs of positive change. An annual corporate survey shows a notable doubling of the number of women serving as non-executive directors on major public company boards. While starting from a low base, the trend indicates that corporate attitudes are beginning to shift.",
+          "<strong>[Paragraph E]</strong> Management consultant Andrew Crisp argues that demographic trends are compelling companies to value diversity. With skilled labour shortages and a shrinking pool of young graduates, firms that fail to attract and promote talented women will find themselves at a severe competitive disadvantage.",
+          "<strong>[Paragraph F]</strong> Research by Professor Sears highlights that effective leadership in modern knowledge-based economies requires collaborative communication, empathy, and team-building — attributes in which female leaders often excel. Sears stresses that until there is a fundamental belief among employers in the business value of diversity, true equality cannot be achieved.",
+          "<strong>[Paragraph G]</strong> Ultimately, dismantling structural barriers requires more than token appointments. Companies must implement flexible working arrangements, transparent promotion criteria, and active mentorship networks to enable women to cross the corporate finish line."
         ]
       },
       {
@@ -2855,7 +3023,9 @@
                 "location": "Funding levels for Australian researchers not discussed",
                 "explanation": "Funding adequacy is not mentioned in the passage."
               }
-            ]
+            ],
+            "id": "t4-p3-g1",
+            "instructions": "Do the following statements agree with the views of the writer in Part A of Reading Passage 3? In boxes 28-31 write: <strong>YES</strong> if the statement agrees with the writer, <strong>NO</strong> if the statement contradicts the writer, <strong>NOT GIVEN</strong> if it is impossible to say what the writer thinks about this."
           },
           {
             "group_id": "t4-p3-g2",
@@ -2929,7 +3099,9 @@
                 "location": "“loss of genetic diversity restricts an animal's ability to adapt to future environmental changes”",
                 "explanation": "Paragraph D matches i: animal's ability to adapt to changes."
               }
-            ]
+            ],
+            "id": "t4-p3-g2",
+            "instructions": "Look at Part B of Reading Passage 3 (Paragraphs A-D). Match each paragraph with the correct process (i-vi) below. Write the correct roman numeral (i-vi) in boxes 32-35 on your answer sheet.<br><em>NB There are more processes than paragraphs so you will not use all of them.</em>"
           },
           {
             "group_id": "t4-p3-g3",
@@ -3002,8 +3174,16 @@
                 "location": "“Second, environmental stochasticity encompasses unpredictable fluctuations in climate, food availability, and diseases.”",
                 "explanation": "PVA classifies unpredictable natural catastrophes as environmental stochasticity."
               }
-            ]
+            ],
+            "id": "t4-p3-g3",
+            "instructions": "Complete the sentences below using information from Part C (Questions 36-38 & 40), and choose the correct letter for Question 39."
           }
+        ],
+        "id": 3,
+        "paragraphs": [
+          "<strong>[Part A]</strong> Australia possesses one of the world's most unique collections of flora and fauna, but also one of the highest modern extinction rates. Over the past two centuries, dozens of native mammal and bird species have vanished. To combat this biodiversity crisis, conservation biologists have developed Population Viability Analysis (PVA), a sophisticated tool that uses mathematical modelling to predict the probability that a population will persist for a specified period into the future.",
+          "<strong>[Part B]</strong> A PVA model incorporates four primary sources of uncertainty that threaten small populations:<br>\n<strong>[Paragraph A]</strong> First, demographic stochasticity refers to the random variation in survival and reproductive rates among individuals. In a large population, birth and death rates average out; but in a tiny population, an accidental cluster of deaths or reproductive failures can swiftly trigger extinction.<br>\n<strong>[Paragraph B]</strong> Second, environmental stochasticity encompasses unpredictable fluctuations in climate, food availability, and diseases. In Australia's volatile climate, catastrophic bushfires, prolonged droughts, and flash floods can wipe out an entire isolated sub-population overnight.<br>\n<strong>[Paragraph C]</strong> Third, catastrophic sex ratio imbalances can arise by chance. If a small population of twenty individuals produces by chance only two females, reproductive output collapses regardless of environmental conditions.<br>\n<strong>[Paragraph D]</strong> Fourth, genetic deterioration becomes acute in restricted populations. Inbreeding depression reduces fertility and disease resistance, while loss of genetic diversity restricts an animal's ability to adapt to future environmental changes.",
+          "<strong>[Part C]</strong> In the temperate forests of south-eastern Australia, PVA was applied to the Leadbeater's possum. Models revealed that even if logging was curtailed, if clear-fell logging occurs in key old-growth corridors, the species could become extinct within 50 years. The survival of such vulnerable marsupials depends on maintaining connected forest habitat across their geographical distribution."
         ]
       }
     ]
@@ -3117,7 +3297,9 @@
                 "location": "E: Anti-calc self-cleaning",
                 "explanation": "E: Self-cleaning valve."
               }
-            ]
+            ],
+            "id": "gt-p1-g1",
+            "instructions": "The diagram in the leaflet shows different parts of the Moulinex iron (A-E). Match each feature to its corresponding function (Questions 1-4). Write the correct letter in boxes 1-4 on your answer sheet.<br><em>A - Water reservoir | B - Thermostat dial | C - Steam burst button | D - Spray nozzle | E - Self-cleaning valve</em>"
           },
           {
             "group_id": "gt-p1-g2",
@@ -3172,7 +3354,9 @@
                 "location": "“… calcium deposits can cause furring up …”",
                 "explanation": "Calcium deposits / furring up."
               }
-            ]
+            ],
+            "id": "gt-p1-g2",
+            "instructions": "Answer the questions below using NO MORE THAN THREE WORDS from the passage for each answer. Write your answers in boxes 5-8 on your answer sheet."
           },
           {
             "group_id": "gt-p1-g3",
@@ -3276,8 +3460,21 @@
                 "location": "“… a small holdall can also be taken on board the coach.”",
                 "explanation": "B: A small holdall on board the coach."
               }
-            ]
+            ],
+            "id": "gt-p1-g3",
+            "instructions": "Choose the appropriate letter A-D and write it in boxes 9-14 on your answer sheet."
           }
+        ],
+        "id": 1,
+        "paragraphs": [
+          "<strong>SECTION 1: Instructions for a Moulinex Iron</strong><br>\nRead the instructions below and answer Questions 1-8.",
+          "<strong>A</strong> - Filling the reservoir: Unplug the iron before filling. Use ordinary tap water, or distilled water if living in a hard water area. Do not fill past the MAX indicator level.",
+          "<strong>B</strong> - Temperature control dial: Set the thermostat to the temperature appropriate for the type of fabric being ironed: synthetics, wool, silk, cotton, or linen. Allow the pilot light to extinguish before beginning.",
+          "<strong>C</strong> - Steam button: Press the steam burst button to release powerful jets of steam to remove stubborn wrinkles. For dry ironing, keep the steam selector set to the 'O' position.",
+          "<strong>D</strong> - Spray nozzle: Aim the spray nozzle at deep creases and depress the spray plunger to dampen fabric.",
+          "<strong>E</strong> - Anti-calc self-cleaning system: Over time, calcium deposits can cause furring up of internal steam vents. Activate the self-clean valve over a sink every month to flush out mineral build-up.",
+          "<hr/>\n<strong>SECTION 2: Cambridge Coach Services — Booking Information</strong><br>\nRead the coach travel terms and conditions and answer Questions 9-14.",
+          "• Seat reservations: Requests for particular seats can be made on most coach breaks when booking, subject to availability.<br>\n• Baggage allowance: One medium-sized suitcase per passenger is carried free in the luggage hold. A small holdall can also be taken on board the coach.<br>\n• Special dietary requirements: If you require a special diet you must inform us at the time of booking so that appropriate hotel catering can be arranged.<br>\n• Room supplements: Other coach breaks have a limited number of rooms with private facilities; the supplementary charge shown in the price panel will be added to your account.<br>\n• Entertainment schedules: The advertised entertainment could be withdrawn if there is a lack of demand or due to unforeseen circumstances.<br>\n• Tickets: Air or boat tickets may have to be retained by your driver or courier, who will then issue them to you at the relevant departure point."
         ]
       },
       {
@@ -3444,7 +3641,9 @@
                 "location": "Club F: Chamber Music Ensemble",
                 "explanation": "Club F."
               }
-            ]
+            ],
+            "id": "gt-p2-g1",
+            "instructions": "Look at the list of student clubs (A-F). Match each student's requirement with the most appropriate club. Write the correct letter A-F in boxes 15-21 on your answer sheet.<br><em>NB You may use any letter more than once.</em>"
           },
           {
             "group_id": "gt-p2-g2",
@@ -3564,8 +3763,22 @@
                 "location": "“… offering reduced accommodation rates for students … over Christmas.”",
                 "explanation": "False: offers reduced rates, not increased."
               }
-            ]
+            ],
+            "id": "gt-p2-g2",
+            "instructions": "Do the following statements agree with the information in Reading Passage 2? In boxes 22-28 write: <strong>TRUE</strong> if the statement agrees with the information, <strong>FALSE</strong> if the statement contradicts the information, <strong>NOT GIVEN</strong> if there is no information on this."
           }
+        ],
+        "id": 2,
+        "paragraphs": [
+          "<strong>SECTION 1: Student Clubs and Societies</strong><br>\nRead the guide below and answer Questions 15-21.",
+          "<strong>Club A: The Mountaineering & Hiking Society</strong> — Organises weekend climbing and hiking expeditions across the national parks. Equipment hire available. Perfect for outdoor adventurers.",
+          "<strong>Club B: The Debating Union</strong> — Weekly parliamentary debates on topical political, philosophical, and social issues. Meets every Thursday evening in the Student Union.",
+          "<strong>Club C: The Film & Cinema Guild</strong> — Screens art-house classics and modern international cinema every Tuesday. Members receive discounted tickets to local cinemas.",
+          "<strong>Club D: The Community Volunteer Network</strong> — Connects students with local charities, nursing homes, and youth clubs. Ideal for students wanting to give back to the community.",
+          "<strong>Club E: The International Culinary Society</strong> — Explores global gastronomy through weekly cooking workshops, potluck dinners, and restaurant visits. Open to food lovers of all backgrounds.",
+          "<strong>Club F: The Chamber Music Ensemble</strong> — Rehearses classical and baroque chamber repertoire. Auditions held at the start of each academic term.",
+          "<hr/>\n<strong>SECTION 2: International Students House (ISH)</strong><br>\nRead the information leaflet below and answer Questions 22-29.",
+          "International Students House is a bustling residential and social centre located near Regent's Park in central London. ISH welcomes both British and international students from colleges across London. Both long-term residents and short-stay visitors are welcomed. Membership of the ISH Club is available on an annual basis, providing access to our dining room, bar, fitness centre, study rooms, and busy programme of social events, including subsidized weekend excursions around Britain. Thanks to the support of STA Travel, ISH now provides the services of a dedicated International Students Adviser to assist with visas, welfare, and accommodation queries. Over the Christmas period, the Club offers specially reduced accommodation rates for students wishing to stay in London."
         ]
       },
       {
@@ -3661,7 +3874,9 @@
                 "location": "“… sorted from contaminants”",
                 "explanation": "Contaminants."
               }
-            ]
+            ],
+            "id": "gt-p3-g1",
+            "instructions": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer. Write your answers in boxes 29-35 on your answer sheet."
           },
           {
             "group_id": "gt-p3-g2",
@@ -3724,8 +3939,17 @@
                 "location": "“slurry is refined and beaten”",
                 "explanation": "Refined."
               }
-            ]
+            ],
+            "id": "gt-p3-g2",
+            "instructions": "Complete the flow chart below illustrating the paper recycling process. Choose NO MORE THAN TWO WORDS from the passage for each answer. Write your answers in boxes 36-40 on your answer sheet."
           }
+        ],
+        "id": 3,
+        "paragraphs": [
+          "Paper is one of the most ubiquitous materials in modern civilisation, but its production places immense demands on global forests, water resources, and energy. Fortunately, unlike plastic or synthetic waste products, paper comes from a sustainable resource: trees are replaceable through managed forestry. Furthermore, paper is biodegradable, so it does not pose as persistent an environmental hazard when discarded in landfill sites.",
+          "Nevertheless, recycling paper makes tremendous ecological sense. Recycling reduces the volume of municipal waste, saves energy, and diminishes the need to fell natural ancient forests. Today, approximately half the paper used in Western nations comes from recycled fibres, while the remainder comes directly from virgin fibre or pulp.",
+          "Governments have actively encouraged waste paper collection and sorting schemes. However, collecting waste paper is only the first step. Recycled paper cannot replace virgin paper in every application: with each recycling cycle, cellulose fibres become shorter, stiffer, and weaker, eventually degrading into dust. Advances in the technology required to remove ink, known as de-inking, have expanded the range of high-grade paper products that can incorporate recycled fibre, but society must accept a slight change in the quality and brightness of paper products.",
+          "The industrial process of paper recycling follows several distinct phases:<br>\n1. <strong>Collection</strong>: Waste paper is gathered from homes, schools, and offices.<br>\n2. <strong>Sorting</strong>: Collected waste is sorted into grades and freed from contaminants such as plastic tape, staples, and food waste.<br>\n3. <strong>Pulping</strong>: The sorted paper is chopped and mixed with warm water and chemicals in a large vat, creating a slurry where fibres are repulped.<br>\n4. <strong>De-inking</strong>: Chemical froth flotation is used to de-ink and remove ink particles from the slurry to make the pulp white.<br>\n5. <strong>Refining & Screening</strong>: The cleaned slurry is refined and beaten to improve fibre bonding before being sprayed onto fast-moving wire screens to form new paper sheets."
         ]
       }
     ]
@@ -3828,7 +4052,10 @@
                 "location": "Paragraph 3",
                 "explanation": "Kansai used conventional piling on mud, whereas Chek Lap Kok dredged out the mud."
               }
-            ]
+            ],
+            "group_id": "g1",
+            "instruction": "Classify the following statements as applying to:\nA - Chek Lap Kok airport only\nB - Kansai airport only\nC - Both airports\nChoose the correct letter A, B, or C for questions 1-5.",
+            "title": "Questions 1–5"
           },
           {
             "id": "g2",
@@ -3879,7 +4106,10 @@
                 "location": "Paragraph 4-5",
                 "explanation": "Stiff clay stratum beneath mud."
               }
-            ]
+            ],
+            "group_id": "g2",
+            "instruction": "Complete the labels below using NO MORE THAN THREE WORDS from the passage for questions 6-9.",
+            "title": "Questions 6–9"
           },
           {
             "id": "g3",
@@ -3930,9 +4160,14 @@
                 "location": "Paragraph 5",
                 "explanation": "Sheets of geotextile membrane."
               }
-            ]
+            ],
+            "group_id": "g3",
+            "instruction": "Complete the summary below using words from the passage for questions 10-13.",
+            "title": "Questions 10–13"
           }
-        ]
+        ],
+        "passage_id": 1,
+        "text": "<p>River deltas are difficult places for map makers. The river builds them up, the sea wears them down; their outlines are always changing. The changes in China's Pearl River delta, however, are more dramatic than these natural fluctuations. An island six kilometres long and with a total area of 1248 hectares is being created there. And the civil engineers are as interested in performance as in speed and size. This is a bit of the delta that they want to endure.</p><p>The new island of Chek Lap Kok, the site of Hong Kong's new airport, is 83% complete. The giant dumper trucks rumbling across it will have moved 175 million cubic metres of mountain and seabed by the time they have finished. The reclamation program was scheduled to take just 41 months, and the whole airport will be built in under five years. But the original schedule was to be completed in thirty months. The rush was to have the airport operating by the time Hong Kong was handed over to China.</p><p>The usual way to reclaim land is to pile sand rock on to the seabed. When the seabed oozes with mud, this is rather like placing a textbook on a wet sponge: the weight squeezes the water out, causing both water and sponge to settle lower. The settlement is rarely even: different parts sink at different rates. So buildings, pipes, roads and so on tend to buckle and crack. You can engineer around these problems, or you can engineer them out. Kansai took the first approach; Chek Lap Kok is taking the second.</p><p>The differences are both political and geological. Kansai was supposed to be built just one kilometre offshore, where the seabed was relatively firm. But local fishermen objected, so the airport had to be moved five kilometres out to sea into deeper water with softer mud. At Chek Lap Kok, they took no chances with soft mud: they simply dredged it all out. Between the two rocky outcrops that form the core of the new island, a deep channel of soft mud was scooped out and dumped at sea.</p><p>In all, some 80 million cubic metres of mud were removed and replaced with sand dredged from the surrounding sea floor. The sand was pumped in slurry form into the channel, where it quickly settled into a solid foundation. The remainder of the island was formed by blasting away the hills of Chek Lap Kok and the nearby island of Lam Chau. The granite was crushed and used as rockfill to build up the runways, taxiways and terminal buildings. To prevent rain from washing fine silt from the rockfill into the drainage systems, sheets of geotextile membrane were laid across the ground before paving.</p>"
       },
       {
         "id": 2,
@@ -4048,7 +4283,10 @@
                 "location": "Paragraph F",
                 "explanation": "The socio-ecological approach."
               }
-            ]
+            ],
+            "group_id": "g4",
+            "instruction": "Choose the most suitable heading for paragraphs B-F from the list of headings below for questions 14-18.",
+            "title": "Questions 14–18"
           },
           {
             "id": "g5",
@@ -4103,7 +4341,10 @@
                 "location": "Paragraph D",
                 "explanation": "1970s."
               }
-            ]
+            ],
+            "group_id": "g5",
+            "instruction": "Using NO MORE THAN THREE WORDS from the passage, answer questions 19-22.",
+            "title": "Questions 19–22"
           },
           {
             "id": "g6",
@@ -4190,9 +4431,14 @@
                 "location": "Paragraph E",
                 "explanation": "Not mentioned."
               }
-            ]
+            ],
+            "group_id": "g6",
+            "instruction": "Do the following statements agree with the views of the writer? Choose YES, NO, or NOT GIVEN for questions 23-27.",
+            "title": "Questions 23–27"
           }
-        ]
+        ],
+        "passage_id": 2,
+        "text": "<p>A. The concept of health holds different meanings for different people and groups. These meanings of health have also changed over time. This change is no more evident than in Western society today, when notions of health and health promotion are being challenged and expanded in new ways.</p><p>B. For much of the twentieth century, the dominant medical paradigm perceived health largely as the absence of disease. If a person was not displaying overt symptoms of pathological illness, they were deemed healthy. This clinical or biomedical perspective prioritised curative interventions delivered by trained medical professionals, focusing almost exclusively on biological and physiological mechanisms.</p><p>C. A major conceptual shift occurred in 1946 when the World Health Organisation (WHO) formulated its historic definition of health as 'a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity'. By acknowledging mental and social dimensions, the WHO initiated a broader, more holistic understanding that challenged purely clinical criteria.</p><p>D. During the 1970s and 1980s, the focus shifted towards lifestyle and behavioural factors. National health campaigns urged individuals to assume personal responsibility for their health by eating balanced diets, taking regular exercise, and quitting smoking. While this healthy lifestyles approach yielded benefits, critics noted that it disproportionately benefited wealthier, educated socio-economic groups who possessed the financial and social resources to adopt healthier habits, whilst sometimes stigmatising disadvantaged populations.</p><p>E. In 1986, the Ottawa Charter for Health Promotion represented another watershed moment. It conceptualised health as a resource for everyday life, inextricably linked to broader environmental, economic, and political conditions. Genuine health requires prerequisites such as peace, shelter, education, food, income, a stable eco-system, sustainable resources, social justice, and equity.</p><p>F. Today, public health policies increasingly recognize that health is socially determined. Addressing health inequities requires collaborative multi-sectoral strategies that improve living and working conditions rather than relying solely on individual behavioral change or biomedical hospital care.</p>"
       },
       {
         "id": 3,
@@ -4339,7 +4585,10 @@
                 "location": "Paragraph 5",
                 "explanation": "Empathy and social skills."
               }
-            ]
+            ],
+            "group_id": "g7",
+            "instruction": "Match each statement with the correct category (CH, MC, SH, or HTK) for questions 28-35.",
+            "title": "Questions 28–35"
           },
           {
             "id": "g8",
@@ -4426,11 +4675,17 @@
                 "location": "Paragraph 4",
                 "explanation": "Children with free play solved tasks faster and with greater creativity."
               }
-            ]
+            ],
+            "group_id": "g8",
+            "instruction": "Do the following statements agree with the information in Reading Passage 3? Choose YES, NO, or NOT GIVEN for questions 36-40.",
+            "title": "Questions 36–40"
           }
-        ]
+        ],
+        "passage_id": 3,
+        "text": "<p>Play has long puzzled evolutionary biologists. Engaging in vigorous play costs vital energy, risks injury, and distracts animals from spotting lurking predators. Yet play is ubiquitous across mammals and many bird species. If natural selection ruthlessly weeds out non-adaptive behaviors, play must confer substantial long-term survival advantages that outweigh its immediate hazards.</p><p>Earlier theories proposed that play was merely an outlet for surplus energy. However, field observations demonstrate that young animals play even when undernourished, disproving the surplus energy hypothesis. Contemporary researchers have formulated two primary adaptive hypotheses: motor skill practice and cognitive flexibility.</p><p>Experiments by Dr. Sergio Pellis at the University of Lethbridge investigated social play in juvenile rats. When young rats wrestle and scuffle, they refine motor coordination, bite inhibition, and tactile sensitivity. Crucially, Pellis discovered that play experience permanently alters the architecture of the prefrontal cortex—the brain region governing behavioral flexibility, emotional regulation, and decision-making.</p><p>In developmental psychology, human children's play exhibits similar neurological benefits. Studies by Kendler and Hewson on cognitive problem solving demonstrated that playful exploration allows children to discover functional equivalences between objects. In problem-solving trials, children who had previously been allowed to play freely with experimental apparatus solved complex multi-stage tasks significantly faster and with greater creativity than children taught rigid instructions.</p><p>Play also builds social competence. By negotiating shifting rules, taking turns, and role-reversing during rough-and-tumble games, juveniles develop empathy and an understanding of social hierarchies. Far from frivolous downtime, play is a vital evolutionary crucible shaping resilient, adaptable brains.</p>"
       }
-    ]
+    ],
+    "total_questions": 40
   },
   {
     "id": "cam2-test-2",
@@ -4534,7 +4789,10 @@
                 "location": "Paragraph 4",
                 "explanation": "Marked reductions in turnover within 30 days."
               }
-            ]
+            ],
+            "group_id": "g9",
+            "instruction": "Choose the appropriate letter A-D for questions 1-5.",
+            "title": "Questions 1–5"
           },
           {
             "id": "g10",
@@ -4627,9 +4885,14 @@
                 "location": "Paragraph 4",
                 "explanation": "Within 30 days."
               }
-            ]
+            ],
+            "group_id": "g10",
+            "instruction": "Complete the notes below using NO MORE THAN THREE WORDS from the passage for questions 6-13.",
+            "title": "Questions 6–13"
           }
-        ]
+        ],
+        "passage_id": 1,
+        "text": "<p>For too long, service industry executives have been trapped in a vicious cycle: low wages, minimal training, high employee turnover, dissatisfied customers, and eroding profits. Breaking out of this self-defeating spiral requires adopting what management experts term the 'Cycle of Success'.</p><p>In the Cycle of Success, front-line service personnel are recognized as the core value drivers of the enterprise. By investing heavily in employee selection, comprehensive skill development, and performance-based compensation, firms foster high job satisfaction and staff stability. Competent, motivated employees deliver superior service quality, which in turn breeds genuine customer loyalty and robust profitability.</p><p>To implement this model, leading service organizations utilize rigorous benchmarking to evaluate their service delivery against best-in-class standards across industries. Clear performance measures are instituted, ensuring that frontline staff understand customer expectations. Crucially, companies introduce structured employee empowerment programs—often termed 'Take Charge' initiatives—granting staff autonomy to resolve customer grievances immediately without bureaucratic escalation.</p><p>Effective implementation also hinges on timely feedback mechanisms. Regular employee surveys allow staff to voice operational bottlenecks, while client satisfaction audits pinpoint areas for refinement. Within 30 days of implementing empowerment protocols, firms frequently register marked reductions in turnover and double-digit increases in repeat patronage.</p>"
       },
       {
         "id": 2,
@@ -4692,7 +4955,10 @@
                 "location": "Paragraph 2",
                 "explanation": "Eastern Europe / Far East / Russia / Latin America."
               }
-            ]
+            ],
+            "group_id": "g11",
+            "instruction": "Complete each sentence with NO MORE THAN THREE WORDS from the passage for questions 14-17.",
+            "title": "Questions 14–17"
           },
           {
             "id": "g12",
@@ -4747,7 +5013,10 @@
                 "location": "Paragraph 4",
                 "explanation": "A cultural gateway that forges deeper relationships."
               }
-            ]
+            ],
+            "group_id": "g12",
+            "instruction": "Choose the appropriate letter A-D for questions 18-20.",
+            "title": "Questions 18–20"
           },
           {
             "id": "g13",
@@ -4798,7 +5067,10 @@
                 "location": "Paragraph 3",
                 "explanation": "Specialised technical glossaries."
               }
-            ]
+            ],
+            "group_id": "g13",
+            "instruction": "Identify four strategic solutions mentioned in Paragraph 3 used by exporters to bridge language gaps for questions 21-24.",
+            "title": "Questions 21–24"
           },
           {
             "id": "g14",
@@ -4837,9 +5109,14 @@
                 "location": "Passage",
                 "explanation": "Urgent and supportive of building linguistic capability."
               }
-            ]
+            ],
+            "group_id": "g14",
+            "instruction": "Choose the correct letter A-D for questions 25-26.",
+            "title": "Questions 25–26"
           }
-        ]
+        ],
+        "passage_id": 2,
+        "text": "<p>In an era of accelerating international trade, communication across linguistic barriers has become a decisive competitive parameter. Recent studies of British manufacturing and exporting enterprises reveal that a lack of foreign language skills has had major consequences for export performance.</p><p>Extensive corporate surveys highlight that numerous firms fail to secure lucrative overseas contracts simply because their sales literature is available exclusively in English. When competing in emerging markets—such as Eastern Europe, Russia, the Far East, Latin America, and the Arab world—enterprises that communicate in the client's native language enjoy significantly higher tender success rates.</p><p>To remedy linguistic deficits, progressive exporters adopt varied strategies. Some sponsor industrial training schemes, while others retain professional translation services for commercial contracts. Many encourage personnel to attend part-time language courses, and forward-thinking technical firms construct specialised technical glossaries to ensure unambiguous terminology in complex technical specifications.</p><p>Ultimately, effective global marketing requires recognizing that language is not merely an operational tool, but a cultural gateway. Companies that bridge linguistic gaps forge deeper client relationships and protect their market share against international competitors.</p>"
       },
       {
         "id": 3,
@@ -4924,7 +5201,10 @@
                 "location": "Paragraph E",
                 "explanation": "Relocated downriver to deep-water coastal sites."
               }
-            ]
+            ],
+            "group_id": "g15",
+            "instruction": "Choose the most suitable heading for paragraphs B-E from the list of headings below for questions 27-30.\nList of Headings:\ni. The break-bulk cargo era\nii. The containerisation revolution\niii. Economic decline in coastal cities\niv. Urban renewal in modern capitals\nv. Spatial demands of modern container terminals\nvi. The downstream migration of modern ports\nvii. Environmental hazards of dredging\nviii. River basin topography",
+            "title": "Questions 27–30"
           },
           {
             "id": "g16",
@@ -4997,7 +5277,10 @@
                 "location": "Paragraph F",
                 "explanation": "Spectacular urban regeneration into residential and financial quarters."
               }
-            ]
+            ],
+            "group_id": "g16",
+            "instruction": "Choose the correct letter A-D for questions 31-34.",
+            "title": "Questions 31–34"
           },
           {
             "id": "g17",
@@ -5100,11 +5383,17 @@
                 "location": "Paragraph G",
                 "explanation": "Detached itself from the civic fabric of the historic port city."
               }
-            ]
+            ],
+            "group_id": "g17",
+            "instruction": "Do the following statements agree with the views of the writer? Choose YES, NO, or NOT GIVEN for questions 35-40.",
+            "title": "Questions 35–40"
           }
-        ]
+        ],
+        "passage_id": 3,
+        "text": "<p>A. Over the centuries, port cities have served as vital hubs of commerce, cultural exchange, and industrial development. Historically, ports developed wherever deep, sheltered natural anchorages coincided with navigable inland waterways that permitted the distribution of cargoes into the continental hinterland.</p><p>B. During the nineteenth and early twentieth centuries, maritime commerce was dominated by break-bulk cargo. Individual items of merchandise were loaded, stowed, and discharged piece by piece by teams of dockers. Ships were relatively modest in size, drawing shallow draughts that enabled them to penetrate deep into river estuaries and urban river basins right into the city center.</p><p>C. The mid-twentieth century witnessed a profound revolution in maritime logistics: the advent of containerisation. Standardised steel intermodal containers allowed cargoes to be transferred seamlessly between ships, railways, and road vehicles without manual rehandling. Containerisation vastly accelerated port turnaround times and dramatically lowered freight costs.</p><p>D. However, containerisation sparked dramatic structural consequences for port geography. Container vessels required enormous specialised gantry cranes, vast backup storage yards for marshalling containers, and deep-water berths capable of accommodating vessels drawing fifteen metres or more. Traditional urban river quays were utterly incapable of expanding to meet these spatial demands.</p><p>E. Consequently, modern container terminals relocated downriver to deep-water coastal sites, abandoning historic city quays. Historic port cities like London, Bristol, Liverpool, and Amsterdam experienced severe de-industrialisation as dock work vanished from the city core.</p><p>F. While some abandoned historic docklands underwent spectacular urban regeneration into residential and financial quarters—such as London's Docklands—many peripheral ports lacking alternative economic bases faced protracted economic decline.</p><p>G. Today, the world's mega-ports—such as Singapore, Shanghai, and Rotterdam—are ultra-efficient, highly automated logistics platforms located far from traditional town centers, underscoring how modern shipping has detached itself from the civic fabric of the historic port city.</p>"
       }
-    ]
+    ],
+    "total_questions": 40
   },
   {
     "id": "cam2-test-3",
@@ -5240,7 +5529,10 @@
                 "location": "Paragraph 4",
                 "explanation": "Self-rostering reported up to twenty per cent reductions in absence."
               }
-            ]
+            ],
+            "group_id": "g18",
+            "instruction": "Do the following statements agree with the views of the writer? Choose YES, NO, or NOT GIVEN for questions 1-7.",
+            "title": "Questions 1–7"
           },
           {
             "id": "g19",
@@ -5314,9 +5606,14 @@
                 "location": "Paragraph 4",
                 "explanation": "Fostered transparent communication."
               }
-            ]
+            ],
+            "group_id": "g19",
+            "instruction": "Complete the summary below using NO MORE THAN THREE WORDS from the passage for questions 8-13.",
+            "title": "Questions 8–13"
           }
-        ]
+        ],
+        "passage_id": 1,
+        "text": "<p>Over the past decade, Australian workplaces have undergone unprecedented restructuring. Traditional adversarial industrial relations, characterized by rigid centralized awards and frequent disputes, have increasingly yielded to enterprise bargaining, flexible work patterns, and collaborative management.</p><p>Central to these workplace reforms is the challenge of managing absenteeism. Unplanned workplace absence imposes substantial costs on Australian businesses, resulting in lost productivity, inflated overtime wages, and decreased morale among staff forced to shoulder the workloads of missing colleagues.</p><p>Research conducted across diverse industries demonstrates that a distinction must be drawn between involuntary absence—attributable to genuine illness or medical emergency—and voluntary absenteeism. Voluntary absenteeism often reflects worker disengagement, inflexible work schedules, or poor organizational communication.</p><p>To curb voluntary absence, forward-thinking Australian enterprises have revised traditional rostering practices. Implementing self-rostering and staggered shifts provides employees greater autonomy to balance personal commitments. Furthermore, firms that fostered transparent communication and active employee participation reported up to twenty per cent reductions in avoidable absenteeism, demonstrating that employee engagement remains the most potent antidote to workplace withdrawal.</p>"
       },
       {
         "id": 2,
@@ -5454,7 +5751,10 @@
                 "location": "Paragraph 4",
                 "explanation": "Crisis of confidence in later childhood."
               }
-            ]
+            ],
+            "group_id": "g20",
+            "instruction": "Match each developmental characteristic with the correct stage (A-H) for questions 14-19.",
+            "title": "Questions 14–19"
           },
           {
             "id": "g21",
@@ -5573,9 +5873,14 @@
                 "location": "Paragraph 4",
                 "explanation": "Many children abandon artistic expression entirely."
               }
-            ]
+            ],
+            "group_id": "g21",
+            "instruction": "Do the following statements agree with the information in Reading Passage 2? Choose YES, NO, or NOT GIVEN for questions 20-26.",
+            "title": "Questions 20–26"
           }
-        ]
+        ],
+        "passage_id": 2,
+        "text": "<p>Children's drawings have fascinated psychologists and art educators for over a century. Far from crude attempts to replicate photographic reality, children's graphic expressions represent a structured progression of cognitive and perceptual development.</p><p>Between the ages of two and four, young children engage primarily in scribbling, discovering that physical motor gestures leave visible tracks on paper. As motor control develops, children transition into the 'presymbolic' stage, where circular gestures gradually evolve into recognizable motifs, most famously the 'tadpole' human figure consisting of a large head with arms and legs extending directly from it.</p><p>Around age five to seven, children enter the 'schematic' stage. They construct a personal visual vocabulary or schema for representing familiar objects—houses, trees, people, and animals. During this period, drawings frequently display 'intellectual realism' rather than visual realism: children draw what they know to exist rather than what can be seen from a single vantage point. A classic manifestation is 'X-ray' drawings, where interior contents of a house or pregnant animal are depicted as if walls or skin were transparent.</p><p>By age eight to twelve, children develop an acute awareness of perspective, occlusion, and proportion, attempting 'visual realism'. However, this stage often coincides with a crisis of confidence: discovering that their drawings fail to capture photographic accuracy, many children abandon artistic expression entirely unless nurtured.</p>"
       },
       {
         "id": 3,
@@ -5727,7 +6032,10 @@
                 "location": "Paragraph E",
                 "explanation": "Balancing security against user convenience."
               }
-            ]
+            ],
+            "group_id": "g22",
+            "instruction": "Match the headings (i-x) with Paragraphs A-E for questions 27-33.",
+            "title": "Questions 27–33"
           },
           {
             "id": "g23",
@@ -5853,11 +6161,17 @@
                 "location": "Paragraph E",
                 "explanation": "Balance security against user convenience."
               }
-            ]
+            ],
+            "group_id": "g23",
+            "instruction": "Choose the correct letter A-E for questions 34-40.",
+            "title": "Questions 34–40"
           }
-        ]
+        ],
+        "passage_id": 3,
+        "text": "<p>A. Students entering the University of Montreal's Athletic Complex need more than a conventional plastic ID card—their identities are authenticated by an electronic hand geometry scanner. In California hospitals, neonatal infants and mothers are paired using digitized footprint patterns. Across airport immigration checkpoints worldwide, automated biometric verification is rapidly replacing paper-based credentials.</p><p>B. Biometrics relies on the automated measurement and matching of unique human physiological or behavioral characteristics. Physiological modalities include fingerprint topography, iris and retinal patterns, facial geometry, and hand architecture. Behavioral modalities encompass voice harmonics, keystroke dynamics, and handwritten signature kinematics.</p><p>C. For a biological attribute to serve as an effective biometric identifier, it must satisfy four fundamental criteria: universality (possessed by every individual), distinctiveness (sufficiently unique to differentiate any two individuals), permanence (invariant over time), and collectability (quantitatively measurable without invasive discomfort).</p><p>D. In high-throughput access environments, hand geometry has achieved extensive commercial adoption. A scanner illuminates the hand and captures three-dimensional measurements of finger length, width, thickness, and joint curvature, distilling these metrics into an encrypted 9-byte mathematical template. Unlike fingerprints, hand geometry does not carry stigmatizing law-enforcement connotations.</p><p>E. Despite substantial accuracy gains, biometric systems remain susceptible to two types of statistical errors: False Rejection (legitimate user denied access) and False Acceptance (impostor erroneously granted access). Calibrating the decision threshold to balance security against user convenience remains the fundamental engineering challenge in biometric deployment.</p>"
       }
-    ]
+    ],
+    "total_questions": 40
   },
   {
     "id": "cam2-test-4",
@@ -5976,7 +6290,10 @@
                 "location": "Passage",
                 "explanation": "Specific country distributions are not stated."
               }
-            ]
+            ],
+            "group_id": "g24",
+            "instruction": "Do the following statements agree with the views of the writer? Choose YES, NO, or NOT GIVEN for questions 1-6.",
+            "title": "Questions 1–6"
           },
           {
             "id": "g25",
@@ -6031,7 +6348,10 @@
                 "location": "Paragraph 3",
                 "explanation": "Demonstrably verifiable honesty and openness."
               }
-            ]
+            ],
+            "group_id": "g25",
+            "instruction": "Choose the correct letter A-D for questions 7-9.",
+            "title": "Questions 7–9"
           },
           {
             "id": "g26",
@@ -6080,9 +6400,14 @@
                 "location": "Paragraph 3",
                 "explanation": "An unblemished social record."
               }
-            ]
+            ],
+            "group_id": "g26",
+            "instruction": "Complete the summary below using NO MORE THAN THREE WORDS from the passage for questions 10-13.",
+            "title": "Questions 10–13"
           }
-        ]
+        ],
+        "passage_id": 1,
+        "text": "<p>Over the past twenty years, 'green consumerism' has emerged as a significant force shaping corporate strategy and product formulation. Market research demonstrates that broad swathes of the public express genuine concern over environmental degradation, deforestation, and industrial pollution.</p><p>However, consumer research reveals profound discrepancies between stated ethical attitudes and actual retail purchasing habits. Sociologists classify shoppers into distinct cohorts. Approximately four in ten consumers are termed 'armchair greens' or 'ethical greens': while they articulate firm pro-environmental attitudes, their ethical concerns rarely influence their supermarket shopping baskets if green products cost more or perform less effectively.</p><p>In contrast, committed green consumers actively scrutinize corporate environmental policies, avoiding goods tested on animals or packaged in non-recyclable materials. For businesses seeking to engage ethical buyers, mere superficial marketing—widely derided as 'greenwashing'—provokes intense cynicism. Building authentic brand equity requires demonstrably verifiable honesty and openness, complete supply-chain traceability, and an unblemished social record.</p>"
       },
       {
         "id": 2,
@@ -6163,7 +6488,10 @@
                 "location": "Paragraph 3",
                 "explanation": "Stimulate critical visual analysis and engagement."
               }
-            ]
+            ],
+            "group_id": "g27",
+            "instruction": "Choose the correct letter A-D for questions 14-17.",
+            "title": "Questions 14–17"
           },
           {
             "id": "g28",
@@ -6234,7 +6562,10 @@
                 "location": "Passage",
                 "explanation": "Digital tablets are not discussed."
               }
-            ]
+            ],
+            "group_id": "g28",
+            "instruction": "Do the following statements agree with the views of the writer? Choose YES, NO, or NOT GIVEN for questions 18-21.",
+            "title": "Questions 18–21"
           },
           {
             "id": "g29",
@@ -6321,9 +6652,14 @@
                 "location": "Paragraph 3",
                 "explanation": "Multimodal literacy development."
               }
-            ]
+            ],
+            "group_id": "g29",
+            "instruction": "Match the visual categories (C, F, I, J) with the statements for questions 22-26.",
+            "title": "Questions 22–26"
           }
-        ]
+        ],
+        "passage_id": 2,
+        "text": "<p>The relationship between illustrations and written narrative in children's literature has been a focal subject of developmental pedagogy. Historically, picture books were treated as mere stepping stones to 'proper' non-illustrated reading. However, cognitive research illustrates that images serve far richer communicative functions.</p><p>Illustrations perform several distinct textual roles: decorative, descriptive, and interpretive. Decorative imagery simply embellishes pages without extending meaning. Descriptive illustrations depict characters and settings precisely as described in the prose, anchoring young readers' mental imagery. Interpretive illustrations, however, provide narrative counterpoints—revealing subtle character emotions, subtext, or ironic details that the written text omits.</p><p>As children mature, educators traditionally wean them off illustrated books, assuming that text-only fiction fosters superior abstract visualization. Yet multimodal literacy advocates argue that complex illustrated books stimulate critical visual analysis, fostering deeper textual engagement among reluctant readers without retarding reading stamina.</p>"
       },
       {
         "id": 3,
@@ -6408,7 +6744,10 @@
                 "location": "Paragraph 2",
                 "explanation": "Cystic fibrosis."
               }
-            ]
+            ],
+            "group_id": "g30",
+            "instruction": "Using NO MORE THAN THREE WORDS from the passage, answer questions 27-32.",
+            "title": "Questions 27–32"
           },
           {
             "id": "g31",
@@ -6543,11 +6882,17 @@
                 "location": "Paragraph 4",
                 "explanation": "Affirms molecular correction is an achievable reality."
               }
-            ]
+            ],
+            "group_id": "g31",
+            "instruction": "Choose the correct letter A-D for questions 33-40.",
+            "title": "Questions 33–40"
           }
-        ]
+        ],
+        "passage_id": 3,
+        "text": "<p>Human gene therapy represents one of the most audacious scientific quests of modern medicine. Comparing its sheer technical ambition to the Apollo space programme of the 1960s, molecular biologists envision an era early in the next century when inherited molecular diseases will be treated not by blunt pharmacology, but by directly fixing defective genomic sequences.</p><p>Over 7,000 human diseases are categorized as monogenic disorders—caused by mutations in a single identified gene. Among the most tragic are cystic fibrosis, which causes lethal mucus build-up in pulmonary tissues, and severe forms of muscular dystrophy, which progressively destroy skeletal muscle fibers.</p><p>In somatic cell gene therapy, a functional therapeutic gene is packaged inside an engineered vector—typically a disarmed retrovirus or adenovirus. The vector introduces the therapeutic transgene into target patient cells, where it integrates into the nuclear genome to produce missing enzymes or structural proteins without altering the germline DNA passed to offspring.</p><p>Clinical trials face formidable hurdles: preventing destructive immune responses against vectors, ensuring sustained gene expression, and avoiding insertional mutagenesis. Nevertheless, successful treatment of severe combined immunodeficiency (SCID) affirms that molecular correction of genetic defects is an achievable reality.</p>"
       }
-    ]
+    ],
+    "total_questions": 40
   },
   {
     "id": "cam3-test-1",
@@ -6682,7 +7027,10 @@
                 "location": "Paragraph 3",
                 "explanation": "International assistance and fuel tax restructuring were crucial."
               }
-            ]
+            ],
+            "group_id": "g32",
+            "instruction": "Do the following statements agree with the information in Reading Passage 1? Choose TRUE, FALSE, or NOT GIVEN for questions 1-7.",
+            "title": "Questions 1–7"
           },
           {
             "id": "g33",
@@ -6791,9 +7139,14 @@
                 "location": "Paragraph 3",
                 "explanation": "A scalable template for combating contemporary particulate pollution."
               }
-            ]
+            ],
+            "group_id": "g33",
+            "instruction": "Choose the correct letter A-E for questions 8-13.",
+            "title": "Questions 8–13"
           }
-        ]
+        ],
+        "passage_id": 1,
+        "text": "<p>At the historic 1992 Earth Summit held in Rio de Janeiro, leaders from more than 170 nations convened to address catastrophic threats to the biosphere. Among the landmark outcomes was the United Nations Framework Convention on Climate Change (UNFCCC), which established binding commitments to stabilize greenhouse gas concentrations in the atmosphere.</p><p>While global attention centered on carbon dioxide, atmospheric scientists simultaneously tracked dramatic declines in airborne lead concentrations. For decades, tetraethyl lead added to motor vehicle gasoline constituted the primary airborne toxin threatening neurological development in children. Following aggressive regulatory bans across North America and Europe, atmospheric lead levels plunged by over 90 per cent in urban areas.</p><p>However, developing economies in Asia and Latin America faced slower phase-outs due to economic costs and resistance from domestic oil refineries. Recent environmental monitoring confirms that international assistance and fuel tax restructuring were crucial in helping middle-income nations eliminate leaded petrol entirely, providing a scalable template for combating contemporary particulate pollution.</p>"
       },
       {
         "id": 2,
@@ -6891,7 +7244,10 @@
                 "location": "Paragraph 4",
                 "explanation": "Dutch physicist Christiaan Huygens used Römer's data."
               }
-            ]
+            ],
+            "group_id": "g34",
+            "instruction": "Choose the correct letter A-D for questions 14-18.",
+            "title": "Questions 14–18"
           },
           {
             "id": "g35",
@@ -7026,7 +7382,10 @@
                 "location": "Paragraph 4",
                 "explanation": "Extraordinarily close approximation given rudimentary instruments."
               }
-            ]
+            ],
+            "group_id": "g35",
+            "instruction": "Do the following statements agree with the information in Reading Passage 2? Choose TRUE, FALSE, or NOT GIVEN for questions 19-26.",
+            "title": "Questions 19–26"
           },
           {
             "id": "g36",
@@ -7049,9 +7408,14 @@
                 "location": "Paragraph 1",
                 "explanation": "First definitive empirical proof that light travels at a finite, measurable speed."
               }
-            ]
+            ],
+            "group_id": "g36",
+            "instruction": "Choose the correct letter A-D for question 27.",
+            "title": "Question 27"
           }
-        ]
+        ],
+        "passage_id": 2,
+        "text": "<p>Throughout antiquity, natural philosophers debated whether light travels instantaneously or with finite velocity. Aristotle and René Descartes held that light propagation was instantaneous. However, in 1676, Danish astronomer Ole Christensen Römer provided the first definitive empirical proof that light travels at a finite, measurable speed.</p><p>Römer was conducting systematic telescopic observations of Jupiter's innermost moon, Io, at the Paris Royal Observatory under Giovanni Domenico Cassini. Because Io orbits Jupiter every 42.5 hours, its eclipses as it slips behind the planetary disk act as a cosmic clock.</p><p>Römer observed a curious anomaly: when the Earth was travelling towards Jupiter in its orbit, the intervals between eclipses grew systematically shorter; when Earth was receding from Jupiter, the intervals lengthened. Römer deduced that this time discrepancy was not caused by any irregularities in Io's orbit, but by the additional time light took to travel across the changing distance between Earth and Jupiter.</p><p>Calculating that light required approximately 22 minutes to cross the diameter of Earth's orbit, Dutch physicist Christiaan Huygens used Römer's data to calculate light's speed at approximately 220,000 kilometres per second—an extraordinarily close approximation to the modern figure of 299,792 km/s given the rudimentary instruments of the seventeenth century.</p>"
       },
       {
         "id": 3,
@@ -7205,7 +7569,10 @@
                 "location": "Paragraph 4",
                 "explanation": "Collaborative indigenous curatorship and provenance transparency."
               }
-            ]
+            ],
+            "group_id": "g37",
+            "instruction": "Choose the correct letter A-E for questions 28-35.",
+            "title": "Questions 28–35"
           },
           {
             "id": "g38",
@@ -7292,11 +7659,17 @@
                 "location": "Paragraph 4",
                 "explanation": "Modern galleries emphasize collaborative stewardship and transparency."
               }
-            ]
+            ],
+            "group_id": "g38",
+            "instruction": "Do the following statements agree with the views of the writer? Choose YES, NO, or NOT GIVEN for questions 36-40.",
+            "title": "Questions 36–40"
           }
-        ]
+        ],
+        "passage_id": 3,
+        "text": "<p>The Department of Ethnography at the British Museum houses one of the world's most exhaustive collections of indigenous art, material culture, and everyday artifacts. Encompassing over 350,000 objects representing traditional cultures across Africa, the Americas, Oceania, and indigenous Asia, the department traces its lineage to the founding bequest of Sir Hans Sloane in 1753.</p><p>During the late nineteenth century, collections expanded rapidly under curators such as Sir Augustus Wollaston Franks. Travelers, colonial administrators, and ethnographic expeditions shipped thousands of masks, ceremonial textiles, tools, and sculptures to London. The collection was originally displayed under Victorian evolutionary paradigms that arranged artifacts in perceived hierarchies from 'primitive' to 'civilized'.</p><p>In 1970, severe overcrowding at Bloomsbury prompted the department to relocate its public exhibition galleries to Burlington Gardens in Mayfair, establishing the Museum of Mankind. The Museum of Mankind pioneered innovative thematic exhibitions that immersed visitors in living cultural contexts, such as reconstructions of a Mexican Day of the Dead marketplace or a Toraja funeral house in Sulawesi.</p><p>In 1997, the Museum of Mankind closed in preparation for returning the department to the British Museum's main Bloomsbury complex. Today, ethnographic collections are integrated throughout modern galleries, emphasizing collaborative indigenous curatorship, provenance transparency, and cross-cultural dialogue.</p>"
       }
-    ]
+    ],
+    "total_questions": 40
   },
   {
     "id": "cam3-test-2",
@@ -7464,7 +7837,10 @@
                 "location": "Paragraph 4",
                 "explanation": "A life-saving health tool."
               }
-            ]
+            ],
+            "group_id": "g39",
+            "instruction": "Choose the correct letter A-F for questions 1-8.",
+            "title": "Questions 1–8"
           },
           {
             "id": "g40",
@@ -7524,9 +7900,14 @@
                 "location": "Paragraph 4",
                 "explanation": "The World Bank."
               }
-            ]
+            ],
+            "group_id": "g40",
+            "instruction": "Answer questions 9-13 using NO MORE THAN THREE WORDS from the passage.",
+            "title": "Questions 9–13"
           }
-        ]
+        ],
+        "passage_id": 1,
+        "text": "<p>In 1980, the newly installed Sandinista government of Nicaragua launched an ambitious nationwide literacy campaign: the National Literacy Crusade. Mobilizing over 60,000 young volunteer teachers called 'brigadistas', the crusade aimed to eradicate widespread rural illiteracy. In five intensive months, national illiteracy plunged from over 50 per cent to approximately 13 per cent.</p><p>While the campaign was widely celebrated as a political triumph, developmental economists and epidemiologists tracked an even more profound secondary consequence: the dramatic impact of maternal literacy on child survival. Long-term demographic studies conducted by international researchers discovered that children born to women who acquired literacy during the 1980 crusade experienced significantly lower infant mortality rates compared to children born to illiterate mothers.</p><p>Crucially, this health improvement was not confined to mothers who had completed secondary education; even achieving 'simple literacy'—the basic ability to read and write simple sentences—empowered women to interpret public health posters, understand prescription dosages, and adopt hygienic child-care practices.</p><p>Subsequent evaluations by the World Bank and United Nations confirmed that investing in adult female literacy represents one of the most cost-effective public health interventions in the developing world, underscoring that literacy is not merely a linguistic skill, but a life-saving health tool.</p>"
       },
       {
         "id": 2,
@@ -7624,7 +8005,10 @@
                 "location": "Paragraph 4",
                 "explanation": "Not an inevitable consequence of urban prosperity, but a political choice."
               }
-            ]
+            ],
+            "group_id": "g41",
+            "instruction": "Do the following statements agree with the views of the writer? Choose YES, NO, or NOT GIVEN for questions 14-18.",
+            "title": "Questions 14–18"
           },
           {
             "id": "g42",
@@ -7695,7 +8079,10 @@
                 "location": "Paragraph 4",
                 "explanation": "A political choice shaped by government transport policy."
               }
-            ]
+            ],
+            "group_id": "g42",
+            "instruction": "Choose the correct letter A-D for questions 19-22.",
+            "title": "Questions 19–22"
           },
           {
             "id": "g43",
@@ -7746,7 +8133,10 @@
                 "location": "Paragraph 3",
                 "explanation": "Reducing inner-city automobile traffic."
               }
-            ]
+            ],
+            "group_id": "g43",
+            "instruction": "Complete the summary below using NO MORE THAN THREE WORDS from the passage for questions 23-26.",
+            "title": "Questions 23–26"
           },
           {
             "id": "g44",
@@ -7769,9 +8159,14 @@
                 "location": "Passage",
                 "explanation": "Strategic investment in transit-oriented development."
               }
-            ]
+            ],
+            "group_id": "g44",
+            "instruction": "Choose the correct letter A-D for question 27.",
+            "title": "Question 27"
           }
-        ]
+        ],
+        "passage_id": 2,
+        "text": "<p>Over the twentieth century, cities across North America and Australasia redesigned their urban morphology around the private motor car. Massive freeway systems and low-density suburban zoning fostered unprecedented automobile dependence. While private cars offered personal convenience, automobile-dependent metropolises today face crushing congestion, severe air pollution, and crippling infrastructure maintenance burdens.</p><p>In a landmark comparative study of 32 global cities conducted by Newman and Kenworthy, European and Asian metropolises demonstrated that high-density transit-oriented development yields superior economic vitality and drastically lower energy consumption per capita. Cities such as Zurich, Copenhagen, and Singapore restricted private vehicle access, expanded high-frequency rail networks, and prioritized pedestrian and cycling infrastructure.</p><p>In Zurich, following a decisive public referendum in 1983, the local government abandoned plans for an underground metro in favor of upgrading its surface tram network. By granting trams absolute traffic-light priority and installing real-time passenger information displays, Zurich achieved world-leading public transit patronage while reducing inner-city automobile traffic.</p><p>The findings demonstrate that automobile dependence is not an inevitable consequence of urban prosperity, but a political choice shaped by government transport policy, road subsidies, and transit funding.</p>"
       },
       {
         "id": 3,
@@ -7923,7 +8318,10 @@
                 "location": "Paragraph C",
                 "explanation": "Cosmic noise window."
               }
-            ]
+            ],
+            "group_id": "g45",
+            "instruction": "Choose the most suitable heading for paragraphs A-G from the list of headings for questions 28-34.",
+            "title": "Questions 28–34"
           },
           {
             "id": "g46",
@@ -8038,11 +8436,17 @@
                 "location": "Paragraph E",
                 "explanation": "Our searches have surveyed only a tiny fraction of parameter space."
               }
-            ]
+            ],
+            "group_id": "g46",
+            "instruction": "Choose the correct letter A-F for questions 35-40.",
+            "title": "Questions 35–40"
           }
-        ]
+        ],
+        "passage_id": 3,
+        "text": "<p>A. Are we alone in the universe? For millennia, this question belonged strictly to philosophy and mythology. Over the past half-century, however, the advent of radio astronomy has transformed the Search for Extraterrestrial Intelligence (SETI) into a rigorous, empirical scientific discipline.</p><p>B. The foundational assumption of SETI is that technological civilizations elsewhere in the cosmos would discover and utilize the electromagnetic spectrum for long-distance communication. Electromagnetic radiation—specifically radio waves—travels across interstellar space at the speed of light, penetrating cosmic dust clouds that obscure optical wavelengths.</p><p>C. Searching the cosmos for radio signals requires determining which radio frequencies to monitor. The electromagnetic spectrum is infinite, but cosmic noise narrows the search window. Between 1.420 GHz (the emission frequency of neutral hydrogen, H) and 1.666 GHz (the emission line of the hydroxyl radical, OH) lies a relatively quiet cosmic band. Because hydrogen and hydroxyl combine to form water (H2O), astronomers poetically term this quiet frequency window 'the Water Hole'.</p><p>D. Radio telescopes equipped with multi-channel spectrum analyzers monitor millions of frequency channels simultaneously, searching for narrow-band carrier waves. Natural astrophysical sources—such as pulsars, quasars, and interstellar gas clouds—produce wide-band diffuse noise. Only a purposeful artificial transmitter would generate an ultra-narrow signal occupying less than a few hertz.</p><p>E. Despite decades of monitoring, no confirmed extraterrestrial technosignature has yet been detected. However, given that our galaxy contains over 100 billion stars and our searches have surveyed only a tiny fraction of parameter space, astronomers remain committed to expanding digital search capabilities across the cosmic ocean.</p>"
       }
-    ]
+    ],
+    "total_questions": 40
   },
   {
     "id": "cam3-test-3",
@@ -8162,7 +8566,10 @@
                 "location": "Paragraph 3",
                 "explanation": "Sedentary riverine chiefdoms encompassing tens of thousands."
               }
-            ]
+            ],
+            "group_id": "g47",
+            "instruction": "Do the following statements agree with the information in Reading Passage 1? Choose TRUE, FALSE, or NOT GIVEN for questions 1-6.",
+            "title": "Questions 1–6"
           },
           {
             "id": "g48",
@@ -8265,9 +8672,14 @@
                 "location": "Paragraph 3-4",
                 "explanation": "Social Experience."
               }
-            ]
+            ],
+            "group_id": "g48",
+            "instruction": "Classify the archaeological items according to the categories:\nTS - Technical Series\nAT - Artefact Types\nFA - Field Assemblages\nSE - Social Experience\nChoose the correct code for questions 7-12.",
+            "title": "Questions 7–12"
           }
-        ]
+        ],
+        "passage_id": 1,
+        "text": "<p>For decades, ecological anthropologists regarded the Amazon basin as a 'counterfeit paradise'—an environment whose nutrient-depleted, acidic tropical soils were inherently incapable of sustaining complex, sedentary civilizations. Pioneer anthropologist Betty Meggers argued that prehistoric indigenous peoples were doomed to remain small, nomadic hunting and gathering bands practicing primitive slash-and-burn horticulture.</p><p>However, revolutionary archaeological excavations by Dr. Anna Roosevelt and modern soil scientists have comprehensively overturned this orthodox view. Excavating ancient river settlements at Monte Alegre and Santarém, researchers unearthed massive stratified middens, ceremonial pottery dating back over 7,000 years, and monumental earthen mounds.</p><p>Most significantly, scientists discovered extensive deposits of 'terra preta' (Amazonian dark earth)—deep, fertile anthrosols enriched with charcoal, bone, and organic matter deliberately manufactured by prehistoric agriculturalists. These dark earths maintained high agricultural productivity for centuries, providing the economic foundation for dense, sedentary riverine chiefdoms encompassing tens of thousands of inhabitants.</p><p>This research demonstrates that far from leaving the virgin rainforest pristine and untouched, prehistoric Amazonians actively engineered sustainable agricultural landscapes, offering vital insights for contemporary tropical conservation.</p>"
       },
       {
         "id": 2,
@@ -8329,7 +8741,10 @@
                 "location": "Paragraph 3",
                 "explanation": "Economic return on early investment."
               }
-            ]
+            ],
+            "group_id": "g49",
+            "instruction": "Match the headings with Paragraphs 1-3 for questions 13-15.\nList of Headings:\ni. Long-term socio-economic dividends\nv. Origins of longitudinal preschool research\nvi. The economic return on early human capital investment",
+            "title": "Questions 13–15"
           },
           {
             "id": "g50",
@@ -8432,7 +8847,10 @@
                 "location": "Paragraph 3",
                 "explanation": "Critical neural plasticity windows."
               }
-            ]
+            ],
+            "group_id": "g50",
+            "instruction": "Do the following statements agree with the views of the writer? Choose YES, NO, or NOT GIVEN for questions 16-21.",
+            "title": "Questions 16–21"
           },
           {
             "id": "g51",
@@ -8503,9 +8921,14 @@
                 "location": "Paragraph 3",
                 "explanation": "Investing in targeted early childhood education."
               }
-            ]
+            ],
+            "group_id": "g51",
+            "instruction": "Choose the correct letter A-D for questions 22-25.",
+            "title": "Questions 22–25"
           }
-        ]
+        ],
+        "passage_id": 2,
+        "text": "<p>Over the past forty years, public policy analysts and developmental psychologists have debated the enduring benefits of state-funded early childhood education. Landmark longitudinal studies—such as the HighScope Perry Preschool Project in Michigan and the Abecedarian Project in North Carolina—tracked disadvantaged children who received enriched preschool education into adulthood.</p><p>While critics initially claimed that early cognitive gains in IQ scores tended to 'fade out' during early elementary school, long-term assessments revealed profound non-cognitive dividends. Participants in high-quality preschool programs demonstrated significantly higher high school graduation rates, higher adult earnings, and markedly lower rates of criminal incarceration compared to control peers.</p><p>Economist James Heckman calculated that every dollar invested in targeted early childhood education generates a social return of over seven to ten per cent annually, outperforming almost all alternative public social expenditures. Providing enriched linguistic environments, emotional scaffolding, and self-regulatory skills during critical neural plasticity windows alters life trajectories far more effectively than remedial teenage schooling.</p>"
       },
       {
         "id": 3,
@@ -8570,7 +8993,10 @@
                 "location": "Paragraph 2",
                 "explanation": "Capacity to navigate complex real-world social environments."
               }
-            ]
+            ],
+            "group_id": "g52",
+            "instruction": "Choose the correct letter A-D for questions 26-28.",
+            "title": "Questions 26–28"
           },
           {
             "id": "g53",
@@ -8673,7 +9099,10 @@
                 "location": "Passage",
                 "explanation": "Handedness is not mentioned."
               }
-            ]
+            ],
+            "group_id": "g53",
+            "instruction": "Do the following statements agree with the information in Reading Passage 3? Choose TRUE, FALSE, or NOT GIVEN for questions 29-34.",
+            "title": "Questions 29–34"
           },
           {
             "id": "g54",
@@ -8734,7 +9163,10 @@
                 "location": "Paragraph 3",
                 "explanation": "Circadian rhythm alignment."
               }
-            ]
+            ],
+            "group_id": "g54",
+            "instruction": "Choose the three factors identified by researchers that enhance cognitive function for questions 35-37 (options A-F).",
+            "title": "Questions 35–37"
           },
           {
             "id": "g55",
@@ -8795,11 +9227,17 @@
                 "location": "Paragraph 3",
                 "explanation": "Biological timing cues."
               }
-            ]
+            ],
+            "group_id": "g55",
+            "instruction": "Match the environmental effects (A-F) with questions 38-40.",
+            "title": "Questions 38–40"
           }
-        ]
+        ],
+        "passage_id": 3,
+        "text": "<p>What is human intelligence? Since Alfred Binet developed the first standardized mental tests in 1905, psychologists have debated whether intelligence constitutes a single general mental ability (Spearman's 'g' factor) or a diversified repertoire of independent cognitive competencies.</p><p>Psychologist Robert Sternberg proposed the influential Triarchic Theory of Intelligence, positing three distinct mental faculties: analytical intelligence (problem-solving and academic test performance), creative intelligence (the capacity to synthesize novel ideas and handle unfamiliar situations), and practical intelligence (the 'street smarts' needed to navigate complex real-world social environments).</p><p>Furthermore, contemporary research demonstrates that intellectual performance is intensely sensitive to physiological and environmental factors. Sleep deprivation, chronic stress, ambient air pollution, and dietary nutritional deficiencies can degrade cognitive processing speed by more than twenty per cent. Conversely, cognitive resilience is bolstered by regular physical exercise, intellectually stimulating environments, and balanced circadian rhythms.</p>"
       }
-    ]
+    ],
+    "total_questions": 40
   },
   {
     "id": "cam3-test-4",
@@ -8897,7 +9335,10 @@
                 "location": "Paragraph 2",
                 "explanation": "California / Los Angeles."
               }
-            ]
+            ],
+            "group_id": "g56",
+            "instruction": "Match the description with the correct city (Los Angeles, London, or Singapore) for questions 1-5.",
+            "title": "Questions 1–5"
           },
           {
             "id": "g57",
@@ -8984,7 +9425,10 @@
                 "location": "Passage",
                 "explanation": "Contradicts clean air goals and is not stated in text."
               }
-            ]
+            ],
+            "group_id": "g57",
+            "instruction": "Do the following statements agree with the views of the writer? Choose YES, NO, or NOT GIVEN for questions 6-10.",
+            "title": "Questions 6–10"
           },
           {
             "id": "g58",
@@ -9039,9 +9483,14 @@
                 "location": "Paragraph 3",
                 "explanation": "The old and ill / elderly and asthmatics."
               }
-            ]
+            ],
+            "group_id": "g58",
+            "instruction": "Choose the correct letter A-D for questions 11-13.",
+            "title": "Questions 11–13"
           }
-        ]
+        ],
+        "passage_id": 1,
+        "text": "<p>Over the past fifty years, the rapid growth of global megacities has triggered unprecedented air quality crises. Densely populated urban centers across the globe—including Los Angeles, London, Singapore, Mexico City, and Tokyo—have struggled to manage harmful concentrations of ground-level ozone, nitrogen dioxide, and fine particulate matter.</p><p>In Los Angeles, a unique combination of intense solar radiation, surrounding mountain topography, and millions of private automobiles creates severe photochemical smog. California pioneered strict vehicle catalytic converter mandates and zero-emission vehicle targets. In London, historic coal-induced 'pea-souper' smogs were eradicated by the Clean Air Act, but modern traffic congestion created severe nitrogen oxide hot spots. Singapore adopted a different paradigm: strict vehicle ownership quotas and electronic road pricing (ERP) that dynamically charges motorists entering the downtown core during peak hours.</p><p>Epidemiological studies indicate that urban air pollutants inflict disproportionate harm on vulnerable demographics—particularly the elderly, asthmatics, and young children. Comprehensive multi-modal traffic abatement strategies remain imperative to safeguard public health.</p>"
       },
       {
         "id": 2,
@@ -9112,7 +9561,10 @@
                 "location": "Paragraph 4",
                 "explanation": "1918 and 1928."
               }
-            ]
+            ],
+            "group_id": "g59",
+            "instruction": "Choose the correct letter A-E for questions 14-16.",
+            "title": "Questions 14–16"
           },
           {
             "id": "g60",
@@ -9153,7 +9605,10 @@
                 "location": "Paragraph 3",
                 "explanation": "The 1909 Woman's Exhibition in London."
               }
-            ]
+            ],
+            "group_id": "g60",
+            "instruction": "Complete each sentence with NO MORE THAN THREE WORDS from the passage for questions 17-19.",
+            "title": "Questions 17–19"
           },
           {
             "id": "g61",
@@ -9272,7 +9727,10 @@
                 "location": "Paragraph 4",
                 "explanation": "Equal voting rights for all women in 1928."
               }
-            ]
+            ],
+            "group_id": "g61",
+            "instruction": "Do the following statements agree with the views of the writer? Choose YES, NO, or NOT GIVEN for questions 20-26.",
+            "title": "Questions 20–26"
           },
           {
             "id": "g62",
@@ -9295,9 +9753,14 @@
                 "location": "Passage",
                 "explanation": "Informative and appreciative of their sophisticated corporate branding."
               }
-            ]
+            ],
+            "group_id": "g62",
+            "instruction": "Choose the correct letter A-D for question 27.",
+            "title": "Question 27"
           }
-        ]
+        ],
+        "passage_id": 2,
+        "text": "<p>The campaign for women's suffrage in late Victorian and Edwardian Britain was one of the most sophisticated social movements of the modern era. Led by the National Union of Women's Suffrage Societies (NUWSS) under Millicent Fawcett, constitutional suffragists employed parliamentary petitions and peaceful public meetings.</p><p>Frustrated by decades of parliamentary prevarication, Emmeline and Christabel Pankhurst founded the Women's Social and Political Union (WSPU) in 1903 under the motto 'Deeds, Not Words'. The suffragettes embraced bold, militant tactics—including public rallies, civil disobedience, and hunger strikes.</p><p>Beyond political rhetoric, the WSPU was remarkable for pioneering what modern marketers term 'corporate branding'. The movement adopted a strict, instantly recognizable visual color scheme: purple for dignity, white for purity, and green for hope. These colors adorned banners, bicycles, buttons, tea sets, and clothing. The suffragettes also monetized their enterprise by selling advertising space in their weekly newspaper, Votes for Women, and staging massive public spectacles such as the 1909 Woman's Exhibition in London.</p><p>The sustained campaign culminated in decisive legislative breakthroughs: the Representation of the People Act 1918 granted the vote to women over thirty with property qualifications, followed by equal voting rights for all women in 1928.</p>"
       },
       {
         "id": 3,
@@ -9360,7 +9823,10 @@
                 "location": "Paragraph 1-2",
                 "explanation": "Preparing staff and structuring the trial."
               }
-            ]
+            ],
+            "group_id": "g63",
+            "instruction": "Choose the correct letter A-C for questions 28-30.",
+            "title": "Questions 28–30"
           },
           {
             "id": "g64",
@@ -9434,7 +9900,10 @@
                 "location": "Paragraph 4",
                 "explanation": "Durable reductions in turnover."
               }
-            ]
+            ],
+            "group_id": "g64",
+            "instruction": "Complete the summary below using NO MORE THAN THREE WORDS from the passage for questions 31-36.",
+            "title": "Questions 31–36"
           },
           {
             "id": "g65",
@@ -9505,11 +9974,17 @@
                 "location": "Paragraph 4",
                 "explanation": "Personal support from management."
               }
-            ]
+            ],
+            "group_id": "g65",
+            "instruction": "Match the survey findings with statements for questions 37-40.",
+            "title": "Questions 37–40"
           }
-        ]
+        ],
+        "passage_id": 3,
+        "text": "<p>How does management style affect organizational productivity and employee morale? A seminal corporate experiment conducted by organizational psychologists examined two contrasting supervisory systems within a large clerical insurance firm over an eighteen-month trial.</p><p>In Division A, researchers instituted a participative management system: employees participated in department decision-making, scheduled team assignments, and provided feedback on operational goals. In Division B, researchers imposed a centralized, hierarchical supervision regime: strict quantitative quotas were enforced, supervisory surveillance was maximized, and employee discretion was eliminated.</p><p>The empirical findings revealed surprising nuances. In Division B (hierarchical), overall productivity initially increased as workforce headcount was reduced and staff were pressured to perform repetitive processing. However, staff in Division B experienced acute burnout, plummeting feelings of responsibility, and deteriorating trust toward supervisors.</p><p>In contrast, Division A (participative) achieved sustainable productivity gains accompanied by high employee commitment, enhanced teamwork, and durable reductions in turnover. The research demonstrates that while autocratic pressure can extract short-term output, long-term organizational resilience requires empowering, collaborative leadership.</p>"
       }
-    ]
+    ],
+    "total_questions": 40
   },
   {
     "id": "cam4-test-1",
@@ -9661,7 +10136,10 @@
                 "location": "Passage",
                 "explanation": "South American follow-up funding is not mentioned."
               }
-            ]
+            ],
+            "group_id": "g66",
+            "instruction": "Do the following statements agree with the information in Reading Passage 1? Choose TRUE, FALSE, or NOT GIVEN for questions 1-8.",
+            "title": "Questions 1–8"
           },
           {
             "id": "g67",
@@ -9753,7 +10231,10 @@
                 "location": "Paragraph 4",
                 "explanation": "Response J: preserving indigenous human heritage."
               }
-            ]
+            ],
+            "group_id": "g67",
+            "instruction": "Match the children's responses with the questionnaire questions (9-13). Choose the correct letter (E, G, J, M, or P).",
+            "title": "Questions 9–13"
           },
           {
             "id": "g68",
@@ -9776,9 +10257,14 @@
                 "location": "Paragraph 4",
                 "explanation": "Integrating ecological science with human geography."
               }
-            ]
+            ],
+            "group_id": "g68",
+            "instruction": "Choose the correct letter A-D for question 14.",
+            "title": "Question 14"
           }
-        ]
+        ],
+        "passage_id": 1,
+        "text": "<p>The plight of the world's tropical rainforests has captured intense public interest over recent decades. Media coverage has made rainforest destruction a prominent global symbol of environmental degradation. However, educational researchers have sought to understand what children actually understand about rainforest ecosystems, their biodiversity, and the causes of deforestation.</p><p>In a pioneering study conducted across secondary schools in the north of England, researchers investigated students' conceptual frameworks regarding the rainforest. The research demonstrated that children's ideas about the environment form part of a broader, integrated framework of naive personal theories. Many children hold mistaken scientific views—for instance, believing that rainforest destruction accounts for all global climate change, or that rainforests produce the majority of atmospheric oxygen while ignoring marine phytoplankton.</p><p>The study utilized structured open-ended questionnaires administered to diverse cohorts of pupils. When asked where rainforests are located, the most frequent response was 'in hot, equatorial countries' (Response M). When asked why rainforests are important, the most common response highlighted human medicinal and material resources (Response E). Asked to identify the primary reason for rainforest loss, most children blamed logging and human clearing (Response G). When asked why conservation is urgent, the predominant answer cited protecting wildlife from extinction (Response P).</p><p>Surprisingly, despite massive media publicity surrounding indigenous tribal peoples, children rarely cited preserving indigenous cultural heritage (Response J), viewing rainforests primarily as wild animal habitats rather than human homelands. Educational curricula must actively challenge these misconceptions by integrating ecological science with human geography.</p>"
       },
       {
         "id": 2,
@@ -9873,7 +10359,10 @@
                 "location": "Paragraph 4",
                 "explanation": "Physical contact / touch plays a pivotal role."
               }
-            ]
+            ],
+            "group_id": "g69",
+            "instruction": "Complete the notes below using NO MORE THAN THREE WORDS from the passage for questions 15-21.",
+            "title": "Questions 15–21"
           },
           {
             "id": "g70",
@@ -9937,9 +10426,14 @@
                 "location": "Paragraph 1",
                 "explanation": "The acoustic sense is by far the most highly developed."
               }
-            ]
+            ],
+            "group_id": "g70",
+            "instruction": "Answer questions 22-26 using NO MORE THAN THREE WORDS from the passage.",
+            "title": "Questions 22–26"
           }
-        ]
+        ],
+        "passage_id": 2,
+        "text": "<p>Cetaceans—the mammalian order comprising whales, dolphins, and porpoises—have evolved sophisticated sensory adaptations to thrive in aquatic environments. Because light attenuates rapidly underwater and sound propagates five times faster in water than in air, the acoustic sense is by far the most highly developed in cetaceans.</p><p>Echolocation allows odontocetes (toothed whales and dolphins) to navigate, forage, and communicate in murky waters. They emit high-frequency ultrasonic clicks produced in nasal air sacs beneath the blowhole. The acoustic beam is focused by the melon—a lipid-rich organ in the forehead—and echoes reflected from prey are received through fat channels in the lower jawbone, transmitting acoustic vibrations directly to the inner ear.</p><p>While hearing dominates, other senses perform vital specialized roles. Cetaceans lack olfactory nerves and cannot smell. However, bottlenose dolphins possess rudimentary chemoreceptive abilities: experiments confirm they can taste differences in salinity and identify substances such as citric acid from orange juice dissolved in the water.</p><p>Tactile sensitivity is exceptionally acute. Cetacean skin is rich in nerve endings, particularly around the eyes, blowhole, snout, and genital regions. Physical contact plays a pivotal role in social bonding and courtship, while sensitivity to hydrodynamic pressure differentials assists dolphins in surfing vessel bow waves (bow-riding) and tracking airborne flying fish as they break the surface of clear waters.</p>"
       },
       {
         "id": 3,
@@ -10005,7 +10499,10 @@
                 "location": "Paragraph 2-4",
                 "explanation": "Artistic representation stems from deeper cognitive structures."
               }
-            ]
+            ],
+            "group_id": "g71",
+            "instruction": "Choose the correct letter A-D for questions 27-29.",
+            "title": "Questions 27–29"
           },
           {
             "id": "g72",
@@ -10046,7 +10543,10 @@
                 "location": "Paragraph 3",
                 "explanation": "Circle and square."
               }
-            ]
+            ],
+            "group_id": "g72",
+            "instruction": "Identify the paired visual and physical elements from the cross-modal experiment for questions 30-32.",
+            "title": "Questions 30–32"
           },
           {
             "id": "g73",
@@ -10126,7 +10626,10 @@
                 "location": "Paragraph 3",
                 "explanation": "Geometric shapes."
               }
-            ]
+            ],
+            "group_id": "g73",
+            "instruction": "Complete the summary below using words from the passage for questions 33-39.",
+            "title": "Questions 33–39"
           },
           {
             "id": "g74",
@@ -10149,10 +10652,16 @@
                 "location": "Paragraph 4",
                 "explanation": "Metaphoric associations do not depend upon retinal vision, but stem from universal cognitive structures."
               }
-            ]
+            ],
+            "group_id": "g74",
+            "instruction": "Choose the correct letter A-D for question 40.",
+            "title": "Question 40"
           }
-        ]
+        ],
+        "passage_id": 3,
+        "text": "<p>Can individuals who have been blind since birth understand and create visual art? For centuries, philosophers assumed that the blind were trapped in a tactile world fundamentally devoid of shape, perspective, and visual imagery. Recent psychological experiments by Professor John Kennedy, however, have overturned these entrenched assumptions.</p><p>Kennedy presented congenitally blind volunteers with specialized raised-line drawing kits. When drawing familiar objects, blind participants spontaneously invented line conventions identical to sighted draftsmen: using converging lines to represent three-dimensional perspective, foreshortening receding planes, and drawing wheels with blurred spokes to convey rotational motion.</p><p>In a fascinating cross-modal experiment, Kennedy tested whether blind individuals understand abstract visual metaphors. Participants were asked to match paired geometric shapes—such as a circle and a square—with paired abstract adjectives, such as 'soft' and 'hard'. Strikingly, both blind and sighted volunteers unanimously associated the circle with 'soft' and the square with 'hard'.</p><p>Subsequent experiments demonstrated that blind people readily mapped adjectives like 'fast' and 'slow' onto curved and dotted lines. These discoveries confirm that artistic representation and metaphoric associations do not depend upon retinal vision, but stem from deeper abstract cognitive structures shared universally by all humans.</p>"
       }
-    ]
+    ],
+    "total_questions": 40
   }
 ]
