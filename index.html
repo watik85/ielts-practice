@@ -7,12 +7,256 @@
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
   <title>IELTS on Computer - Official IDP Reading Practice Platform</title>
-  <link rel="stylesheet" href="./static/css/style.css?v=20261108_v1" />
+  <link rel="stylesheet" href="./static/css/style.css?v=20261108_v2" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>">
+  
+  <style>
+    /* ==========================================================================
+       1. UI/UX FIX UNTUK BADGE "POWERED BY NETLIFY" DI POJOK KANAN BAWAH
+       Membuat dock navigasi bawah tidak tertutup oleh badge Netlify
+       ========================================================================== */
+    .exam-footer {
+      padding-right: 175px !important; /* Memberi ruang aman 175px dari tepi kanan */
+      box-sizing: border-box !important;
+    }
+
+    .footer-right {
+      min-width: 140px !important;
+      margin-right: 15px !important;
+      text-align: right !important;
+      white-space: nowrap !important;
+      z-index: 10 !important;
+    }
+
+    #current-q-indicator {
+      display: inline-block !important;
+      background: rgba(255, 255, 255, 0.08) !important;
+      padding: 4px 10px !important;
+      border-radius: 4px !important;
+      font-size: 0.84rem !important;
+      letter-spacing: 0.3px !important;
+    }
+
+    /* ==========================================================================
+       2. CANDIDATE LOGIN PAGE: CLEAN, MODERN & ELEGAN
+       Menghilangkan pilihan login cepat & contoh defitta
+       ========================================================================== */
+    .quick-credentials-box,
+    .quick-login-box,
+    .quick-chips {
+      display: none !important;
+    }
+
+    .login-view-wrapper {
+      min-height: 100vh !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      background: radial-gradient(circle at 50% 20%, #f8fafc 0%, #e2e8f0 100%) !important;
+      padding: 24px !important;
+    }
+
+    .login-card {
+      width: 100% !important;
+      max-width: 410px !important;
+      background: #ffffff !important;
+      border-radius: 16px !important;
+      padding: 40px 36px !important;
+      box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.12), 0 0 1px 1px rgba(15, 23, 42, 0.06) !important;
+      border: 1px solid #e2e8f0 !important;
+      transition: all 0.3s ease !important;
+    }
+
+    .login-header {
+      text-align: center !important;
+      margin-bottom: 28px !important;
+    }
+
+    .login-header .idp-logo-badge {
+      display: inline-block !important;
+      background: #d91424 !important;
+      color: #ffffff !important;
+      font-weight: 900 !important;
+      font-size: 1.4rem !important;
+      padding: 4px 16px !important;
+      border-radius: 4px !important;
+      letter-spacing: 1.5px !important;
+      margin-bottom: 12px !important;
+    }
+
+    .login-header h2 {
+      font-size: 1.45rem !important;
+      font-weight: 800 !important;
+      color: #0f172a !important;
+      margin: 0 0 6px 0 !important;
+      letter-spacing: -0.3px !important;
+    }
+
+    .login-header p {
+      font-size: 0.88rem !important;
+      color: #64748b !important;
+      margin: 0 !important;
+    }
+
+    .login-card .form-group {
+      margin-bottom: 22px !important;
+      text-align: left !important;
+    }
+
+    .login-card .form-group label {
+      display: block !important;
+      font-size: 0.86rem !important;
+      font-weight: 600 !important;
+      color: #334155 !important;
+      margin-bottom: 8px !important;
+    }
+
+    .login-card .form-control {
+      width: 100% !important;
+      height: 46px !important;
+      padding: 10px 14px !important;
+      font-size: 0.95rem !important;
+      color: #0f172a !important;
+      background-color: #f8fafc !important;
+      border: 1.5px solid #cbd5e1 !important;
+      border-radius: 8px !important;
+      box-sizing: border-box !important;
+      transition: all 0.2s ease !important;
+    }
+
+    .login-card .form-control:focus {
+      background-color: #ffffff !important;
+      border-color: #d91424 !important;
+      box-shadow: 0 0 0 3px rgba(217, 20, 36, 0.12) !important;
+      outline: none !important;
+    }
+
+    .login-card .form-control::placeholder {
+      color: #94a3b8 !important;
+      font-size: 0.9rem !important;
+    }
+
+    .login-btn-primary {
+      width: 100% !important;
+      height: 48px !important;
+      background: #d91424 !important;
+      color: #ffffff !important;
+      border: none !important;
+      border-radius: 8px !important;
+      font-size: 1rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 0.3px !important;
+      cursor: pointer !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 8px !important;
+      margin-top: 10px !important;
+      box-shadow: 0 4px 12px rgba(217, 20, 36, 0.25) !important;
+      transition: all 0.2s ease !important;
+    }
+
+    .login-btn-primary:hover {
+      background: #b9101e !important;
+      box-shadow: 0 6px 16px rgba(217, 20, 36, 0.35) !important;
+      transform: translateY(-1px) !important;
+    }
+
+    .login-btn-primary:active {
+      transform: translateY(0) !important;
+    }
+
+    .login-footer-info {
+      margin-top: 24px !important;
+      padding-top: 18px !important;
+      border-top: 1px solid #f1f5f9 !important;
+      text-align: center !important;
+      font-size: 0.8rem !important;
+      color: #94a3b8 !important;
+    }
+  </style>
 </head>
 <body class="contrast-standard font-normal">
   <div id="app"></div>
-  <script src="./static/js/config.js?v=20261108_v1"></script>
-  <script src="./static/js/app.js?v=20261108_v1"></script>
+
+  <script src="./static/js/config.js?v=20261108_v2"></script>
+  <script src="./static/js/app.js?v=20261108_v2"></script>
+
+  <script>
+    // ==========================================================================
+    // OVERRIDE CLIENT-SIDE: TAMPILAN LOGIN BERSIH & ELEGAN (TANPA CONTOH/CHIP)
+    // ==========================================================================
+    (function() {
+      function applyCleanLoginOverride() {
+        if (!window.app) return;
+
+        // Override renderLoginHTML agar bersih dan elegan tanpa quick-credentials-box
+        window.app.renderLoginHTML = function() {
+          return `
+            <div class="login-view-wrapper">
+              <div class="login-card">
+                <div class="login-header">
+                  <span class="idp-logo-badge">IELTS</span>
+                  <h2>Candidate Portal</h2>
+                  <p>Computer-Delivered IELTS Reading Practice Platform</p>
+                </div>
+
+                <div id="login-error-msg" class="login-alert-error" style="display:none;"></div>
+
+                <form id="login-form" onsubmit="app.handleLoginSubmit(event)">
+                  <div class="form-group">
+                    <label for="login-username">Username Kandidat</label>
+                    <input type="text" id="login-username" class="form-control" placeholder="Masukkan username" autocomplete="username" required />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" class="form-control" placeholder="Masukkan password" autocomplete="current-password" required />
+                  </div>
+
+                  <button type="submit" id="login-submit-btn" class="login-btn-primary">
+                    Masuk ke Portal Ujian &rarr;
+                  </button>
+                </form>
+
+                <div class="login-footer-info">
+                  <span>Official Cambridge Practice Suite &bull; Standard 40 Soal</span>
+                </div>
+              </div>
+            </div>
+          `;
+        };
+
+        // Bersihkan fallback error message jika ada
+        const originalAttemptLogin = window.app.attemptLogin;
+        if (originalAttemptLogin) {
+          window.app.attemptLogin = async function(username, password) {
+            try {
+              return await originalAttemptLogin.call(this, username, password);
+            } catch (err) {
+              // Bersihkan pesan error agar profesional tanpa bocoran akun
+              throw new Error("Username atau password salah! Silakan periksa kembali.");
+            }
+          };
+        }
+
+        // Jika tampilan saat ini adalah login, langsung render ulang versi bersih
+        if (window.app.currentView === "login") {
+          const appContainer = document.getElementById("app");
+          if (appContainer) {
+            appContainer.innerHTML = window.app.renderLoginHTML();
+            window.app.bindLoginEvents();
+          }
+        }
+      }
+
+      // Jalankan override segera dan setelah DOM siap
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", applyCleanLoginOverride);
+      } else {
+        applyCleanLoginOverride();
+      }
+    })();
+  </script>
 </body>
 </html>
